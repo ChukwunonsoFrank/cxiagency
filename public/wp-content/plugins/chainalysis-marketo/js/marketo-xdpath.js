@@ -1,0 +1,1 @@
+'use strict';MktoForms2.setOptions({formXDPath : "/rs/503-FAP-074/images/marketo-xdframe-relative.html"});

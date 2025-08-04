@@ -1,0 +1,207 @@
+.cards-grid:not(.swiper-wrapper) {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 767px) {
+  .cards-grid:not(.swiper-wrapper) {
+    gap: 32px;
+    grid-template-columns: repeat(min(var(--item-count), var(--max-columns-per-row)), 1fr);
+  }
+}
+
+.cards-icons .card {
+  padding: var(--padding-default);
+  display: flex;
+  gap: 20px;
+  align-content: start;
+  flex-wrap: wrap;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  min-width: 0;
+}
+@media (min-width: 767px) {
+  .cards-icons .card {
+    gap: 32px;
+  }
+}
+.cards-icons .card .icon {
+  flex-basis: 80px;
+  align-self: start;
+  display: flex;
+}
+.cards-icons .card .icon > * {
+  max-width: 80px;
+  height: auto;
+}
+.cards-icons .card .content {
+  flex-basis: 200px;
+  flex-grow: 1;
+  min-width: 0;
+}
+.cards-icons .card .content > :first-child {
+  transition: all 200ms ease-in-out;
+}
+.cards-icons .card .content p:last-child {
+  margin-bottom: 0;
+}
+.cards-icons a[href].card {
+  box-shadow: 0px 0px 20px 2px rgba(41, 57, 114, 0.2);
+}
+.cards-icons a[href].card:hover {
+  box-shadow: 0px 12px 30px 10px rgba(41, 57, 114, 0.2);
+}
+.cards-icons a[href].card:hover .content > :first-child:not(p) {
+  color: var(--theme-orange);
+}
+
+.cards-stats .card {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+.cards-stats .card .title > :last-child,
+.cards-stats .card .description > :last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 767px) {
+  .cards-stats .card {
+    display: grid;
+    grid-auto-rows: 1fr;
+  }
+  .cards-stats .card > * {
+    max-width: 45ch;
+    min-width: 0;
+  }
+}
+.cards-stats .title {
+  align-self: end;
+  color: var(--theme-orange);
+}
+.cards-stats .title .font-size-1,
+.cards-stats .title .font-size-1-alt,
+.cards-stats .title .font-size-2,
+.cards-stats .title .font-size-3,
+.cards-stats .title .font-size-4,
+.cards-stats .title .font-size-4-alt,
+.cards-stats .title .font-size-5,
+.cards-stats .title .font-size-5-alt,
+.cards-stats .title .font-size-6 {
+  color: var(--theme-orange);
+}
+
+.cards-rte .card {
+  min-width: 0;
+}
+
+.cards-articles .image-wrapper {
+  overflow: hidden;
+}
+.cards-articles .article-link {
+  text-decoration: none;
+}
+.cards-articles .article-link:hover img {
+  transform: scale(1.1);
+}
+.cards-articles article {
+  height: 100%;
+}
+.cards-articles article.rounded .image-wrapper {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.cards-articles img {
+  aspect-ratio: 2;
+  min-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+}
+.cards-articles img.rounded {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.cards-profile .image-wrapper {
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.cards-profile.cards-padding-none .image-wrapper {
+  margin-bottom: 20px;
+}
+.cards-profile .article-link {
+  text-decoration: none;
+}
+.cards-profile .article-link:hover img {
+  transform: scale(1.1);
+}
+.cards-profile article {
+  height: 100%;
+}
+.cards-profile img {
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+}
+.cards-profile img.rounded {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.cards-colorblocks .card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  aspect-ratio: 1.5;
+  --card-content-padding: 16px;
+}
+.cards-colorblocks .card img {
+  height: 100%;
+  object-fit: cover;
+}
+.cards-colorblocks .card.has-link:hover img {
+  transform: scale(1.1);
+}
+.cards-colorblocks .card .content,
+.cards-colorblocks .card a {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.cards-colorblocks .card .content {
+  padding: var(--card-content-padding);
+}
+.cards-colorblocks .card.has-link .content {
+  padding: 0;
+}
+.cards-colorblocks .card a {
+  padding: var(--card-content-padding);
+  text-decoration: none;
+}
+
+.cards-padding-tb-small .padded-area {
+  padding-block: var(--padding-small);
+}
+
+.cards-padding-full .padded-area {
+  padding: var(--padding-default);
+}
+
+/**
+ * Enable card shadow hover effect when the following conditions are met:
+ * * Overflow must be enabled.
+ * * Cards must have full padding around the text content.
+ */
+.overflow-visible .cards-padding-full .swiper-slide article {
+  box-shadow: 0px 0px 0px 0px rgba(41, 57, 114, 0.2);
+  transition: box-shadow 200ms ease-in-out;
+}
+.overflow-visible .cards-padding-full .swiper-slide:hover article {
+  box-shadow: 0px 12px 20px 2px rgba(41, 57, 114, 0.2);
+}
+
+/*# sourceMappingURL=cards.css.map */

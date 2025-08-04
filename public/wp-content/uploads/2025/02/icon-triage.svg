@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+<g clip-path="url(#clip0_10565_13559)">
+<path d="M25.6709 10.9115L30.6076 5.81755L25.6709 0.723633" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M30.608 5.81738H17.7725" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M25.6709 31.2865L30.6076 26.1926L25.6709 21.0986" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M30.608 26.1934H17.7725" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M17.7726 5.81738C16.1336 5.81738 14.8105 7.18255 14.8105 8.87373" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M17.7726 26.1931C16.1336 26.1931 14.8105 24.8279 14.8105 23.1367" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M11.8486 16.0056C13.4876 16.0056 14.8107 14.6404 14.8107 12.9492" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M11.8486 16.0049C13.4876 16.0049 14.8107 17.3701 14.8107 19.0612" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M14.8105 19.0615V23.1367" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M14.8105 12.9484V7.85449" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M11.8482 16.0049H0" stroke="#293972" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_10565_13559">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,107 @@
+.template-content .top-subnav-wrapper {
+    border-block-width:1px;border-block-style:solid;border-block-color:var(--subnav-border-color);position: sticky;
+    z-index: 2;
+    transition: all 200ms ease-in-out 0s;
+    top: var(--topnav-visible-height)
+}
+
+.template-content .top-subnav {
+    font-family: var(--font-family-chainalysis-stack);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.template-content .top-subnav .title {
+    font-weight: bold
+}
+
+@media(min-width: 767px) {
+    .template-content .top-subnav ul {
+        display:flex;
+        gap: 2rem;
+        justify-content: center
+    }
+}
+
+.template-content .top-subnav a {
+    display: block;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    text-underline-offset: 8px
+}
+
+.template-content .top-subnav a.current-page {
+    text-decoration: underline
+}
+
+.template-content .top-subnav a:hover {
+    color: var(--subnav-hover-color)
+}
+
+.template-content .top-subnav chain-subnav {
+    font-size: 1rem;
+    position: relative
+}
+
+.template-content .top-subnav chain-subnav .btn__subnav-toggle {
+    background: rgba(0,0,0,0);
+    border: none;
+    border-radius: .1875rem;
+    color: var(--subnav-menu-toggle-color);
+    display: none;
+    min-height: 100%;
+    padding: .3125rem .125rem;
+    position: absolute;
+    right: 0
+}
+
+.template-content .top-subnav chain-subnav .btn__subnav-toggle svg {
+    display: block;
+    transition: transform 200ms ease-in-out
+}
+
+.template-content .top-subnav chain-subnav .btn__subnav-toggle[aria-expanded=true] svg {
+    transform: rotate(180deg)
+}
+
+.template-content .top-subnav chain-subnav .btn__subnav-toggle:before {
+    content: none
+}
+
+@media(max-width: 766px) {
+    .template-content .top-subnav chain-subnav .btn__subnav-toggle {
+        display:inline-block
+    }
+}
+
+@media(max-width: 766px) {
+    .template-content .top-subnav chain-subnav ul {
+        background-color:#fff;
+        border: 1px solid #ccc;
+        border-radius: .1875rem;
+        padding: 1.25rem 1rem;
+        min-width: 7.5rem
+    }
+
+    .template-content .top-subnav chain-subnav ul li:not(:first-child) {
+        margin-top: 1.875rem
+    }
+
+    .template-content .top-subnav chain-subnav ul a {
+        color: var(--theme-dark-blue)
+    }
+
+    .template-content .top-subnav chain-subnav ul a:hover {
+        color: var(--theme-dark-blue);
+        text-decoration: underline
+    }
+
+    .template-content .top-subnav chain-subnav ul:not([hidden]) {
+        position: absolute;
+        right: -0.5rem;
+        top: 2rem
+    }
+}

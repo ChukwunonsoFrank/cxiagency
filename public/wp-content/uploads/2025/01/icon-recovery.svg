@@ -1,0 +1,22 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="79" height="79" rx="7.5" fill="url(#paint0_radial_9320_94910)" stroke="#293972"/>
+<path d="M31 53H35" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M30.8333 53.2469H45.8667L51.7333 47.4116C56.1333 43.035 62 45.9527 62 45.9527L45.8667 62H18V56.1646L26.8 47.4116H40C40 50.6356 37.3747 53.2469 34.1333 53.2469" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M28 28H52" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M31 21C31 22.665 32.335 24 34 24" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M49 21C49 22.665 47.665 24 46 24" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M34 24C35.665 24 37 25.2529 37 26.8155V28" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M46 24C44.335 24 43 25.2529 43 26.8155V28" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M40 28L36 35.5V37" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M44 37V35.5L40 28" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M43 28L52 37C55 40 55 46 55 46" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M37 28L28 37C25 40 25 46 25 46" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M25 46V49" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<path d="M49 21V18H31V21" stroke="white" stroke-width="2.5" stroke-miterlimit="10"/>
+<defs>
+<radialGradient id="paint0_radial_9320_94910" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40 91) rotate(-90) scale(101)">
+<stop stop-color="#4163C4"/>
+<stop offset="0.645" stop-color="#293972"/>
+</radialGradient>
+</defs>
+</svg>
