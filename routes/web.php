@@ -27,6 +27,10 @@ Route::get('/cybersecurity', function () {
     return view('cybersecurity');
 });
 
+Route::get('/blockchain-intelligence', function () {
+    return view('blockchain-intelligence');
+});
+
 Route::get('/why-cxiagency', function () {
     return view('why-cxiagency');
 });

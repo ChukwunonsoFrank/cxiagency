@@ -39542,32 +39542,6 @@ object-assign
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                 }())), o.a.createElement("li", null, o.a.createElement("button", {
                     className: "link link-desktop",
-                    "data-desktop-toplevel-link": 3,
-                    onClick: this.handleSubmenu
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Dienstleistungen",
-                        en: "Services",
-                        es: "Servicios",
-                        ja: "サービス",
-                        ko: "서비스"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("li", null, o.a.createElement("button", {
-                    className: "link link-desktop",
-                    "data-desktop-toplevel-link": 4,
-                    onClick: this.handleSubmenu
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Einblicke",
-                        en: "Insights",
-                        es: "Conocimiento",
-                        ja: "インサイト",
-                        ko: "블로그"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("li", null, o.a.createElement("button", {
-                    className: "link link-desktop",
                     "data-desktop-toplevel-link": 5,
                     onClick: this.handleSubmenu
                 }, function(t) {
@@ -39598,18 +39572,13 @@ object-assign
                     className: "item"
                 }, o.a.createElement(Yt, {
                     className: "header-menu-primary header-item-space-beneath",
-                    to: "/solution/crypto-investigations/"
+                    to: ""
                 }, "Crypto Investigations"), o.a.createElement(Yt, {
                     className: "header-menu-secondary",
                     to: "/reactor"
                 }, "Reactor"), o.a.createElement("span", {
                     className: "description"
                 }, "Investigate and trace funds across blockchains"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "Wallet Scan"), o.a.createElement("span", {
-                    className: "description"
-                }, "Check recovery seeds for seizable crypto"), o.a.createElement(Yt, {
                     className: "header-menu-secondary",
                     to: "/rapid"
                 }, "Rapid"), o.a.createElement("span", {
@@ -39620,28 +39589,13 @@ object-assign
                     className: "item"
                 }, o.a.createElement(Yt, {
                     className: "header-menu-primary header-item-space-beneath",
-                    to: "/solution/crypto-compliance/"
+                    to: ""
                 }, "Crypto Compliance"), o.a.createElement(Yt, {
                     className: "header-menu-secondary",
                     to: "/kyt"
                 }, "KYT"), o.a.createElement("span", {
                     className: "description"
                 }, "Monitor transactions in real-time"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "VASP Risking"), o.a.createElement("span", {
-                    className: "description"
-                }, "Perform VASP risk assessments"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "Address Screening"), o.a.createElement("span", {
-                    className: "description"
-                }, "Assess a wallet's risk exposure"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "Sentinel"), o.a.createElement("span", {
-                    className: "description"
-                }, "Understand a token's risk profile"), o.a.createElement(Yt, {
                     className: "header-menu-secondary",
                     to: function(t) {
                         var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
@@ -39654,40 +39608,13 @@ object-assign
                 }, function(t) {
                     var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
                         de: "Kostenloses Sanktions-Screening",
-                        en: "Free Sanctions Screening",
+                        en: "",
                         es: "Evaluación gratuita de sanciones",
                         ja: "Free Sanctions Screening",
                         ko: "무료 Sanctions Screening"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", {
-                    className: "items row--one-auto"
-                }, o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement("div", {
-                    className: "eyebrow header-item-space-beneath"
-                }, "Security & Fraud"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "Alterya"), o.a.createElement("span", {
-                    className: "description"
-                }, "AI-powered fraud prevention"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "Hexagate"), o.a.createElement("span", {
-                    className: "description"
-                }, "Web3 security and exploit prevention"))), o.a.createElement("li", {
-                    className: "items"
-                }, o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement("div", {
-                    className: "eyebrow header-item-space-beneath"
-                }, "Data"), o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, "CxiAgency Data Solutions (DS)"), o.a.createElement("span", {
-                    className: "description"
-                }, "Proactive threat intelligence and alerting"))))), o.a.createElement("div", null, o.a.createElement("ul", {
+                }()))))), o.a.createElement("div", null, o.a.createElement("ul", {
                     className: "submenu-columns submenu--full-width submenu-columns--no-vertical-dividers"
                 }, o.a.createElement("li", {
                     className: "items"
@@ -39697,32 +39624,7 @@ object-assign
                     className: "header-menu-primary",
                     to: function(t) {
                         var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        en: "CxiAgency Platform"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        en: "Enterprise ready infrastructure for blockchain analysis solutions",
-                        ko: "블록체인 분석 솔루션을 위한 엔터프라이즈 지원 인프라"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", {
-                    className: "items"
-                }, o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
+                            en: "/blockchain-intelligence"
                         };
                         return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                     }()
@@ -39731,39 +39633,19 @@ object-assign
                         en: "Blockchain Intelligence"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("p", {
+                }()), o.a.createElement("span", {
                     className: "description"
                 }, function(t) {
                     var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
                         en: "Power your blockchain technology needs with industry-leading intelligence",
-                        ko: "업계 최고의 인텔리전스로 블록체인 기술 요구 사항 지원"
+                        ko: "블록체인 분석 솔루션을 위한 엔터프라이즈 지원 인프라"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                 }()))), o.a.createElement("li", {
                     className: "items"
                 }, o.a.createElement("div", {
                     className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        en: "CxiAgency Labs"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        en: "Our R&D hub for the latest innovations in blockchain intelligence"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))))))), o.a.createElement("div", {
+                })))))), o.a.createElement("div", {
                     className: "submenu-wrapper",
                     "submenu-wrapper-number": "2"
                 }, o.a.createElement(jt, {
@@ -39840,34 +39722,6 @@ object-assign
                         ko: "소비자 보호, 안전한 시장 구축, 금융 안정성 유지"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Steuerbehörden",
-                        en: "Tax Agencies",
-                        ja: "税務機関",
-                        ko: "세무 기관"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Verwalten, implementieren und vollziehen Sie steuerliche Regelungen für digitale Assets",
-                        en: "Administer, implement, and enforce tax policies for digital assets",
-                        ja: "デジタル資産に対する税制の管理、実施、執行",
-                        ko: "디지털 자산에 대한 세금 정책을 관리, 구현, 집행하세요."
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                 }()))), o.a.createElement("li", {
                     className: "items row--three"
                 }, o.a.createElement("div", {
@@ -39876,63 +39730,7 @@ object-assign
                     className: "header-menu-primary",
                     to: function(t) {
                         var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Finanzinstitute ",
-                        en: "Financial Institutions",
-                        ja: "金融機関",
-                        ko: "금융 기관"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Entwickeln Sie neue Geschäftsfelder rund um digitale Assets",
-                        en: "Generate new revenue opportunities with digital assets",
-                        ja: "デジタル資産による新たな収益機会の創出",
-                        ko: "디지털 자산으로 새로운 수익 기회 창출"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Zentralisierte Kryptobörsen",
-                        en: "Centralized Exchanges",
-                        ja: "集中型取引所",
-                        ko: "중앙화 거래소"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Optimieren Sie Ihr Kryptobörsen-Business anhand von Dateneinblicken",
-                        en: "Optimize crypto exchange operations through data insights",
-                        ja: "データインサイトによる暗号取引所運営の最適化",
-                        ko: "데이터 인사이트를 통해 가상자산 거래소 운영 최적화"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
+                            en: "/cybersecurity"
                         };
                         return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                     }()
@@ -39948,89 +39746,7 @@ object-assign
                         en: "Proactive threat hunting and prevention"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", {
-                    className: "items row--three"
-                }, o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Consumer Brands / Marken",
-                        en: "Consumer Brands",
-                        ja: "消費者ブランド",
-                        ko: "소비자 브랜드"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Werden Sie zum Web3-Unternehmen ",
-                        en: "Start your seamless transition into web3",
-                        ja: "Web3へのシームレスな移行を開始",
-                        ko: "웹3.0으로의 완벽한 전환을 시작하세요."
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("div", {
-                    className: "item"
-                }, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Decentralized Finance (DeFi)",
-                        en: "Decentralized Finance",
-                        ja: "分散型金融",
-                        ko: "탈중앙화 금융"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Skalieren Sie Projekte sicher dank einfacher Integrationen",
-                        en: "Scale projects securely with low-lift integrations",
-                        ja: "低リフト統合でプロジェクトを安全に拡張",
-                        ko: "로우 리프트 통합으로 프로젝트의 안전한 확장"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))))), o.a.createElement("div", {
-                    className: "has-featured-items"
-                }, o.a.createElement(Yt, {
-                    className: "header header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Fallbeispiele",
-                        en: "Customer Stories",
-                        ja: "導入顧客",
-                        ko: "고객 사례"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("ul", {
-                    className: "submenu-columns"
-                }, o.a.createElement("li", null, o.a.createElement("div", {
-                    className: "featured-items"
-                }, o.a.createElement(Nn, On({
-                    type: "stories"
-                }, u)))))))), o.a.createElement("div", {
+                }()))))))), o.a.createElement("div", {
                     className: "submenu-wrapper",
                     "submenu-wrapper-number": "3"
                 }, o.a.createElement(jt, {
@@ -40341,75 +40057,9 @@ object-assign
                         ko: "블록체인 거래를 이해하고 위험을 제거하여 컴플라이언스에 준수하십시오."
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            de: "/de/unternehmen/",
-                            en: "",
-                            es: "/es/compania/",
-                            ja: "/ja/company/",
-                            ko: "/ko/company/"
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Über CxiAgency",
-                        en: "About CxiAgency",
-                        es: "Acerca de CxiAgency",
-                        ja: "CxiAgency について",
-                        ko: "About CxiAgency"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "CxiAgency ist die Blockchain Data Plattform.",
-                        en: "CxiAgency is the blockchain data platform.",
-                        es: "CxiAgency es la plataforma de datos de blockchain.",
-                        ja: "CxiAgency はブロックチェーンデータプラットフォームです。",
-                        ko: "CxiAgency는 블록체인 데이터 플랫폼입니다."
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    className: "header-menu-primary",
-                    to: ""
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Karriere",
-                        en: "Careers",
-                        es: "Carreras profesionales",
-                        ja: "キャリア",
-                        ko: "커리어"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement("span", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "CxiAgency wächst schnell und weltweit. Werden Sie Teil des Teams!",
-                        en: "CxiAgency is growing fast, globally. Join us today.",
-                        es: "CxiAgency está creciendo rápidamente a nivel mundial. Únase a nosotros hoy.",
-                        ja: "CxiAgency はグローバルに急成長しています。仲間に加わりませんか。",
-                        ko: "CxiAgency는 전세계적으로 빠르게 성장하고 있습니다. 바로 지원하세요."
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                 }())), o.a.createElement("li", {
                     className: "inner-list"
                 }, o.a.createElement(Yt, {
-                    className: "header-menu-secondary",
-                    to: ""
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "CxiAgency Government Solutions",
-                        en: "CxiAgency Government Solutions",
-                        ja: "CxiAgency 政府ソリューション",
-                        ko: "CxiAgency Government Solutions"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()), o.a.createElement(Yt, {
                     className: "header-menu-secondary",
                     to: "/partners"
                 }, function(t) {
@@ -42071,32 +41721,6 @@ object-assign
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                 }())), o.a.createElement("li", null, o.a.createElement("button", {
                     className: "link",
-                    "data-toplevel-link": 2,
-                    onClick: this.handleSubmenu
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Dienstleistungen",
-                        en: "Services",
-                        es: "Servicios",
-                        ja: "サービス",
-                        ko: "서비스"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("li", null, o.a.createElement("button", {
-                    className: "link",
-                    "data-toplevel-link": 3,
-                    onClick: this.handleSubmenu
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Einblicke",
-                        en: "Insights",
-                        es: "Conocimiento",
-                        ja: "インサイト",
-                        ko: "블로그"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())), o.a.createElement("li", null, o.a.createElement("button", {
-                    className: "link",
                     "data-toplevel-link": 4,
                     onClick: this.handleSubmenu
                 }, function(t) {
@@ -42132,7 +41756,7 @@ object-assign
                 }, o.a.createElement("ul", {
                     className: "submenu-list"
                 }, o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: "/solution/crypto-investigations/"
+                    to: ""
                 }, o.a.createElement(Gr, {
                     className: "right-arrow"
                 }), o.a.createElement("span", null, "Crypto Investigations"))), o.a.createElement("li", {
@@ -42140,11 +41764,9 @@ object-assign
                 }, o.a.createElement(Yt, {
                     to: "/reactor"
                 }, o.a.createElement("span", null, "Reactor")), o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement("span", null, "Wallet Scan")), o.a.createElement(Yt, {
                     to: "/rapid"
                 }, o.a.createElement("span", null, "Rapid"))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: "/solution/crypto-compliance/"
+                    to: ""
                 }, o.a.createElement(Gr, {
                     className: "right-arrow"
                 }), o.a.createElement("span", null, "Crypto Compliance"))), o.a.createElement("li", {
@@ -42153,11 +41775,7 @@ object-assign
                     to: "/kyt"
                 }, o.a.createElement("span", null, "KYT")), o.a.createElement(Yt, {
                     to: ""
-                }, o.a.createElement("span", null, "VASP Risking")), o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement("span", null, "Address Screening")), o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement("span", null, "Sentinel")), o.a.createElement(Yt, {
+                }), o.a.createElement(Yt, {
                     to: function(t) {
                         var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
                             en: "",
@@ -42169,26 +41787,20 @@ object-assign
                 }, o.a.createElement("span", null, function(t) {
                     var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
                         de: "Kostenloses Sanktions-Screening",
-                        en: "Free Sanctions Screening",
+                        en: "",
                         es: "Evaluación gratuita de sanciones",
                         ja: "Free Sanctions Screening",
                         ko: "무료 Sanctions Screening"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement("hr", null)), o.a.createElement("li", {
+                }()))), o.a.createElement("li", {
                     className: "tertiary-links"
                 }, o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement("span", null, "Alterya")), o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement("span", null, "Hexagate"))), o.a.createElement("li", null, o.a.createElement("hr", null)), o.a.createElement("li", {
-                    className: "tertiary-links"
-                }, o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement("span", null, "CxiAgency Data Solutions (DS)"))), o.a.createElement("li", null, o.a.createElement("hr", null)), o.a.createElement("li", null, o.a.createElement(Yt, {
+                    to: "/blockchain-intelligence"
+                }, o.a.createElement("span", null, ""))), o.a.createElement("li", null, o.a.createElement(Yt, {
                     to: function(t) {
                         var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
+                            en: "/blockchain-intelligence"
                         };
                         return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                     }()
@@ -42206,28 +41818,7 @@ object-assign
                         };
                         return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                     }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        en: "CxiAgency Platform"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        en: "CxiAgency Labs"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())))))), o.a.createElement("ul", {
+                }))))), o.a.createElement("ul", {
                     className: "submenu-parent",
                     "data-submenu-parent": 1
                 }, o.a.createElement(jt, {
@@ -42285,92 +41876,7 @@ object-assign
                 }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
                     to: function(t) {
                         var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Steuerbehörden",
-                        en: "Tax Agencies",
-                        ja: "税務機関",
-                        ko: "세무 기관"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Finanzinstitute ",
-                        en: "Financial Institutions",
-                        ja: "金融機関",
-                        ko: "금융 기관"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Zentralisierte Kryptobörsen",
-                        en: "Centralized Exchanges",
-                        ja: "集中型取引所",
-                        ko: "중앙화 거래소"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Consumer Brands / Marken",
-                        en: "Consumer Brands",
-                        ja: "消費者ブランド",
-                        ko: "소비자 브랜드"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Decentralized Finance (DeFi)",
-                        en: "Decentralized Finance",
-                        ja: "分散型金融",
-                        ko: "탈중앙화 금융"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
+                            en: "/cybersecurity"
                         };
                         return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                     }()
@@ -42379,23 +41885,6 @@ object-assign
                 }), o.a.createElement("span", null, function(t) {
                     var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
                         en: "Cybersecurity"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement("hr", null)), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: function(t) {
-                        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                            en: ""
-                        };
-                        return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                    }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Fallbeispiele",
-                        en: "Customer Stories",
-                        ja: "導入顧客",
-                        ko: "고객 사례"
                     };
                     return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                 }())))))), o.a.createElement("ul", {
@@ -42738,65 +42227,7 @@ object-assign
                         };
                         return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
                     }()
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Über CxiAgency",
-                        en: "About CxiAgency",
-                        es: "Acerca de CxiAgency",
-                        ja: "CxiAgencyについて",
-                        ko: "About CxiAgency"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }(), o.a.createElement("p", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "CxiAgency ist die Blockchain Data Plattform.",
-                        en: "CxiAgency is the blockchain data platform.",
-                        es: "CxiAgency es la plataforma de datos de blockchain.",
-                        ja: "CxiAgency はブロックチェーンデータプラットフォームです。",
-                        ko: "CxiAgency는 블록체인 데이터 플랫폼입니다."
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "Karriere",
-                        en: "Careers",
-                        es: "Carreras profesionales",
-                        ja: "キャリア",
-                        ko: "커리어"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }(), o.a.createElement("p", {
-                    className: "description"
-                }, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "CxiAgency wächst schnell und weltweit. Werden Sie Teil des Teams!",
-                        en: "CxiAgency is growing fast, globally. Join us today.",
-                        es: "CxiAgency está creciendo rápidamente a nivel mundial. Únase a nosotros hoy.",
-                        ja: "CxiAgency はグローバルに急成長しています。仲間に加わりませんか。",
-                        ko: "체이널리시스는 전세계적으로 빠르게 성장하고 있습니다. 바로 지원하세요."
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }())))), o.a.createElement("li", null, o.a.createElement(Yt, {
-                    to: ""
-                }, o.a.createElement(Gr, {
-                    className: "right-arrow"
-                }), o.a.createElement("span", null, function(t) {
-                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
-                        de: "CxiAgency Government Solutions",
-                        en: "CxiAgency Government Solutions",
-                        ja: "CxiAgency 政府ソリューション",
-                        ko: "체이널리시스 정부 솔루션"
-                    };
-                    return null !== (t = e[langCode]) && void 0 !== t ? t : e.en
-                }()))), o.a.createElement("li", null, o.a.createElement(Yt, {
+                })), o.a.createElement("li", null, o.a.createElement(Yt, {
                     to: "/partners"
                 }, o.a.createElement(Gr, {
                     className: "right-arrow"

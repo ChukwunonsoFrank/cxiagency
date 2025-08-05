@@ -2479,7 +2479,7 @@
                                         else {
                                             const d = setTimeout((() => i(new Error(
                                                 "Failed to connect - Timeout"
-                                                ))), 15e3);
+                                            ))), 15e3);
 
                                             function l(r) {
                                                 (0,
@@ -2950,8 +2950,8 @@
                                                     "abort" !== e.type || o.loadCaptureCalled || (o.params
                                                             .aborted = !0),
                                                         ("load" !== e.type || o.called === o.totalCbs && (o
-                                                                .onloadCalled || "function" != typeof r.onload
-                                                                ) && "function" == typeof o.end) && o.end(r)
+                                                            .onloadCalled || "function" != typeof r.onload
+                                                        ) && "function" == typeof o.end) && o.end(r)
                                                 } catch (e) {
                                                     try {
                                                         t.emit("internal-error", [e])
@@ -3306,7 +3306,7 @@
                         #a(e) {
                             return e && (e.sessionReplayMode === E.g.FULL || e.sessionReplayMode === E.g
                                 .ERROR) || (0,
-                                    w.Aw)(this.#i.init)
+                                w.Aw)(this.#i.init)
                         }
                         #c = !1;
                         async #s(e) {
@@ -4080,7 +4080,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    
+
     <style id='classic-theme-styles-inline-css' type='text/css'>
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -4427,38 +4427,29 @@
     </style>
 
     <link rel='stylesheet' id='marketo-styles-css'
-        href='./wp-content/plugins/chainalysis-marketo/css/marketo-styles.css'
-        type='text/css' media='all' />
+        href='./wp-content/plugins/chainalysis-marketo/css/marketo-styles.css' type='text/css' media='all' />
     <link rel='stylesheet' id='theme-defaults-css'
-        href='./wp-content/themes/chainalysis/template-css/theme-defaults.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-reset-css'
-        href='./wp-content/themes/chainalysis/modules/shared/reset.css'
+        href='./wp-content/themes/chainalysis/template-css/theme-defaults.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='modules-reset-css' href='./wp-content/themes/chainalysis/modules/shared/reset.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='template-shared-css'
-        href='./wp-content/themes/chainalysis/template-css/template-globals/template-shared.css'
-        type='text/css' media='all' />
+        href='./wp-content/themes/chainalysis/template-css/template-globals/template-shared.css' type='text/css'
+        media='all' />
     <link rel='stylesheet' id='modules-variables-css'
-        href='./wp-content/themes/chainalysis/modules/shared/variables.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-grid-css'
-        href='./wp-content/themes/chainalysis/modules/shared/grid.css'
+        href='./wp-content/themes/chainalysis/modules/shared/variables.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='modules-grid-css' href='./wp-content/themes/chainalysis/modules/shared/grid.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='modules-typography-css'
-        href='./wp-content/themes/chainalysis/modules/shared/typography.css'
+        href='./wp-content/themes/chainalysis/modules/shared/typography.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='modules-buttons-css' href='./wp-content/themes/chainalysis/modules/shared/buttons.css'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-buttons-css'
-        href='./wp-content/themes/chainalysis/modules/shared/buttons.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-icons-css'
-        href='./wp-content/themes/chainalysis/modules/shared/icons.css'
+    <link rel='stylesheet' id='modules-icons-css' href='./wp-content/themes/chainalysis/modules/shared/icons.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='modules-utilities-css'
-        href='./wp-content/themes/chainalysis/modules/shared/utilities.css'
-        type='text/css' media='all' />
+        href='./wp-content/themes/chainalysis/modules/shared/utilities.css' type='text/css' media='all' />
     <link rel='stylesheet' id='heateor_sss_frontend_css-css'
-        href='./wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css'
-        type='text/css' media='all' />
+        href='./wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css' type='text/css'
+        media='all' />
     <style id='heateor_sss_frontend_css-inline-css' type='text/css'>
         .heateor_sss_button_instagram span.heateor_sss_svg,
         a.heateor_sss_instagram span.heateor_sss_svg {
@@ -4505,11 +4496,9 @@
             }
         }
     </style>
-    <script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js"
-        id="jquery-core-js"></script>
-    <script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js"
-        id="jquery-migrate-js"></script>
-    
+    <script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -4547,517 +4536,517 @@
                                 <div class="modal__description">
                                     <h3>Request a demo</h3>
                                     <form x-data="{ submitting: false }" x-on:submit="submitting = true"
-                                            style="display: flex; flex-direction: column; row-gap: 1rem;"
-                                            action="{{ route('submit') }}" method="post">
-                                            @csrf
+                                        style="display: flex; flex-direction: column; row-gap: 1rem;"
+                                        action="{{ route('submit') }}" method="post">
+                                        @csrf
+                                        <div>
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">First Name *</label>
+                                            </div>
                                             <div>
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">First Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="first_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;"
-                                                        type="text" required>
-                                                </div>
+                                                <input name="first_name"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;"
+                                                    type="text" required>
                                             </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Last Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="last_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Last Name *</label>
                                             </div>
+                                            <div>
+                                                <input name="last_name"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                    type="text" required>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Business Email Address *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="business_email_address"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="email" required>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Business Email Address *</label>
                                             </div>
+                                            <div>
+                                                <input name="business_email_address"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                    type="email" required>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Company Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="company_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Company Name *</label>
                                             </div>
+                                            <div>
+                                                <input name="company_name"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                    type="text" required>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Phone Number *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="phone_number"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Phone Number *</label>
                                             </div>
+                                            <div>
+                                                <input name="phone_number"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                    type="text" required>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Organization Type *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="organization_type"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Asset Managers">Asset Managers</option>
-                                                        <option value="Banks">Banks</option>
-                                                        <option value="Broker Dealers">Broker Dealers</option>
-                                                        <option value="Consulting">Consulting</option>
-                                                        <option value="Consulting Firms">Consulting Firms</option>
-                                                        <option value="Consumer Brand">Consumer Brand</option>
-                                                        <option value="Consumer Retail and Web2">Consumer Retail and
-                                                            Web2</option>
-                                                        <option value="Consumer Services - Other">Consumer Services -
-                                                            Other</option>
-                                                        <option value="Consumer Technology">Consumer Technology
-                                                        </option>
-                                                        <option value="Creator Economy">Creator Economy</option>
-                                                        <option value="Crypto Asset Manager">Crypto Asset Manager
-                                                        </option>
-                                                        <option value="Crypto ATMs / BTMs">Crypto ATMs / BTMs</option>
-                                                        <option value="Crypto Exchanges, Custodians, OTC">Crypto
-                                                            Exchanges, Custodians, OTC</option>
-                                                        <option value="Crypto Native - Other">Crypto Native - Other
-                                                        </option>
-                                                        <option value="Cyber Security">Cyber Security</option>
-                                                        <option
-                                                            value="DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2 Blockchains">
-                                                            DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2
-                                                            Blockchains</option>
-                                                        <option value="Enterprise Technology">Enterprise Technology
-                                                        </option>
-                                                        <option value="Financial Regulator">Financial Regulator
-                                                        </option>
-                                                        <option value="Fintechs / Payment Companies">Fintechs /
-                                                            Payment
-                                                            Companies</option>
-                                                        <option value="Gambling">Gambling</option>
-                                                        <option value="Gaming -  Online and Mobile">Gaming - Online
-                                                            &amp; Mobile</option>
-                                                        <option value="Hedge Funds, PE, and VCs">Hedge Funds, PE, and
-                                                            VCs</option>
-                                                        <option value="High Frequency Traders / Market Makers">High
-                                                            Frequency Traders / Market Makers</option>
-                                                        <option value="Insurance">Insurance</option>
-                                                        <option value="Investigative Firms">Investigative Firms
-                                                        </option>
-                                                        <option value="Law Enforcement">Law Enforcement</option>
-                                                        <option value="Law Firms">Law Firms</option>
-                                                        <option value="NFT Exchanges, NFT Lending">NFT Exchanges, NFT
-                                                            Lending</option>
-                                                        <option value="Social Media">Social Media</option>
-                                                        <option value="Tax/Accounting Firms">Tax/Accounting Firms
-                                                        </option>
-                                                        <option value="Tax Agency">Tax Agency</option>
-                                                        <option value="Technology Services - Other">Technology
-                                                            Services
-                                                            - Other</option>
-                                                        <option value="Trade Infra/Trade Venues">Trade Infra/Trade
-                                                            Venues</option>
-                                                        <option value="Other">Other</option>
-                                                    </select>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Organization Type *</label>
                                             </div>
+                                            <div>
+                                                <select name="organization_type"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                    <option value=""></option>
+                                                    <option value="Asset Managers">Asset Managers</option>
+                                                    <option value="Banks">Banks</option>
+                                                    <option value="Broker Dealers">Broker Dealers</option>
+                                                    <option value="Consulting">Consulting</option>
+                                                    <option value="Consulting Firms">Consulting Firms</option>
+                                                    <option value="Consumer Brand">Consumer Brand</option>
+                                                    <option value="Consumer Retail and Web2">Consumer Retail and
+                                                        Web2</option>
+                                                    <option value="Consumer Services - Other">Consumer Services -
+                                                        Other</option>
+                                                    <option value="Consumer Technology">Consumer Technology
+                                                    </option>
+                                                    <option value="Creator Economy">Creator Economy</option>
+                                                    <option value="Crypto Asset Manager">Crypto Asset Manager
+                                                    </option>
+                                                    <option value="Crypto ATMs / BTMs">Crypto ATMs / BTMs</option>
+                                                    <option value="Crypto Exchanges, Custodians, OTC">Crypto
+                                                        Exchanges, Custodians, OTC</option>
+                                                    <option value="Crypto Native - Other">Crypto Native - Other
+                                                    </option>
+                                                    <option value="Cyber Security">Cyber Security</option>
+                                                    <option
+                                                        value="DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2 Blockchains">
+                                                        DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2
+                                                        Blockchains</option>
+                                                    <option value="Enterprise Technology">Enterprise Technology
+                                                    </option>
+                                                    <option value="Financial Regulator">Financial Regulator
+                                                    </option>
+                                                    <option value="Fintechs / Payment Companies">Fintechs /
+                                                        Payment
+                                                        Companies</option>
+                                                    <option value="Gambling">Gambling</option>
+                                                    <option value="Gaming -  Online and Mobile">Gaming - Online
+                                                        &amp; Mobile</option>
+                                                    <option value="Hedge Funds, PE, and VCs">Hedge Funds, PE, and
+                                                        VCs</option>
+                                                    <option value="High Frequency Traders / Market Makers">High
+                                                        Frequency Traders / Market Makers</option>
+                                                    <option value="Insurance">Insurance</option>
+                                                    <option value="Investigative Firms">Investigative Firms
+                                                    </option>
+                                                    <option value="Law Enforcement">Law Enforcement</option>
+                                                    <option value="Law Firms">Law Firms</option>
+                                                    <option value="NFT Exchanges, NFT Lending">NFT Exchanges, NFT
+                                                        Lending</option>
+                                                    <option value="Social Media">Social Media</option>
+                                                    <option value="Tax/Accounting Firms">Tax/Accounting Firms
+                                                    </option>
+                                                    <option value="Tax Agency">Tax Agency</option>
+                                                    <option value="Technology Services - Other">Technology
+                                                        Services
+                                                        - Other</option>
+                                                    <option value="Trade Infra/Trade Venues">Trade Infra/Trade
+                                                        Venues</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Country *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="country"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Afghanistan">Afghanistan</option>
-                                                        <option value="Aland Islands">Aland Islands</option>
-                                                        <option value="Albania">Albania</option>
-                                                        <option value="Algeria">Algeria</option>
-                                                        <option value="Andorra">Andorra</option>
-                                                        <option value="Angola">Angola</option>
-                                                        <option value="Anguilla">Anguilla</option>
-                                                        <option value="Antarctica">Antarctica</option>
-                                                        <option value="Antigua and Barbuda">Antigua and Barbuda
-                                                        </option>
-                                                        <option value="Argentina">Argentina</option>
-                                                        <option value="Armenia">Armenia</option>
-                                                        <option value="Aruba">Aruba</option>
-                                                        <option value="Australia">Australia</option>
-                                                        <option value="Austria">Austria</option>
-                                                        <option value="Azerbaijan">Azerbaijan</option>
-                                                        <option value="Bahamas">Bahamas</option>
-                                                        <option value="Bahrain">Bahrain</option>
-                                                        <option value="Bangladesh">Bangladesh</option>
-                                                        <option value="Barbados">Barbados</option>
-                                                        <option value="Belarus">Belarus</option>
-                                                        <option value="Belgium">Belgium</option>
-                                                        <option value="Belize">Belize</option>
-                                                        <option value="Benin">Benin</option>
-                                                        <option value="Bermuda">Bermuda</option>
-                                                        <option value="Bhutan">Bhutan</option>
-                                                        <option value="Bolivia, Plurinational State of">Bolivia,
-                                                            Plurinational State of</option>
-                                                        <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint
-                                                            Eustatius and Saba</option>
-                                                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina
-                                                        </option>
-                                                        <option value="Botswana">Botswana</option>
-                                                        <option value="Bouvet Island">Bouvet Island</option>
-                                                        <option value="Brazil">Brazil</option>
-                                                        <option value="British Indian Ocean Territory">British Indian
-                                                            Ocean Territory</option>
-                                                        <option value="Brunei Darussalam">Brunei Darussalam</option>
-                                                        <option value="Bulgaria">Bulgaria</option>
-                                                        <option value="Burkina Faso">Burkina Faso</option>
-                                                        <option value="Burundi">Burundi</option>
-                                                        <option value="Cambodia">Cambodia</option>
-                                                        <option value="Cameroon">Cameroon</option>
-                                                        <option value="Canada">Canada</option>
-                                                        <option value="Cape Verde">Cape Verde</option>
-                                                        <option value="Cayman Islands">Cayman Islands</option>
-                                                        <option value="Central African Republic">Central African
-                                                            Republic</option>
-                                                        <option value="Chad">Chad</option>
-                                                        <option value="Chile">Chile</option>
-                                                        <option value="China">China</option>
-                                                        <option value="Chinese Taipei">Chinese Taipei</option>
-                                                        <option value="Christmas Island">Christmas Island</option>
-                                                        <option value="Cocos (Keeling) Islands">Cocos (Keeling)
-                                                            Islands
-                                                        </option>
-                                                        <option value="Colombia">Colombia</option>
-                                                        <option value="Comoros">Comoros</option>
-                                                        <option value="Congo">Congo</option>
-                                                        <option value="Congo, the Democratic Republic of the">Congo,
-                                                            the Democratic Republic of the</option>
-                                                        <option value="Cook Islands">Cook Islands</option>
-                                                        <option value="Costa Rica">Costa Rica</option>
-                                                        <option value="Cote d'Ivoire">Cote d'Ivoire</option>
-                                                        <option value="Croatia">Croatia</option>
-                                                        <option value="Cuba">Cuba</option>
-                                                        <option value="Curaçao">Curaçao</option>
-                                                        <option value="Cyprus">Cyprus</option>
-                                                        <option value="Czech Republic">Czech Republic</option>
-                                                        <option value="Denmark">Denmark</option>
-                                                        <option value="Djibouti">Djibouti</option>
-                                                        <option value="Dominica">Dominica</option>
-                                                        <option value="Dominican Republic">Dominican Republic</option>
-                                                        <option value="Ecuador">Ecuador</option>
-                                                        <option value="Egypt">Egypt</option>
-                                                        <option value="El Salvador">El Salvador</option>
-                                                        <option value="Equatorial Guinea">Equatorial Guinea</option>
-                                                        <option value="Eritrea">Eritrea</option>
-                                                        <option value="Estonia">Estonia</option>
-                                                        <option value="Ethiopia">Ethiopia</option>
-                                                        <option value="Falkland Islands (Malvinas)">Falkland Islands
-                                                            (Malvinas)</option>
-                                                        <option value="Faroe Islands">Faroe Islands</option>
-                                                        <option value="Fiji">Fiji</option>
-                                                        <option value="Finland">Finland</option>
-                                                        <option value="France">France</option>
-                                                        <option value="French Guiana">French Guiana</option>
-                                                        <option value="French Polynesia">French Polynesia</option>
-                                                        <option value="French Southern Territories">French Southern
-                                                            Territories</option>
-                                                        <option value="Gabon">Gabon</option>
-                                                        <option value="Gambia">Gambia</option>
-                                                        <option value="Georgia">Georgia</option>
-                                                        <option value="Germany">Germany</option>
-                                                        <option value="Ghana">Ghana</option>
-                                                        <option value="Gibraltar">Gibraltar</option>
-                                                        <option value="Greece">Greece</option>
-                                                        <option value="Greenland">Greenland</option>
-                                                        <option value="Grenada">Grenada</option>
-                                                        <option value="Guadeloupe">Guadeloupe</option>
-                                                        <option value="Guatemala">Guatemala</option>
-                                                        <option value="Guernsey">Guernsey</option>
-                                                        <option value="Guinea">Guinea</option>
-                                                        <option value="Guinea-Bissau">Guinea-Bissau</option>
-                                                        <option value="Guyana">Guyana</option>
-                                                        <option value="Haiti">Haiti</option>
-                                                        <option value="Heard Island and McDonald Islands">Heard Island
-                                                            and McDonald Islands</option>
-                                                        <option value="Holy See (Vatican City State)">Holy See
-                                                            (Vatican
-                                                            City State)</option>
-                                                        <option value="Honduras">Honduras</option>
-                                                        <option value="Hungary">Hungary</option>
-                                                        <option value="Iceland">Iceland</option>
-                                                        <option value="India">India</option>
-                                                        <option value="Indonesia">Indonesia</option>
-                                                        <option value="Iran, Islamic Republic of">Iran, Islamic
-                                                            Republic of</option>
-                                                        <option value="Iraq">Iraq</option>
-                                                        <option value="Ireland">Ireland</option>
-                                                        <option value="Isle of Man">Isle of Man</option>
-                                                        <option value="Israel">Israel</option>
-                                                        <option value="Italy">Italy</option>
-                                                        <option value="Jamaica">Jamaica</option>
-                                                        <option value="Japan">Japan</option>
-                                                        <option value="Jersey">Jersey</option>
-                                                        <option value="Jordan">Jordan</option>
-                                                        <option value="Kazakhstan">Kazakhstan</option>
-                                                        <option value="Kenya">Kenya</option>
-                                                        <option value="Kiribati">Kiribati</option>
-                                                        <option value="Korea, Democratic People's Republic of">Korea,
-                                                            Democratic People's Republic of</option>
-                                                        <option value="Korea, Republic of">Korea, Republic of</option>
-                                                        <option value="Kuwait">Kuwait</option>
-                                                        <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                                        <option value="Lao People's Democratic Republic">Lao People's
-                                                            Democratic Republic</option>
-                                                        <option value="Latvia">Latvia</option>
-                                                        <option value="Lebanon">Lebanon</option>
-                                                        <option value="Lesotho">Lesotho</option>
-                                                        <option value="Liberia">Liberia</option>
-                                                        <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya
-                                                        </option>
-                                                        <option value="Liechtenstein">Liechtenstein</option>
-                                                        <option value="Lithuania">Lithuania</option>
-                                                        <option value="Luxembourg">Luxembourg</option>
-                                                        <option value="Macao">Macao</option>
-                                                        <option value="Macedonia, the former Yugoslav Republic of">
-                                                            Macedonia, the former Yugoslav Republic of</option>
-                                                        <option value="Madagascar">Madagascar</option>
-                                                        <option value="Malawi">Malawi</option>
-                                                        <option value="Malaysia">Malaysia</option>
-                                                        <option value="Maldives">Maldives</option>
-                                                        <option value="Mali">Mali</option>
-                                                        <option value="Malta">Malta</option>
-                                                        <option value="Martinique">Martinique</option>
-                                                        <option value="Mauritania">Mauritania</option>
-                                                        <option value="Mauritius">Mauritius</option>
-                                                        <option value="Mayotte">Mayotte</option>
-                                                        <option value="Mexico">Mexico</option>
-                                                        <option value="Micronesia (Federated States of)">Micronesia
-                                                            (Federated States of)</option>
-                                                        <option value="Moldova, Republic of">Moldova, Republic of
-                                                        </option>
-                                                        <option value="Monaco">Monaco</option>
-                                                        <option value="Mongolia">Mongolia</option>
-                                                        <option value="Montenegro">Montenegro</option>
-                                                        <option value="Montserrat">Montserrat</option>
-                                                        <option value="Morocco">Morocco</option>
-                                                        <option value="Mozambique">Mozambique</option>
-                                                        <option value="Myanmar">Myanmar</option>
-                                                        <option value="Namibia">Namibia</option>
-                                                        <option value="Nauru">Nauru</option>
-                                                        <option value="Nepal">Nepal</option>
-                                                        <option value="Netherlands">Netherlands</option>
-                                                        <option value="New Caledonia">New Caledonia</option>
-                                                        <option value="New Zealand">New Zealand</option>
-                                                        <option value="Nicaragua">Nicaragua</option>
-                                                        <option value="Niger">Niger</option>
-                                                        <option value="Nigeria">Nigeria</option>
-                                                        <option value="Niue">Niue</option>
-                                                        <option value="Norfolk Island">Norfolk Island</option>
-                                                        <option value="Norway">Norway</option>
-                                                        <option value="Oman">Oman</option>
-                                                        <option value="Pakistan">Pakistan</option>
-                                                        <option value="Palestinian Territory, Occupied">Palestinian
-                                                            Territory, Occupied</option>
-                                                        <option value="Panama">Panama</option>
-                                                        <option value="Papua New Guinea">Papua New Guinea</option>
-                                                        <option value="Paraguay">Paraguay</option>
-                                                        <option value="Peru">Peru</option>
-                                                        <option value="Philippines">Philippines</option>
-                                                        <option value="Pitcairn">Pitcairn</option>
-                                                        <option value="Poland">Poland</option>
-                                                        <option value="Portugal">Portugal</option>
-                                                        <option value="Qatar">Qatar</option>
-                                                        <option value="Reunion">Reunion</option>
-                                                        <option value="Romania">Romania</option>
-                                                        <option value="Russian Federation">Russian Federation</option>
-                                                        <option value="Rwanda">Rwanda</option>
-                                                        <option value="Saint Barthélemy">Saint Barthélemy</option>
-                                                        <option value="Saint Helena, Ascension and Tristan da Cunha">
-                                                            Saint Helena, Ascension and Tristan da Cunha</option>
-                                                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis
-                                                        </option>
-                                                        <option value="Saint Lucia">Saint Lucia</option>
-                                                        <option value="Saint Martin (French part)">Saint Martin
-                                                            (French
-                                                            part)</option>
-                                                        <option value="Saint Pierre and Miquelon">Saint Pierre and
-                                                            Miquelon</option>
-                                                        <option value="Saint Vincent and the Grenadines">Saint Vincent
-                                                            and the Grenadines</option>
-                                                        <option value="Samoa">Samoa</option>
-                                                        <option value="San Marino">San Marino</option>
-                                                        <option value="Sao Tome and Principe">Sao Tome and Principe
-                                                        </option>
-                                                        <option value="Saudi Arabia">Saudi Arabia</option>
-                                                        <option value="Senegal">Senegal</option>
-                                                        <option value="Serbia">Serbia</option>
-                                                        <option value="Seychelles">Seychelles</option>
-                                                        <option value="Sierra Leone">Sierra Leone</option>
-                                                        <option value="Singapore">Singapore</option>
-                                                        <option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch
-                                                            part)</option>
-                                                        <option value="Slovakia">Slovakia</option>
-                                                        <option value="Slovenia">Slovenia</option>
-                                                        <option value="Solomon Islands">Solomon Islands</option>
-                                                        <option value="Somalia">Somalia</option>
-                                                        <option value="South Africa">South Africa</option>
-                                                        <option value="South Georgia and the South Sandwich Islands">
-                                                            South Georgia and the South Sandwich Islands</option>
-                                                        <option value="South Sudan">South Sudan</option>
-                                                        <option value="Spain">Spain</option>
-                                                        <option value="Sri Lanka">Sri Lanka</option>
-                                                        <option value="Sudan">Sudan</option>
-                                                        <option value="Suriname">Suriname</option>
-                                                        <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen
-                                                        </option>
-                                                        <option value="Swaziland">Swaziland</option>
-                                                        <option value="Sweden">Sweden</option>
-                                                        <option value="Switzerland">Switzerland</option>
-                                                        <option value="Syrian Arab Republic">Syrian Arab Republic
-                                                        </option>
-                                                        <option value="Tajikistan">Tajikistan</option>
-                                                        <option value="Tanzania, United Republic of">Tanzania, United
-                                                            Republic of</option>
-                                                        <option value="Thailand">Thailand</option>
-                                                        <option value="Timor-Leste">Timor-Leste</option>
-                                                        <option value="Togo">Togo</option>
-                                                        <option value="Tokelau">Tokelau</option>
-                                                        <option value="Tonga">Tonga</option>
-                                                        <option value="Trinidad and Tobago">Trinidad and Tobago
-                                                        </option>
-                                                        <option value="Tunisia">Tunisia</option>
-                                                        <option value="Turkey">Turkey</option>
-                                                        <option value="Turkmenistan">Turkmenistan</option>
-                                                        <option value="Turks and Caicos Islands">Turks and Caicos
-                                                            Islands</option>
-                                                        <option value="Tuvalu">Tuvalu</option>
-                                                        <option value="Uganda">Uganda</option>
-                                                        <option value="Ukraine">Ukraine</option>
-                                                        <option value="United Arab Emirates">United Arab Emirates
-                                                        </option>
-                                                        <option value="United Kingdom">United Kingdom</option>
-                                                        <option value="United States">United States</option>
-                                                        <option value="Uruguay">Uruguay</option>
-                                                        <option value="Uzbekistan">Uzbekistan</option>
-                                                        <option value="Vanuatu">Vanuatu</option>
-                                                        <option value="Venezuela, Bolivarian Republic of">Venezuela,
-                                                            Bolivarian Republic of</option>
-                                                        <option value="Viet Nam">Viet Nam</option>
-                                                        <option value="Virgin Islands, British">Virgin Islands,
-                                                            British
-                                                        </option>
-                                                        <option value="Wallis and Futuna">Wallis and Futuna</option>
-                                                        <option value="Western Sahara">Western Sahara</option>
-                                                        <option value="Yemen">Yemen</option>
-                                                        <option value="Zambia">Zambia</option>
-                                                        <option value="Zimbabwe">Zimbabwe</option>
-                                                    </select>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Country *</label>
                                             </div>
+                                            <div>
+                                                <select name="country"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                    <option value=""></option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Aland Islands">Aland Islands</option>
+                                                    <option value="Albania">Albania</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="Andorra">Andorra</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Anguilla">Anguilla</option>
+                                                    <option value="Antarctica">Antarctica</option>
+                                                    <option value="Antigua and Barbuda">Antigua and Barbuda
+                                                    </option>
+                                                    <option value="Argentina">Argentina</option>
+                                                    <option value="Armenia">Armenia</option>
+                                                    <option value="Aruba">Aruba</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Austria">Austria</option>
+                                                    <option value="Azerbaijan">Azerbaijan</option>
+                                                    <option value="Bahamas">Bahamas</option>
+                                                    <option value="Bahrain">Bahrain</option>
+                                                    <option value="Bangladesh">Bangladesh</option>
+                                                    <option value="Barbados">Barbados</option>
+                                                    <option value="Belarus">Belarus</option>
+                                                    <option value="Belgium">Belgium</option>
+                                                    <option value="Belize">Belize</option>
+                                                    <option value="Benin">Benin</option>
+                                                    <option value="Bermuda">Bermuda</option>
+                                                    <option value="Bhutan">Bhutan</option>
+                                                    <option value="Bolivia, Plurinational State of">Bolivia,
+                                                        Plurinational State of</option>
+                                                    <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint
+                                                        Eustatius and Saba</option>
+                                                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina
+                                                    </option>
+                                                    <option value="Botswana">Botswana</option>
+                                                    <option value="Bouvet Island">Bouvet Island</option>
+                                                    <option value="Brazil">Brazil</option>
+                                                    <option value="British Indian Ocean Territory">British Indian
+                                                        Ocean Territory</option>
+                                                    <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                                    <option value="Bulgaria">Bulgaria</option>
+                                                    <option value="Burkina Faso">Burkina Faso</option>
+                                                    <option value="Burundi">Burundi</option>
+                                                    <option value="Cambodia">Cambodia</option>
+                                                    <option value="Cameroon">Cameroon</option>
+                                                    <option value="Canada">Canada</option>
+                                                    <option value="Cape Verde">Cape Verde</option>
+                                                    <option value="Cayman Islands">Cayman Islands</option>
+                                                    <option value="Central African Republic">Central African
+                                                        Republic</option>
+                                                    <option value="Chad">Chad</option>
+                                                    <option value="Chile">Chile</option>
+                                                    <option value="China">China</option>
+                                                    <option value="Chinese Taipei">Chinese Taipei</option>
+                                                    <option value="Christmas Island">Christmas Island</option>
+                                                    <option value="Cocos (Keeling) Islands">Cocos (Keeling)
+                                                        Islands
+                                                    </option>
+                                                    <option value="Colombia">Colombia</option>
+                                                    <option value="Comoros">Comoros</option>
+                                                    <option value="Congo">Congo</option>
+                                                    <option value="Congo, the Democratic Republic of the">Congo,
+                                                        the Democratic Republic of the</option>
+                                                    <option value="Cook Islands">Cook Islands</option>
+                                                    <option value="Costa Rica">Costa Rica</option>
+                                                    <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                                                    <option value="Croatia">Croatia</option>
+                                                    <option value="Cuba">Cuba</option>
+                                                    <option value="Curaçao">Curaçao</option>
+                                                    <option value="Cyprus">Cyprus</option>
+                                                    <option value="Czech Republic">Czech Republic</option>
+                                                    <option value="Denmark">Denmark</option>
+                                                    <option value="Djibouti">Djibouti</option>
+                                                    <option value="Dominica">Dominica</option>
+                                                    <option value="Dominican Republic">Dominican Republic</option>
+                                                    <option value="Ecuador">Ecuador</option>
+                                                    <option value="Egypt">Egypt</option>
+                                                    <option value="El Salvador">El Salvador</option>
+                                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                                    <option value="Eritrea">Eritrea</option>
+                                                    <option value="Estonia">Estonia</option>
+                                                    <option value="Ethiopia">Ethiopia</option>
+                                                    <option value="Falkland Islands (Malvinas)">Falkland Islands
+                                                        (Malvinas)</option>
+                                                    <option value="Faroe Islands">Faroe Islands</option>
+                                                    <option value="Fiji">Fiji</option>
+                                                    <option value="Finland">Finland</option>
+                                                    <option value="France">France</option>
+                                                    <option value="French Guiana">French Guiana</option>
+                                                    <option value="French Polynesia">French Polynesia</option>
+                                                    <option value="French Southern Territories">French Southern
+                                                        Territories</option>
+                                                    <option value="Gabon">Gabon</option>
+                                                    <option value="Gambia">Gambia</option>
+                                                    <option value="Georgia">Georgia</option>
+                                                    <option value="Germany">Germany</option>
+                                                    <option value="Ghana">Ghana</option>
+                                                    <option value="Gibraltar">Gibraltar</option>
+                                                    <option value="Greece">Greece</option>
+                                                    <option value="Greenland">Greenland</option>
+                                                    <option value="Grenada">Grenada</option>
+                                                    <option value="Guadeloupe">Guadeloupe</option>
+                                                    <option value="Guatemala">Guatemala</option>
+                                                    <option value="Guernsey">Guernsey</option>
+                                                    <option value="Guinea">Guinea</option>
+                                                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                                    <option value="Guyana">Guyana</option>
+                                                    <option value="Haiti">Haiti</option>
+                                                    <option value="Heard Island and McDonald Islands">Heard Island
+                                                        and McDonald Islands</option>
+                                                    <option value="Holy See (Vatican City State)">Holy See
+                                                        (Vatican
+                                                        City State)</option>
+                                                    <option value="Honduras">Honduras</option>
+                                                    <option value="Hungary">Hungary</option>
+                                                    <option value="Iceland">Iceland</option>
+                                                    <option value="India">India</option>
+                                                    <option value="Indonesia">Indonesia</option>
+                                                    <option value="Iran, Islamic Republic of">Iran, Islamic
+                                                        Republic of</option>
+                                                    <option value="Iraq">Iraq</option>
+                                                    <option value="Ireland">Ireland</option>
+                                                    <option value="Isle of Man">Isle of Man</option>
+                                                    <option value="Israel">Israel</option>
+                                                    <option value="Italy">Italy</option>
+                                                    <option value="Jamaica">Jamaica</option>
+                                                    <option value="Japan">Japan</option>
+                                                    <option value="Jersey">Jersey</option>
+                                                    <option value="Jordan">Jordan</option>
+                                                    <option value="Kazakhstan">Kazakhstan</option>
+                                                    <option value="Kenya">Kenya</option>
+                                                    <option value="Kiribati">Kiribati</option>
+                                                    <option value="Korea, Democratic People's Republic of">Korea,
+                                                        Democratic People's Republic of</option>
+                                                    <option value="Korea, Republic of">Korea, Republic of</option>
+                                                    <option value="Kuwait">Kuwait</option>
+                                                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                                    <option value="Lao People's Democratic Republic">Lao People's
+                                                        Democratic Republic</option>
+                                                    <option value="Latvia">Latvia</option>
+                                                    <option value="Lebanon">Lebanon</option>
+                                                    <option value="Lesotho">Lesotho</option>
+                                                    <option value="Liberia">Liberia</option>
+                                                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya
+                                                    </option>
+                                                    <option value="Liechtenstein">Liechtenstein</option>
+                                                    <option value="Lithuania">Lithuania</option>
+                                                    <option value="Luxembourg">Luxembourg</option>
+                                                    <option value="Macao">Macao</option>
+                                                    <option value="Macedonia, the former Yugoslav Republic of">
+                                                        Macedonia, the former Yugoslav Republic of</option>
+                                                    <option value="Madagascar">Madagascar</option>
+                                                    <option value="Malawi">Malawi</option>
+                                                    <option value="Malaysia">Malaysia</option>
+                                                    <option value="Maldives">Maldives</option>
+                                                    <option value="Mali">Mali</option>
+                                                    <option value="Malta">Malta</option>
+                                                    <option value="Martinique">Martinique</option>
+                                                    <option value="Mauritania">Mauritania</option>
+                                                    <option value="Mauritius">Mauritius</option>
+                                                    <option value="Mayotte">Mayotte</option>
+                                                    <option value="Mexico">Mexico</option>
+                                                    <option value="Micronesia (Federated States of)">Micronesia
+                                                        (Federated States of)</option>
+                                                    <option value="Moldova, Republic of">Moldova, Republic of
+                                                    </option>
+                                                    <option value="Monaco">Monaco</option>
+                                                    <option value="Mongolia">Mongolia</option>
+                                                    <option value="Montenegro">Montenegro</option>
+                                                    <option value="Montserrat">Montserrat</option>
+                                                    <option value="Morocco">Morocco</option>
+                                                    <option value="Mozambique">Mozambique</option>
+                                                    <option value="Myanmar">Myanmar</option>
+                                                    <option value="Namibia">Namibia</option>
+                                                    <option value="Nauru">Nauru</option>
+                                                    <option value="Nepal">Nepal</option>
+                                                    <option value="Netherlands">Netherlands</option>
+                                                    <option value="New Caledonia">New Caledonia</option>
+                                                    <option value="New Zealand">New Zealand</option>
+                                                    <option value="Nicaragua">Nicaragua</option>
+                                                    <option value="Niger">Niger</option>
+                                                    <option value="Nigeria">Nigeria</option>
+                                                    <option value="Niue">Niue</option>
+                                                    <option value="Norfolk Island">Norfolk Island</option>
+                                                    <option value="Norway">Norway</option>
+                                                    <option value="Oman">Oman</option>
+                                                    <option value="Pakistan">Pakistan</option>
+                                                    <option value="Palestinian Territory, Occupied">Palestinian
+                                                        Territory, Occupied</option>
+                                                    <option value="Panama">Panama</option>
+                                                    <option value="Papua New Guinea">Papua New Guinea</option>
+                                                    <option value="Paraguay">Paraguay</option>
+                                                    <option value="Peru">Peru</option>
+                                                    <option value="Philippines">Philippines</option>
+                                                    <option value="Pitcairn">Pitcairn</option>
+                                                    <option value="Poland">Poland</option>
+                                                    <option value="Portugal">Portugal</option>
+                                                    <option value="Qatar">Qatar</option>
+                                                    <option value="Reunion">Reunion</option>
+                                                    <option value="Romania">Romania</option>
+                                                    <option value="Russian Federation">Russian Federation</option>
+                                                    <option value="Rwanda">Rwanda</option>
+                                                    <option value="Saint Barthélemy">Saint Barthélemy</option>
+                                                    <option value="Saint Helena, Ascension and Tristan da Cunha">
+                                                        Saint Helena, Ascension and Tristan da Cunha</option>
+                                                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis
+                                                    </option>
+                                                    <option value="Saint Lucia">Saint Lucia</option>
+                                                    <option value="Saint Martin (French part)">Saint Martin
+                                                        (French
+                                                        part)</option>
+                                                    <option value="Saint Pierre and Miquelon">Saint Pierre and
+                                                        Miquelon</option>
+                                                    <option value="Saint Vincent and the Grenadines">Saint Vincent
+                                                        and the Grenadines</option>
+                                                    <option value="Samoa">Samoa</option>
+                                                    <option value="San Marino">San Marino</option>
+                                                    <option value="Sao Tome and Principe">Sao Tome and Principe
+                                                    </option>
+                                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                                    <option value="Senegal">Senegal</option>
+                                                    <option value="Serbia">Serbia</option>
+                                                    <option value="Seychelles">Seychelles</option>
+                                                    <option value="Sierra Leone">Sierra Leone</option>
+                                                    <option value="Singapore">Singapore</option>
+                                                    <option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch
+                                                        part)</option>
+                                                    <option value="Slovakia">Slovakia</option>
+                                                    <option value="Slovenia">Slovenia</option>
+                                                    <option value="Solomon Islands">Solomon Islands</option>
+                                                    <option value="Somalia">Somalia</option>
+                                                    <option value="South Africa">South Africa</option>
+                                                    <option value="South Georgia and the South Sandwich Islands">
+                                                        South Georgia and the South Sandwich Islands</option>
+                                                    <option value="South Sudan">South Sudan</option>
+                                                    <option value="Spain">Spain</option>
+                                                    <option value="Sri Lanka">Sri Lanka</option>
+                                                    <option value="Sudan">Sudan</option>
+                                                    <option value="Suriname">Suriname</option>
+                                                    <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen
+                                                    </option>
+                                                    <option value="Swaziland">Swaziland</option>
+                                                    <option value="Sweden">Sweden</option>
+                                                    <option value="Switzerland">Switzerland</option>
+                                                    <option value="Syrian Arab Republic">Syrian Arab Republic
+                                                    </option>
+                                                    <option value="Tajikistan">Tajikistan</option>
+                                                    <option value="Tanzania, United Republic of">Tanzania, United
+                                                        Republic of</option>
+                                                    <option value="Thailand">Thailand</option>
+                                                    <option value="Timor-Leste">Timor-Leste</option>
+                                                    <option value="Togo">Togo</option>
+                                                    <option value="Tokelau">Tokelau</option>
+                                                    <option value="Tonga">Tonga</option>
+                                                    <option value="Trinidad and Tobago">Trinidad and Tobago
+                                                    </option>
+                                                    <option value="Tunisia">Tunisia</option>
+                                                    <option value="Turkey">Turkey</option>
+                                                    <option value="Turkmenistan">Turkmenistan</option>
+                                                    <option value="Turks and Caicos Islands">Turks and Caicos
+                                                        Islands</option>
+                                                    <option value="Tuvalu">Tuvalu</option>
+                                                    <option value="Uganda">Uganda</option>
+                                                    <option value="Ukraine">Ukraine</option>
+                                                    <option value="United Arab Emirates">United Arab Emirates
+                                                    </option>
+                                                    <option value="United Kingdom">United Kingdom</option>
+                                                    <option value="United States">United States</option>
+                                                    <option value="Uruguay">Uruguay</option>
+                                                    <option value="Uzbekistan">Uzbekistan</option>
+                                                    <option value="Vanuatu">Vanuatu</option>
+                                                    <option value="Venezuela, Bolivarian Republic of">Venezuela,
+                                                        Bolivarian Republic of</option>
+                                                    <option value="Viet Nam">Viet Nam</option>
+                                                    <option value="Virgin Islands, British">Virgin Islands,
+                                                        British
+                                                    </option>
+                                                    <option value="Wallis and Futuna">Wallis and Futuna</option>
+                                                    <option value="Western Sahara">Western Sahara</option>
+                                                    <option value="Yemen">Yemen</option>
+                                                    <option value="Zambia">Zambia</option>
+                                                    <option value="Zimbabwe">Zimbabwe</option>
+                                                </select>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Solution of Interest *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="solution_of_interest"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Fund recovery for a personal investment scam">
-                                                            Personal scam fund recovery</option>
-                                                        <option value="Crypto Compliance">Crypto Compliance</option>
-                                                        <option value="Crypto Investigations">Crypto Investigations
-                                                        </option>
-                                                        <option value="Security and Fraud (Hexagate and Alterya)">
-                                                            Security and Fraud (Hexagate and Alterya)</option>
-                                                        <option value="CxiAgency DS">CxiAgency Data Solutions
-                                                        </option>
-                                                        <option value="Global Services">Global Services</option>
-                                                        <option value="Training and Certifications Services">Training
-                                                            and Certifications Services</option>
-                                                    </select>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Solution of Interest *</label>
                                             </div>
+                                            <div>
+                                                <select name="solution_of_interest"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                    <option value=""></option>
+                                                    <option value="Fund recovery for a personal investment scam">
+                                                        Personal scam fund recovery</option>
+                                                    <option value="Crypto Compliance">Crypto Compliance</option>
+                                                    <option value="Crypto Investigations">Crypto Investigations
+                                                    </option>
+                                                    <option value="Security and Fraud (Hexagate and Alterya)">
+                                                        Security and Fraud (Hexagate and Alterya)</option>
+                                                    <option value="CxiAgency DS">CxiAgency Data Solutions
+                                                    </option>
+                                                    <option value="Global Services">Global Services</option>
+                                                    <option value="Training and Certifications Services">Training
+                                                        and Certifications Services</option>
+                                                </select>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">How did you hear about us? *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="channel"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">How did you hear about us? *</label>
                                             </div>
+                                            <div>
+                                                <input name="channel"
+                                                    style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                    type="text" required>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Help us customize your demo—tell us about your
-                                                        team and goals with CxiAgency. *</label>
-                                                </div>
-                                                <div>
-                                                    <textarea name="more_info"
-                                                        style="height: 72px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding: 16px; color: #293972; font-size: 14px;"
-                                                        name="" id="" cols="10" rows="10"></textarea>
-                                                </div>
+                                        <div style="">
+                                            <div style="margin-bottom: 6px;">
+                                                <label
+                                                    style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                    for="">Help us customize your demo—tell us about your
+                                                    team and goals with CxiAgency. *</label>
                                             </div>
+                                            <div>
+                                                <textarea name="more_info"
+                                                    style="height: 72px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding: 16px; color: #293972; font-size: 14px;"
+                                                    name="" id="" cols="10" rows="10"></textarea>
+                                            </div>
+                                        </div>
 
-                                            <div style="display: flex; align-items: start; column-gap: 0.5rem;">
-                                                <div>
-                                                    <input
-                                                        style="padding: 1rem !important; border: 1px solid #bac4d5 !important;"
-                                                        name="" type="checkbox" value="yes" required>
-                                                </div>
-                                                <div>
-                                                    <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 13px; letter-spacing: 0em;">By
-                                                        checking this box, you indicate that you'd like us to send you
-                                                        information on CxiAgency products, services, events, and news.
-                                                        Your personal data will be handled in accordance with the <span
-                                                            style="text-decoration: underline;">CxiAgency privacy
-                                                            policy</span>.</label>
-                                                </div>
+                                        <div style="display: flex; align-items: start; column-gap: 0.5rem;">
+                                            <div>
+                                                <input
+                                                    style="padding: 1rem !important; border: 1px solid #bac4d5 !important;"
+                                                    name="" type="checkbox" value="yes" required>
                                             </div>
+                                            <div>
+                                                <label
+                                                    style="text-transform: none !important; color: #293972; font-size: 13px; letter-spacing: 0em;">By
+                                                    checking this box, you indicate that you'd like us to send you
+                                                    information on CxiAgency products, services, events, and news.
+                                                    Your personal data will be handled in accordance with the <span
+                                                        style="text-decoration: underline;">CxiAgency privacy
+                                                        policy</span>.</label>
+                                            </div>
+                                        </div>
 
-                                            <div style="">
-                                                <button :disabled="submitting" id="submitButton" type="submit"
-                                                    style="background-color: #ff5300; border-radius: 100px; padding: 16px 32px; color: #fff; font-size: 18px; font-weight: 600;">
-                                                    <span x-show="!submitting">Submit</span>
-                                                    <span x-show="submitting">Submitting...</span>
-                                                    <div x-show="submitting" class="spinner"></div>
-                                                </button>
-                                            </div>
-                                        </form>
+                                        <div style="">
+                                            <button :disabled="submitting" id="submitButton" type="submit"
+                                                style="background-color: #ff5300; border-radius: 100px; padding: 16px 32px; color: #fff; font-size: 18px; font-weight: 600;">
+                                                <span x-show="!submitting">Submit</span>
+                                                <span x-show="submitting">Submitting...</span>
+                                                <div x-show="submitting" class="spinner"></div>
+                                            </button>
+                                        </div>
+                                    </form>
                                 </div>
                                 <!-- /modal__description -->
                             </modal-content>
@@ -5118,28 +5107,17 @@
                     <div class="col-12 col-start-1">
                         <div class="logo-gallery-wrapper">
                             <div class="logo-gallery logos-wrap">
-                                <img src="./wp-content/uploads/2023/10/logo-bbva.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-coinbase-1.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-vara.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-square-1.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-moonpay-1.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-bybit-1.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2024/10/bny-logo-2024.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-fca-1.png"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2023/10/logo-crypto-1.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2025/01/logio-bitget-1.svg"
-                                    alt="" />
-                                <img src="./wp-content/uploads/2024/07/logo-microsoft-grey.svg"
-                                    alt="" />
+                                <img src="./wp-content/uploads/2023/10/logo-bbva.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logo-coinbase-1.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logo-vara.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logo-square-1.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logo-moonpay-1.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logo-bybit-1.svg" alt="" />
+                                <img src="./wp-content/uploads/2024/10/bny-logo-2024.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logo-fca-1.png" alt="" />
+                                <img src="./wp-content/uploads/2023/10/logo-crypto-1.svg" alt="" />
+                                <img src="./wp-content/uploads/2025/01/logio-bitget-1.svg" alt="" />
+                                <img src="./wp-content/uploads/2024/07/logo-microsoft-grey.svg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -5265,16 +5243,15 @@
                         </h2>
                         <p>
                             CxiAgency was the first mover in the blockchain intelligence space, revolutionizing the
-                            field with the introduction of <a
-                                href="/reactor">Reactor</a>
+                            field with the introduction of <a href="/reactor">Reactor</a>
                             , the world’s first crypto investigation tool, in 2014. We continue to lead in building
                             easy-to-learn tools that tackle even the most complex workflows such as tracing funds across
                             chains, mixers, bridges, and more.
                         </p>
-                        <div class="buttons ">
+                        {{-- <div class="buttons ">
                             <a class="btn btn--default" href="">Crypto investigations
                                 solution</a>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="
 			col-6 col-start-1	">
@@ -5299,21 +5276,20 @@
                             Our proprietary architecture ingests data at scale, while running hundreds of clustering
                             heuristics and verifying data accuracy with the industry’s lowest tolerance for error.
                             CxiAgency data has been proven to have superior coverage and accuracy. We &#8217;ve been
-                            instrumental in major cases, including <a
-                                href="">Bitcoin
+                            instrumental in major cases, including <a href="">Bitcoin
                                 Fog</a>
                             , which affirmed that CxiAgency analytics are reliable and admissible in court.
                         </p>
                         <div class="buttons ">
-                            <a class="btn btn--default" href="">Blockchain intelligence</a>
+                            <a class="btn btn--default" href="/blockchain-intelligence">Blockchain intelligence</a>
                         </div>
                     </div>
                     <div class="
 			col-6 col-start-7	">
                         <animated-element animation="anim-fade-in-slide-up">
                             <div class="text-center">
-                                <img src="./wp-content/uploads/2025/01/why-data-accuracy.svg"
-                                    alt="" class="inline-block
+                                <img src="./wp-content/uploads/2025/01/why-data-accuracy.svg" alt=""
+                                    class="inline-block
 							rounded							full-width													">
                             </div>
                         </animated-element>
@@ -5331,10 +5307,10 @@
                             phrase analysis, and cross-chain tracing. For compliance, our greater flexibility to control
                             risk exposure, optimize alerts, and continuously monitor entities gives customers the upper
                             hand.</p>
-                        <div class="buttons ">
+                        {{-- <div class="buttons ">
                             <a class="btn btn--default" href="">Crypto compliance
                                 solution</a>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="
 			col-6 col-start-1	">
@@ -5361,16 +5337,16 @@
                             professionals have backgrounds in law enforcement, national security, regulation, tax,
                             compliance, and data science, enabling us to provide data solutions, complex investigations
                             support, and more to help you stay ahead.</p>
-                        <div class="buttons ">
+                        {{-- <div class="buttons ">
                             <a class="btn btn--default" href="">Global services</a>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="
 			col-6 col-start-7	">
                         <animated-element animation="anim-fade-in-slide-up">
                             <div class="text-center">
-                                <img src="./wp-content/uploads/2025/01/why-education-1.svg"
-                                    alt="" class="inline-block
+                                <img src="./wp-content/uploads/2025/01/why-education-1.svg" alt=""
+                                    class="inline-block
 														full-width													">
                             </div>
                         </animated-element>
@@ -5418,8 +5394,8 @@
 			col-6 col-start-7	">
                         <animated-element animation="anim-fade-in-slide-up">
                             <div class="text-center">
-                                <img src="./wp-content/uploads/2025/03/why-partners.svg"
-                                    alt="" class="inline-block
+                                <img src="./wp-content/uploads/2025/03/why-partners.svg" alt=""
+                                    class="inline-block
 														full-width													">
                             </div>
                         </animated-element>
@@ -5449,7 +5425,7 @@
             <div class="section-container">
                 <div class="cards cards-grid
 				cards-rte		cards-padding-full"
-                    style="--item-count: 3;--max-columns-per-row: 3;">
+                    style="--item-count: 2;--max-columns-per-row: 2;">
                     <div
                         class="card padded-area 
 						bg-default                        rounded                        border					">
@@ -5458,17 +5434,6 @@
                             </p>
                             <p class="font-size-1" style="text-align: center">97%</p>
                             <p style="text-align: center">based on thousands of customer surveys sent in the last year
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="card padded-area 
-						bg-default                        rounded                        border					">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <p class="font-size-1 superheader" style="text-align: center">Positive Reviews</p>
-                            <p style="text-align: center">
-                                <img class="aligncenter"
-                                    src="./wp-content/uploads/2025/01/why-reviews.svg" />
                             </p>
                         </div>
                     </div>
@@ -6051,8 +6016,8 @@
             </div>
         </div>
     </div>
-    
-        <script>
+
+    <script>
         var wp_post_id = 4307;
         var wp_data = {
             "options": {
@@ -6068,17 +6033,11 @@
                         "align_bottom": false,
                         "blocks": [{
                             "acf_fc_layout": "links",
-                            "heading": "Products",
+                            "heading": "Crypto Investigations",
                             "links": [{
                                 "label": "Reactor",
                                 "link_type": "internal",
                                 "page_url": "\/reactor",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Wallet Scan",
-                                "link_type": "internal",
-                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
@@ -6091,42 +6050,6 @@
                                 "label": "KYT",
                                 "link_type": "internal",
                                 "page_url": "\/kyt",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "VASP Risking",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Address Screening",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Sentinel",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Alterya",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Hexagate",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "CxiAgency Data Solutions (DS)",
-                                "link_type": "internal",
-                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }]
@@ -6144,39 +6067,9 @@
                                 "url": "",
                                 "email": ""
                             }, {
-                                "label": "Centralized Exchanges",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Financial Institutions",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Tax Agencies",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
                                 "label": "Regulators",
                                 "link_type": "internal",
                                 "page_url": "\/regulators",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Decentralized Finance",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Consumer Brands",
-                                "link_type": "internal",
-                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
@@ -6194,12 +6087,6 @@
                             "acf_fc_layout": "links",
                             "heading": "Company",
                             "links": [{
-                                "label": "About Us",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "https:\/\/mailto:contact@cxiagency.com",
-                                "email": "contact@cxiagency.com"
-                            }, {
                                 "label": "Why CxiAgency",
                                 "link_type": "internal",
                                 "page_url": "\/why-cxiagency",
@@ -6210,18 +6097,6 @@
                                 "link_type": "external",
                                 "page_url": "\/partners",
                                 "url": "\/partners",
-                                "email": ""
-                            }, {
-                                "label": "Media Resources",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Scam Prevention",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
                                 "email": ""
                             }]
                         }, {
@@ -6240,73 +6115,29 @@
                         "align_bottom": false,
                         "blocks": [{
                             "acf_fc_layout": "links",
-                            "heading": "Resources",
-                            "links": [{
-                                "label": "Blog",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Webinars",
-                                "link_type": "external",
-                                "page_url": null,
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Podcast",
-                                "link_type": "external",
-                                "page_url": null,
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Reports",
-                                "link_type": "external",
-                                "page_url": null,
-                                "url": "",
-                                "email": ""
-                            }]
-                        }, {
-                            "acf_fc_layout": "links",
-                            "heading": "Services",
-                            "links": [{
-                                "label": "Global Services",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Training & Certification",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }]
-                        }, {
-                            "acf_fc_layout": "links",
                             "heading": "Global",
                             "links": [{
                                 "label": "\u65e5\u672c\u8a9e",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/japanese\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
                                 "label": "\ud55c\uad6d\uc5b4",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/korean\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
                                 "label": "Espa\u00f1ol",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/spanish\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
                                 "label": "Portugu\u00eas",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/pt\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }]
@@ -6325,34 +6156,6 @@
                             "acf_fc_layout": "text",
                             "heading": "",
                             "text": "\u00a9 [year], CxiAgency"
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "",
-                            "links": [{
-                                "label": "Privacy Policy",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }]
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "",
-                            "links": [{
-                                "label": "Legal",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }]
                         }]
                     }]
                 }],
@@ -6552,243 +6355,7 @@
                     }]
                 },
                 "header_customer_stories": {
-                    "stories": [{
-                        "image": {
-                            "ID": 11073,
-                            "id": 11073,
-                            "title": "ct-state-police-featured-thumbnail",
-                            "filename": "ct-state-police-featured-thumbnail.png",
-                            "filesize": 14133,
-                            "url": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                            "link": "",
-                            "alt": "",
-                            "author": "81",
-                            "description": "",
-                            "caption": "",
-                            "name": "ct-state-police-featured-thumbnail",
-                            "status": "inherit",
-                            "uploaded_to": 0,
-                            "date": "2023-10-11 03:19:05",
-                            "modified": "2023-10-11 03:19:05",
-                            "menu_order": 0,
-                            "mime_type": "image\/png",
-                            "type": "image",
-                            "subtype": "png",
-                            "icon": "https:\/\/www.chainalysis.com\/wp-includes\/images\/media\/default.png",
-                            "width": 70,
-                            "height": 90,
-                            "sizes": {
-                                "thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "thumbnail-width": 70,
-                                "thumbnail-height": 90,
-                                "medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "medium-width": 70,
-                                "medium-height": 90,
-                                "large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "large-width": 70,
-                                "large-height": 90,
-                                "1536x1536": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "1536x1536-width": 70,
-                                "1536x1536-height": 90,
-                                "2048x2048": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "2048x2048-width": 70,
-                                "2048x2048-height": 90,
-                                "promo-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "promo-thumbnail-width": 70,
-                                "promo-thumbnail-height": 90,
-                                "post-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "post-thumbnail-width": 70,
-                                "post-thumbnail-height": 90,
-                                "max_size": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "max_size-width": 70,
-                                "max_size-height": 90,
-                                "small": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "small-width": 70,
-                                "small-height": 90,
-                                "medium_wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "medium_wide-width": 70,
-                                "medium_wide-height": 90,
-                                "visuals": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "visuals-width": 70,
-                                "visuals-height": 90,
-                                "contact": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "contact-width": 70,
-                                "contact-height": 90,
-                                "imported_posts": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "imported_posts-width": 70,
-                                "imported_posts-height": 90,
-                                "wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "wide-width": 70,
-                                "wide-height": 90,
-                                "news-large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "news-large-width": 70,
-                                "news-large-height": 90,
-                                "news-medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "news-medium-width": 70,
-                                "news-medium-height": 90,
-                                "news-thumb": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "news-thumb-width": 70,
-                                "news-thumb-height": 90,
-                                "leadership_retina": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership_retina-width": 70,
-                                "leadership_retina-height": 90,
-                                "leadership_large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership_large-width": 70,
-                                "leadership_large-height": 90,
-                                "leadership_medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership_medium-width": 70,
-                                "leadership_medium-height": 90,
-                                "leadership": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership-width": 70,
-                                "leadership-height": 90
-                            }
-                        },
-                        "story_post": {
-                            "ID": 10122,
-                            "post_author": "75",
-                            "post_date": "2023-09-12 18:40:03",
-                            "post_date_gmt": "2023-09-12 22:40:03",
-                            "post_content": "",
-                            "post_title": "Connecticut State Police safeguards citizens from digital crimes",
-                            "post_excerpt": "",
-                            "post_status": "publish",
-                            "comment_status": "closed",
-                            "ping_status": "closed",
-                            "post_password": "",
-                            "post_name": "facing-crypto-crime-in-connecticut",
-                            "to_ping": "",
-                            "pinged": "",
-                            "post_modified": "2023-10-30 19:30:34",
-                            "post_modified_gmt": "2023-10-30 23:30:34",
-                            "post_content_filtered": "",
-                            "post_parent": 0,
-                            "guid": "https:\/\/www.chainalysis.com\/?post_type=customer-stories&#038;p=10122",
-                            "menu_order": 0,
-                            "post_type": "customer-stories",
-                            "post_mime_type": "",
-                            "comment_count": "0",
-                            "filter": "raw",
-                            "permalink": ""
-                        }
-                    }, {
-                        "image": {
-                            "ID": 11074,
-                            "id": 11074,
-                            "title": "morabanc-featured-thumbnail",
-                            "filename": "morabanc-featured-thumbnail.png",
-                            "filesize": 11641,
-                            "url": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                            "link": "",
-                            "alt": "",
-                            "author": "81",
-                            "description": "",
-                            "caption": "",
-                            "name": "morabanc-featured-thumbnail",
-                            "status": "inherit",
-                            "uploaded_to": 0,
-                            "date": "2023-10-11 03:19:23",
-                            "modified": "2023-10-11 03:19:23",
-                            "menu_order": 0,
-                            "mime_type": "image\/png",
-                            "type": "image",
-                            "subtype": "png",
-                            "icon": "https:\/\/www.chainalysis.com\/wp-includes\/images\/media\/default.png",
-                            "width": 70,
-                            "height": 90,
-                            "sizes": {
-                                "thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "thumbnail-width": 70,
-                                "thumbnail-height": 90,
-                                "medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "medium-width": 70,
-                                "medium-height": 90,
-                                "large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "large-width": 70,
-                                "large-height": 90,
-                                "1536x1536": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "1536x1536-width": 70,
-                                "1536x1536-height": 90,
-                                "2048x2048": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "2048x2048-width": 70,
-                                "2048x2048-height": 90,
-                                "promo-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "promo-thumbnail-width": 70,
-                                "promo-thumbnail-height": 90,
-                                "post-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "post-thumbnail-width": 70,
-                                "post-thumbnail-height": 90,
-                                "max_size": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "max_size-width": 70,
-                                "max_size-height": 90,
-                                "small": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "small-width": 70,
-                                "small-height": 90,
-                                "medium_wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "medium_wide-width": 70,
-                                "medium_wide-height": 90,
-                                "visuals": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "visuals-width": 70,
-                                "visuals-height": 90,
-                                "contact": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "contact-width": 70,
-                                "contact-height": 90,
-                                "imported_posts": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "imported_posts-width": 70,
-                                "imported_posts-height": 90,
-                                "wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "wide-width": 70,
-                                "wide-height": 90,
-                                "news-large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "news-large-width": 70,
-                                "news-large-height": 90,
-                                "news-medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "news-medium-width": 70,
-                                "news-medium-height": 90,
-                                "news-thumb": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "news-thumb-width": 70,
-                                "news-thumb-height": 90,
-                                "leadership_retina": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership_retina-width": 70,
-                                "leadership_retina-height": 90,
-                                "leadership_large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership_large-width": 70,
-                                "leadership_large-height": 90,
-                                "leadership_medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership_medium-width": 70,
-                                "leadership_medium-height": 90,
-                                "leadership": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership-width": 70,
-                                "leadership-height": 90
-                            }
-                        },
-                        "story_post": {
-                            "ID": 7908,
-                            "post_author": "75",
-                            "post_date": "2023-08-04 17:22:15",
-                            "post_date_gmt": "2023-08-04 21:22:15",
-                            "post_content": "",
-                            "post_title": "Morabanc serves as trusted entry point to world of digital assets",
-                            "post_excerpt": "",
-                            "post_status": "publish",
-                            "comment_status": "closed",
-                            "ping_status": "closed",
-                            "post_password": "",
-                            "post_name": "morabanc",
-                            "to_ping": "",
-                            "pinged": "",
-                            "post_modified": "2023-10-30 19:29:42",
-                            "post_modified_gmt": "2023-10-30 23:29:42",
-                            "post_content_filtered": "",
-                            "post_parent": 0,
-                            "guid": "https:\/\/www.chainalysis.com\/?post_type=customer-stories&#038;p=7908",
-                            "menu_order": 0,
-                            "post_type": "customer-stories",
-                            "post_mime_type": "",
-                            "comment_count": "0",
-                            "filter": "raw",
-                            "permalink": ""
-                        }
-                    }]
+                    "stories": []
                 },
                 "modal_defaults": {
                     "default_title": "Contact us",
@@ -10413,34 +9980,25 @@
         };
     </script>
 
-    <script type="module"
-        src="./wp-content/themes/chainalysis/modules/modal/modal-wc.js"
+    <script type="module" src="./wp-content/themes/chainalysis/modules/modal/modal-wc.js"
         id="@chainalysis/modal-wc-js-module"></script>
-    <script type="module"
-        src="./wp-content/themes/chainalysis/modules/shared/animations.js"
+    <script type="module" src="./wp-content/themes/chainalysis/modules/shared/animations.js"
         id="@chainalysis/animations-js-module"></script>
     <link rel='stylesheet' id='@chainalysis/modal-wc-css'
-        href='./wp-content/themes/chainalysis/modules/modal/modal-wc.css'
-        type='text/css' media='all' />
+        href='./wp-content/themes/chainalysis/modules/modal/modal-wc.css' type='text/css' media='all' />
     <link rel='stylesheet' id='@chainalysis/animations-css'
-        href='./wp-content/themes/chainalysis/modules/shared/animations.css'
+        href='./wp-content/themes/chainalysis/modules/shared/animations.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='modules-logos-css' href='./wp-content/themes/chainalysis/modules/logos/logos.css'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-logos-css'
-        href='./wp-content/themes/chainalysis/modules/logos/logos.css'
+    <link rel='stylesheet' id='modules-cards-css' href='./wp-content/themes/chainalysis/modules/cards/cards.css'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-cards-css'
-        href='./wp-content/themes/chainalysis/modules/cards/cards.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-cta-css'
-        href='./wp-content/themes/chainalysis/modules/cta/cta.css'
+    <link rel='stylesheet' id='modules-cta-css' href='./wp-content/themes/chainalysis/modules/cta/cta.css'
         type='text/css' media='all' />
     <script type="text/javascript" src="https://go.chainalysis.com/js/forms2/js/forms2.min.js?ver=1.4.6"
         id="marketo-forms-js"></script>
-    <script type="text/javascript"
-        src="./wp-content/plugins/chainalysis-marketo/js/marketo-xdpath.js"
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-xdpath.js"
         id="marketo-xdpath-js"></script>
-    <script type="text/javascript"
-        src="./wp-content/plugins/chainalysis-marketo/js/marketo-munchkin.js"
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-munchkin.js"
         id="marketo-munchkin-js"></script>
     <script type="text/javascript" id="marketo-style-control-js-before">
         /* <![CDATA[ */
@@ -10451,19 +10009,16 @@
         ];
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="./wp-content/plugins/chainalysis-marketo/js/marketo-style-control.js?ver=1.4.6"
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-style-control.js?ver=1.4.6"
         id="marketo-style-control-js"></script>
-    <script type="text/javascript"
-        src="./wp-content/plugins/chainalysis-marketo/js/marketo-load.js?ver=1.4.6"
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-load.js?ver=1.4.6"
         id="marketo-load-js"></script>
     <script type="text/javascript" id="chainalysis-js-js-before">
         /* <![CDATA[ */
         const langCode = 'en';
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="./wp-content/themes/chainalysis/dist/main.js?ver=1753974539" id="chainalysis-js-js">
+    <script type="text/javascript" src="./wp-content/themes/chainalysis/dist/main.js?ver=1753974539" id="chainalysis-js-js">
     </script>
     <script type="text/javascript"
         src="./wp-content/themes/chainalysis/src/components/gartner/gartner.widget.loader.js?ver=1753974539"
@@ -10475,11 +10030,10 @@
         src="./wp-content/themes/chainalysis/template-js/template-content/template-content.js?ver=1753974539"
         id="template-content-js"></script>
     <script type="module" type="text/javascript"
-        src="./wp-content/themes/chainalysis/modules/shared/shared.js?ver=1753974539"
-        id="modules-shared-js"></script>
+        src="./wp-content/themes/chainalysis/modules/shared/shared.js?ver=1753974539" id="modules-shared-js"></script>
     <script type="text/javascript"
-        src="./wp-content/themes/chainalysis/node_modules/@vimeo/player/dist/player.js?ver=1753974539"
-        id="@vimeo/player-js" defer="defer" data-wp-strategy="defer"></script>
+        src="./wp-content/themes/chainalysis/node_modules/@vimeo/player/dist/player.js?ver=1753974539" id="@vimeo/player-js"
+        defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript">
         window.NREUM || (NREUM = {});
         NREUM.info = {

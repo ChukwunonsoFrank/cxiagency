@@ -4073,207 +4073,15 @@
             contain-intrinsic-size: 3000px 1500px
         }
     </style>
-    <title>The Blockchain Data Platform - CxiAgency</title>
-    <meta name="description"
-        content="CxiAgency helps government agencies, cryptocurrency businesses, and financial institutions engage confidently with cryptocurrency." />
+
+    <title>Blockchain Intelligence - CxiAgency</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-
-    <style>
-        /* Spinner styling */
-        .spinner {
-            border: 4px solid rgba(0, 0, 0, 0.1);
-            border-left-color: #007bff;
-            /* Or any color you like */
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            animation: spin 1s linear infinite;
-            display: inline-block;
-            /* Aligns with button, or block for new line */
-            vertical-align: middle;
-            /* Align with text baseline */
-            margin-left: 10px;
-            /* Space between button and spinner */
-        }
-
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* Base container for all flash messages */
-        .flash-message-container {
-            position: fixed;
-            top: 0;
-            /* Equivalent to bottom-4 */
-            z-index: 9999;
-            /* Higher than most elements, equivalent to z-50 */
-            padding: 1rem;
-            /* Equivalent to p-4 */
-            border-radius: 0.375rem;
-            /* Equivalent to rounded-md */
-            border-width: 1px;
-            /* Equivalent to border */
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            /* Equivalent to shadow-lg */
-            overflow: hidden;
-            /* Important for transitions */
-        }
-
-        /* Type-specific background, border, and text colors */
-        .flash-message-success {
-            background-color: #ff5300;
-            border-color: #ff5300;
-            color: #fff;
-        }
-
-        .flash-message-error {
-            background-color: #fee2e2;
-            /* bg-red-100 */
-            border-color: #f87171;
-            /* border-red-400 */
-            color: #991b1b;
-            /* text-red-700 */
-        }
-
-        .flash-message-warning {
-            background-color: #fffbeb;
-            /* bg-yellow-100 */
-            border-color: #fbbf24;
-            /* border-yellow-400 */
-            color: #92400e;
-            /* text-yellow-700 */
-        }
-
-        .flash-message-info {
-            background-color: #eff6ff;
-            /* bg-blue-100 */
-            border-color: #60a5fa;
-            /* border-blue-400 */
-            color: #1e40af;
-            /* text-blue-700 */
-        }
-
-        /* Flexbox for content alignment */
-        .flash-message-content {
-            display: flex;
-            align-items: center;
-            /* items-center */
-        }
-
-        /* Icon styling */
-        .flash-icon {
-            margin-right: 0.5rem;
-            /* mr-2 */
-        }
-
-        .flash-icon-success {
-            color: #fff;
-        }
-
-        /* text-green-500 */
-        .flash-icon-error {
-            color: #ef4444;
-        }
-
-        /* text-red-500 */
-        .flash-icon-warning {
-            color: #f59e0b;
-        }
-
-        /* text-yellow-500 */
-        .flash-icon-info {
-            color: #3b82f6;
-        }
-
-        /* text-blue-500 */
-
-
-        /* Text styling */
-        .flash-message-type-label {
-            font-weight: bold;
-            /* font-bold */
-        }
-
-        .flash-message-text {
-            margin-left: 0.5rem;
-            /* ml-2 */
-            font-size: 0.875rem;
-            /* text-sm */
-            line-height: 1.25rem;
-            /* leading-5, typical for text-sm */
-        }
-
-        /* Close button styling */
-        .flash-close-btn {
-            margin-left: auto;
-            /* ml-auto */
-            color: #6b7280;
-            /* text-gray-500 */
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 0.25rem;
-            font-size: 1rem;
-            /* Adjust as needed for icon size */
-            transition: color 0.2s ease-in-out;
-            /* For hover effect */
-        }
-
-        .flash-close-btn:hover {
-            color: #374151;
-            /* hover:text-gray-700 */
-        }
-
-        /* Alpine.js Transition Classes */
-        /* enter: transition ease-out duration-300 */
-        .flash-transition-enter {
-            transition-property: all;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-            transition-duration: 300ms;
-        }
-
-        /* enter-start: opacity-0 transform scale-90 */
-        .flash-transition-enter-start {
-            opacity: 0;
-            transform: scale(0.9);
-        }
-
-        /* enter-end: opacity-100 transform scale-100 */
-        .flash-transition-enter-end {
-            opacity: 1;
-            transform: scale(1);
-        }
-
-        /* leave: transition ease-in duration-200 */
-        .flash-transition-leave {
-            transition-property: all;
-            transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-            /* This is ease-in */
-            transition-duration: 200ms;
-        }
-
-        /* leave-start: opacity-100 transform scale-100 */
-        .flash-transition-leave-start {
-            opacity: 1;
-            transform: scale(1);
-        }
-
-        /* leave-end: opacity-0 transform scale-90 */
-        .flash-transition-leave-end {
-            opacity: 0;
-            transform: scale(0.9);
-        }
-    </style>
+    <meta name="description"
+        content="CxiAgency delivers industry-leading blockchain intelligence by connecting real-world entities to on-chain activity through sophisticated machine learning, dedicated forensic experts, and an extensive customer network." />
 
     <style id='classic-theme-styles-inline-css' type='text/css'>
         /*! This file is auto-generated */
@@ -4293,6 +4101,7 @@
             text-decoration: none
         }
     </style>
+
     <style id='global-styles-inline-css' type='text/css'>
         :root {
             --wp--preset--aspect-ratio--square: 1;
@@ -4618,6 +4427,7 @@
             line-height: 1.6;
         }
     </style>
+
     <link rel='stylesheet' id='marketo-styles-css'
         href='./wp-content/plugins/chainalysis-marketo/css/marketo-styles.css' type='text/css' media='all' />
     <link rel='stylesheet' id='theme-defaults-css'
@@ -4642,6 +4452,7 @@
     <link rel='stylesheet' id='heateor_sss_frontend_css-css'
         href='./wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css' type='text/css'
         media='all' />
+
     <style id='heateor_sss_frontend_css-inline-css' type='text/css'>
         .heateor_sss_button_instagram span.heateor_sss_svg,
         a.heateor_sss_instagram span.heateor_sss_svg {
@@ -4688,639 +4499,43 @@
             }
         }
     </style>
+
     <script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
     <script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 
-    <meta name="theme-color" content="#FF5300">
-    <link rel="mask-icon" href="./wp-content/themes/chainalysis/static/safari-pinned-tab.svg" color="#FF5300">
-
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body class="tl-wrapper-status--entering">
-    <x-flash-message />
     <div id="page" class="page-white-space">
         <noscript>This site requires JavaScript to function correctly.</noscript>
     </div>
-
     <div class="template-content">
         <div
-            class="text-module
-	 padding-top-large padding-bottom-small desktop-padding-bottom desktop-padding-top-xlarge bg-default">
+            class="hero-module
+	 padding-top-medium padding-bottom-small desktop-padding-bottom-medium desktop-padding-top-large	bg-darknet-blue-to-deep-blue-80-to-bottom	column-count-one	">
             <div class="section-container">
-                <div class="row">
-                    <div class="col-10 col-start-2">
-                        <div class="rich-text balance-headers">
-                            <h1 class="font-size-2" style="text-align: center">Blockchain intelligence for
-                                investigations, risk, and security</h1>
-                            <p style="text-align: center">From reactive to proactive, monitor fraud, pursue illicit
-                                activity, and detect and deter threat actors.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="cta-module
-     padding-top-none padding-bottom-none desktop-padding-bottom-none desktop-padding-top-none bg-default">
-            <div class="section-container">
-                <div class="row ">
-                    <div class="
-                    col-10 col-start-2">
-                        <div class="content-wrapper">
-                            <div class="buttons center">
-                                <modal-toggle target="e93bcc7300aaa5d37c91729e5a705aa2">
-                                    <button class="btn btn--orange">Request a demo
-                                    </button>
-                                </modal-toggle>
-                                <modal-content class="modal modal-form" key="e93bcc7300aaa5d37c91729e5a705aa2">
-                                    <button class="modal__icon-close" close-modal>
-                                        <img src="https://www.chainalysis.com/wp-content/themes/chainalysis/static/images/modal-close-icon-text-gray.svg"
-                                            alt="Close this modal." height="17" width="17">
-                                    </button>
-                                    <div class="modal__description">
-                                        <h3>Request a demo</h3>
-                                        <form x-data="{ submitting: false }" x-on:submit="submitting = true"
-                                            style="display: flex; flex-direction: column; row-gap: 1rem;"
-                                            action="{{ route('submit') }}" method="post">
-                                            @csrf
-                                            <div>
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">First Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="first_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Last Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="last_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Business Email Address *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="business_email_address"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="email" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Company Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="company_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Phone Number *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="phone_number"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Organization Type *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="organization_type"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Asset Managers">Asset Managers</option>
-                                                        <option value="Banks">Banks</option>
-                                                        <option value="Broker Dealers">Broker Dealers</option>
-                                                        <option value="Consulting">Consulting</option>
-                                                        <option value="Consulting Firms">Consulting Firms</option>
-                                                        <option value="Consumer Brand">Consumer Brand</option>
-                                                        <option value="Consumer Retail and Web2">Consumer Retail and
-                                                            Web2</option>
-                                                        <option value="Consumer Services - Other">Consumer Services -
-                                                            Other</option>
-                                                        <option value="Consumer Technology">Consumer Technology
-                                                        </option>
-                                                        <option value="Creator Economy">Creator Economy</option>
-                                                        <option value="Crypto Asset Manager">Crypto Asset Manager
-                                                        </option>
-                                                        <option value="Crypto ATMs / BTMs">Crypto ATMs / BTMs</option>
-                                                        <option value="Crypto Exchanges, Custodians, OTC">Crypto
-                                                            Exchanges, Custodians, OTC</option>
-                                                        <option value="Crypto Native - Other">Crypto Native - Other
-                                                        </option>
-                                                        <option value="Cyber Security">Cyber Security</option>
-                                                        <option
-                                                            value="DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2 Blockchains">
-                                                            DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2
-                                                            Blockchains</option>
-                                                        <option value="Enterprise Technology">Enterprise Technology
-                                                        </option>
-                                                        <option value="Financial Regulator">Financial Regulator
-                                                        </option>
-                                                        <option value="Fintechs / Payment Companies">Fintechs / Payment
-                                                            Companies</option>
-                                                        <option value="Gambling">Gambling</option>
-                                                        <option value="Gaming -  Online and Mobile">Gaming - Online
-                                                            &amp; Mobile</option>
-                                                        <option value="Hedge Funds, PE, and VCs">Hedge Funds, PE, and
-                                                            VCs</option>
-                                                        <option value="High Frequency Traders / Market Makers">High
-                                                            Frequency Traders / Market Makers</option>
-                                                        <option value="Insurance">Insurance</option>
-                                                        <option value="Investigative Firms">Investigative Firms
-                                                        </option>
-                                                        <option value="Law Enforcement">Law Enforcement</option>
-                                                        <option value="Law Firms">Law Firms</option>
-                                                        <option value="NFT Exchanges, NFT Lending">NFT Exchanges, NFT
-                                                            Lending</option>
-                                                        <option value="Social Media">Social Media</option>
-                                                        <option value="Tax/Accounting Firms">Tax/Accounting Firms
-                                                        </option>
-                                                        <option value="Tax Agency">Tax Agency</option>
-                                                        <option value="Technology Services - Other">Technology Services
-                                                            - Other</option>
-                                                        <option value="Trade Infra/Trade Venues">Trade Infra/Trade
-                                                            Venues</option>
-                                                        <option value="Other">Other</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Country *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="country"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Afghanistan">Afghanistan</option>
-                                                        <option value="Aland Islands">Aland Islands</option>
-                                                        <option value="Albania">Albania</option>
-                                                        <option value="Algeria">Algeria</option>
-                                                        <option value="Andorra">Andorra</option>
-                                                        <option value="Angola">Angola</option>
-                                                        <option value="Anguilla">Anguilla</option>
-                                                        <option value="Antarctica">Antarctica</option>
-                                                        <option value="Antigua and Barbuda">Antigua and Barbuda
-                                                        </option>
-                                                        <option value="Argentina">Argentina</option>
-                                                        <option value="Armenia">Armenia</option>
-                                                        <option value="Aruba">Aruba</option>
-                                                        <option value="Australia">Australia</option>
-                                                        <option value="Austria">Austria</option>
-                                                        <option value="Azerbaijan">Azerbaijan</option>
-                                                        <option value="Bahamas">Bahamas</option>
-                                                        <option value="Bahrain">Bahrain</option>
-                                                        <option value="Bangladesh">Bangladesh</option>
-                                                        <option value="Barbados">Barbados</option>
-                                                        <option value="Belarus">Belarus</option>
-                                                        <option value="Belgium">Belgium</option>
-                                                        <option value="Belize">Belize</option>
-                                                        <option value="Benin">Benin</option>
-                                                        <option value="Bermuda">Bermuda</option>
-                                                        <option value="Bhutan">Bhutan</option>
-                                                        <option value="Bolivia, Plurinational State of">Bolivia,
-                                                            Plurinational State of</option>
-                                                        <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint
-                                                            Eustatius and Saba</option>
-                                                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina
-                                                        </option>
-                                                        <option value="Botswana">Botswana</option>
-                                                        <option value="Bouvet Island">Bouvet Island</option>
-                                                        <option value="Brazil">Brazil</option>
-                                                        <option value="British Indian Ocean Territory">British Indian
-                                                            Ocean Territory</option>
-                                                        <option value="Brunei Darussalam">Brunei Darussalam</option>
-                                                        <option value="Bulgaria">Bulgaria</option>
-                                                        <option value="Burkina Faso">Burkina Faso</option>
-                                                        <option value="Burundi">Burundi</option>
-                                                        <option value="Cambodia">Cambodia</option>
-                                                        <option value="Cameroon">Cameroon</option>
-                                                        <option value="Canada">Canada</option>
-                                                        <option value="Cape Verde">Cape Verde</option>
-                                                        <option value="Cayman Islands">Cayman Islands</option>
-                                                        <option value="Central African Republic">Central African
-                                                            Republic</option>
-                                                        <option value="Chad">Chad</option>
-                                                        <option value="Chile">Chile</option>
-                                                        <option value="China">China</option>
-                                                        <option value="Chinese Taipei">Chinese Taipei</option>
-                                                        <option value="Christmas Island">Christmas Island</option>
-                                                        <option value="Cocos (Keeling) Islands">Cocos (Keeling)
-                                                            Islands
-                                                        </option>
-                                                        <option value="Colombia">Colombia</option>
-                                                        <option value="Comoros">Comoros</option>
-                                                        <option value="Congo">Congo</option>
-                                                        <option value="Congo, the Democratic Republic of the">Congo,
-                                                            the Democratic Republic of the</option>
-                                                        <option value="Cook Islands">Cook Islands</option>
-                                                        <option value="Costa Rica">Costa Rica</option>
-                                                        <option value="Cote d'Ivoire">Cote d'Ivoire</option>
-                                                        <option value="Croatia">Croatia</option>
-                                                        <option value="Cuba">Cuba</option>
-                                                        <option value="Curaçao">Curaçao</option>
-                                                        <option value="Cyprus">Cyprus</option>
-                                                        <option value="Czech Republic">Czech Republic</option>
-                                                        <option value="Denmark">Denmark</option>
-                                                        <option value="Djibouti">Djibouti</option>
-                                                        <option value="Dominica">Dominica</option>
-                                                        <option value="Dominican Republic">Dominican Republic</option>
-                                                        <option value="Ecuador">Ecuador</option>
-                                                        <option value="Egypt">Egypt</option>
-                                                        <option value="El Salvador">El Salvador</option>
-                                                        <option value="Equatorial Guinea">Equatorial Guinea</option>
-                                                        <option value="Eritrea">Eritrea</option>
-                                                        <option value="Estonia">Estonia</option>
-                                                        <option value="Ethiopia">Ethiopia</option>
-                                                        <option value="Falkland Islands (Malvinas)">Falkland Islands
-                                                            (Malvinas)</option>
-                                                        <option value="Faroe Islands">Faroe Islands</option>
-                                                        <option value="Fiji">Fiji</option>
-                                                        <option value="Finland">Finland</option>
-                                                        <option value="France">France</option>
-                                                        <option value="French Guiana">French Guiana</option>
-                                                        <option value="French Polynesia">French Polynesia</option>
-                                                        <option value="French Southern Territories">French Southern
-                                                            Territories</option>
-                                                        <option value="Gabon">Gabon</option>
-                                                        <option value="Gambia">Gambia</option>
-                                                        <option value="Georgia">Georgia</option>
-                                                        <option value="Germany">Germany</option>
-                                                        <option value="Ghana">Ghana</option>
-                                                        <option value="Gibraltar">Gibraltar</option>
-                                                        <option value="Greece">Greece</option>
-                                                        <option value="Greenland">Greenland</option>
-                                                        <option value="Grenada">Grenada</option>
-                                                        <option value="Guadeloupe">Guadeloupe</option>
-                                                        <option value="Guatemala">Guatemala</option>
-                                                        <option value="Guernsey">Guernsey</option>
-                                                        <option value="Guinea">Guinea</option>
-                                                        <option value="Guinea-Bissau">Guinea-Bissau</option>
-                                                        <option value="Guyana">Guyana</option>
-                                                        <option value="Haiti">Haiti</option>
-                                                        <option value="Heard Island and McDonald Islands">Heard Island
-                                                            and McDonald Islands</option>
-                                                        <option value="Holy See (Vatican City State)">Holy See
-                                                            (Vatican
-                                                            City State)</option>
-                                                        <option value="Honduras">Honduras</option>
-                                                        <option value="Hungary">Hungary</option>
-                                                        <option value="Iceland">Iceland</option>
-                                                        <option value="India">India</option>
-                                                        <option value="Indonesia">Indonesia</option>
-                                                        <option value="Iran, Islamic Republic of">Iran, Islamic
-                                                            Republic of</option>
-                                                        <option value="Iraq">Iraq</option>
-                                                        <option value="Ireland">Ireland</option>
-                                                        <option value="Isle of Man">Isle of Man</option>
-                                                        <option value="Israel">Israel</option>
-                                                        <option value="Italy">Italy</option>
-                                                        <option value="Jamaica">Jamaica</option>
-                                                        <option value="Japan">Japan</option>
-                                                        <option value="Jersey">Jersey</option>
-                                                        <option value="Jordan">Jordan</option>
-                                                        <option value="Kazakhstan">Kazakhstan</option>
-                                                        <option value="Kenya">Kenya</option>
-                                                        <option value="Kiribati">Kiribati</option>
-                                                        <option value="Korea, Democratic People's Republic of">Korea,
-                                                            Democratic People's Republic of</option>
-                                                        <option value="Korea, Republic of">Korea, Republic of</option>
-                                                        <option value="Kuwait">Kuwait</option>
-                                                        <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                                        <option value="Lao People's Democratic Republic">Lao People's
-                                                            Democratic Republic</option>
-                                                        <option value="Latvia">Latvia</option>
-                                                        <option value="Lebanon">Lebanon</option>
-                                                        <option value="Lesotho">Lesotho</option>
-                                                        <option value="Liberia">Liberia</option>
-                                                        <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya
-                                                        </option>
-                                                        <option value="Liechtenstein">Liechtenstein</option>
-                                                        <option value="Lithuania">Lithuania</option>
-                                                        <option value="Luxembourg">Luxembourg</option>
-                                                        <option value="Macao">Macao</option>
-                                                        <option value="Macedonia, the former Yugoslav Republic of">
-                                                            Macedonia, the former Yugoslav Republic of</option>
-                                                        <option value="Madagascar">Madagascar</option>
-                                                        <option value="Malawi">Malawi</option>
-                                                        <option value="Malaysia">Malaysia</option>
-                                                        <option value="Maldives">Maldives</option>
-                                                        <option value="Mali">Mali</option>
-                                                        <option value="Malta">Malta</option>
-                                                        <option value="Martinique">Martinique</option>
-                                                        <option value="Mauritania">Mauritania</option>
-                                                        <option value="Mauritius">Mauritius</option>
-                                                        <option value="Mayotte">Mayotte</option>
-                                                        <option value="Mexico">Mexico</option>
-                                                        <option value="Micronesia (Federated States of)">Micronesia
-                                                            (Federated States of)</option>
-                                                        <option value="Moldova, Republic of">Moldova, Republic of
-                                                        </option>
-                                                        <option value="Monaco">Monaco</option>
-                                                        <option value="Mongolia">Mongolia</option>
-                                                        <option value="Montenegro">Montenegro</option>
-                                                        <option value="Montserrat">Montserrat</option>
-                                                        <option value="Morocco">Morocco</option>
-                                                        <option value="Mozambique">Mozambique</option>
-                                                        <option value="Myanmar">Myanmar</option>
-                                                        <option value="Namibia">Namibia</option>
-                                                        <option value="Nauru">Nauru</option>
-                                                        <option value="Nepal">Nepal</option>
-                                                        <option value="Netherlands">Netherlands</option>
-                                                        <option value="New Caledonia">New Caledonia</option>
-                                                        <option value="New Zealand">New Zealand</option>
-                                                        <option value="Nicaragua">Nicaragua</option>
-                                                        <option value="Niger">Niger</option>
-                                                        <option value="Nigeria">Nigeria</option>
-                                                        <option value="Niue">Niue</option>
-                                                        <option value="Norfolk Island">Norfolk Island</option>
-                                                        <option value="Norway">Norway</option>
-                                                        <option value="Oman">Oman</option>
-                                                        <option value="Pakistan">Pakistan</option>
-                                                        <option value="Palestinian Territory, Occupied">Palestinian
-                                                            Territory, Occupied</option>
-                                                        <option value="Panama">Panama</option>
-                                                        <option value="Papua New Guinea">Papua New Guinea</option>
-                                                        <option value="Paraguay">Paraguay</option>
-                                                        <option value="Peru">Peru</option>
-                                                        <option value="Philippines">Philippines</option>
-                                                        <option value="Pitcairn">Pitcairn</option>
-                                                        <option value="Poland">Poland</option>
-                                                        <option value="Portugal">Portugal</option>
-                                                        <option value="Qatar">Qatar</option>
-                                                        <option value="Reunion">Reunion</option>
-                                                        <option value="Romania">Romania</option>
-                                                        <option value="Russian Federation">Russian Federation</option>
-                                                        <option value="Rwanda">Rwanda</option>
-                                                        <option value="Saint Barthélemy">Saint Barthélemy</option>
-                                                        <option value="Saint Helena, Ascension and Tristan da Cunha">
-                                                            Saint Helena, Ascension and Tristan da Cunha</option>
-                                                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis
-                                                        </option>
-                                                        <option value="Saint Lucia">Saint Lucia</option>
-                                                        <option value="Saint Martin (French part)">Saint Martin
-                                                            (French
-                                                            part)</option>
-                                                        <option value="Saint Pierre and Miquelon">Saint Pierre and
-                                                            Miquelon</option>
-                                                        <option value="Saint Vincent and the Grenadines">Saint Vincent
-                                                            and the Grenadines</option>
-                                                        <option value="Samoa">Samoa</option>
-                                                        <option value="San Marino">San Marino</option>
-                                                        <option value="Sao Tome and Principe">Sao Tome and Principe
-                                                        </option>
-                                                        <option value="Saudi Arabia">Saudi Arabia</option>
-                                                        <option value="Senegal">Senegal</option>
-                                                        <option value="Serbia">Serbia</option>
-                                                        <option value="Seychelles">Seychelles</option>
-                                                        <option value="Sierra Leone">Sierra Leone</option>
-                                                        <option value="Singapore">Singapore</option>
-                                                        <option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch
-                                                            part)</option>
-                                                        <option value="Slovakia">Slovakia</option>
-                                                        <option value="Slovenia">Slovenia</option>
-                                                        <option value="Solomon Islands">Solomon Islands</option>
-                                                        <option value="Somalia">Somalia</option>
-                                                        <option value="South Africa">South Africa</option>
-                                                        <option value="South Georgia and the South Sandwich Islands">
-                                                            South Georgia and the South Sandwich Islands</option>
-                                                        <option value="South Sudan">South Sudan</option>
-                                                        <option value="Spain">Spain</option>
-                                                        <option value="Sri Lanka">Sri Lanka</option>
-                                                        <option value="Sudan">Sudan</option>
-                                                        <option value="Suriname">Suriname</option>
-                                                        <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen
-                                                        </option>
-                                                        <option value="Swaziland">Swaziland</option>
-                                                        <option value="Sweden">Sweden</option>
-                                                        <option value="Switzerland">Switzerland</option>
-                                                        <option value="Syrian Arab Republic">Syrian Arab Republic
-                                                        </option>
-                                                        <option value="Tajikistan">Tajikistan</option>
-                                                        <option value="Tanzania, United Republic of">Tanzania, United
-                                                            Republic of</option>
-                                                        <option value="Thailand">Thailand</option>
-                                                        <option value="Timor-Leste">Timor-Leste</option>
-                                                        <option value="Togo">Togo</option>
-                                                        <option value="Tokelau">Tokelau</option>
-                                                        <option value="Tonga">Tonga</option>
-                                                        <option value="Trinidad and Tobago">Trinidad and Tobago
-                                                        </option>
-                                                        <option value="Tunisia">Tunisia</option>
-                                                        <option value="Turkey">Turkey</option>
-                                                        <option value="Turkmenistan">Turkmenistan</option>
-                                                        <option value="Turks and Caicos Islands">Turks and Caicos
-                                                            Islands</option>
-                                                        <option value="Tuvalu">Tuvalu</option>
-                                                        <option value="Uganda">Uganda</option>
-                                                        <option value="Ukraine">Ukraine</option>
-                                                        <option value="United Arab Emirates">United Arab Emirates
-                                                        </option>
-                                                        <option value="United Kingdom">United Kingdom</option>
-                                                        <option value="United States">United States</option>
-                                                        <option value="Uruguay">Uruguay</option>
-                                                        <option value="Uzbekistan">Uzbekistan</option>
-                                                        <option value="Vanuatu">Vanuatu</option>
-                                                        <option value="Venezuela, Bolivarian Republic of">Venezuela,
-                                                            Bolivarian Republic of</option>
-                                                        <option value="Viet Nam">Viet Nam</option>
-                                                        <option value="Virgin Islands, British">Virgin Islands,
-                                                            British
-                                                        </option>
-                                                        <option value="Wallis and Futuna">Wallis and Futuna</option>
-                                                        <option value="Western Sahara">Western Sahara</option>
-                                                        <option value="Yemen">Yemen</option>
-                                                        <option value="Zambia">Zambia</option>
-                                                        <option value="Zimbabwe">Zimbabwe</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Solution of Interest *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="solution_of_interest"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Fund recovery for a personal investment scam">
-                                                            Personal scam fund recovery</option>
-                                                        <option value="Crypto Compliance">Crypto Compliance</option>
-                                                        <option value="Crypto Investigations">Crypto Investigations
-                                                        </option>
-                                                        <option value="Security and Fraud (Hexagate and Alterya)">
-                                                            Security and Fraud (Hexagate and Alterya)</option>
-                                                        <option value="CxiAgency DS">CxiAgency Data Solutions
-                                                        </option>
-                                                        <option value="Global Services">Global Services</option>
-                                                        <option value="Training and Certifications Services">Training
-                                                            and Certifications Services</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">How did you hear about us? *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="channel"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Help us customize your demo—tell us about your
-                                                        team and goals with CxiAgency. *</label>
-                                                </div>
-                                                <div>
-                                                    <textarea name="more_info"
-                                                        style="height: 72px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding: 16px; color: #293972; font-size: 14px;"
-                                                        name="" id="" cols="10" rows="10"></textarea>
-                                                </div>
-                                            </div>
-
-                                            <div style="display: flex; align-items: start; column-gap: 0.5rem;">
-                                                <div>
-                                                    <input
-                                                        style="padding: 1rem !important; border: 1px solid #bac4d5 !important;"
-                                                        name="" type="checkbox" value="yes" required>
-                                                </div>
-                                                <div>
-                                                    <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 13px; letter-spacing: 0em;">By
-                                                        checking this box, you indicate that you'd like us to send you
-                                                        information on CxiAgency products, services, events, and news.
-                                                        Your personal data will be handled in accordance with the <span
-                                                            style="text-decoration: underline;">CxiAgency privacy
-                                                            policy</span>.</label>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <button :disabled="submitting" id="submitButton" type="submit"
-                                                    style="background-color: #ff5300; border-radius: 100px; padding: 16px 32px; color: #fff; font-size: 18px; font-weight: 600;">
-                                                    <span x-show="!submitting">Submit</span>
-                                                    <span x-show="submitting">Submitting...</span>
-                                                    <div x-show="submitting" class="spinner"></div>
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!-- /modal__description -->
-                                </modal-content>
+                <div class="rows">
+                    <div class="row">
+                        <div class="col-10 col-start-2">
+                            <div class="rich-text balance-headers">
+                                <h1 class="superheader" style="text-align: center">Blockchain Intelligence</h1>
+                                <h2 class="font-size-1-alt" style="text-align: center">Mapping real-world entities to
+                                    on-chain activity</h2>
+                                <p style="text-align: center">CxiAgency delivers industry-leading blockchain
+                                    intelligence by connecting real-world entities to on-chain activity through
+                                    sophisticated machine learning, dedicated forensic experts, and an extensive
+                                    customer network.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="image-module
-	 padding-top padding-bottom-none desktop-padding-bottom-none desktop-padding-top-small	bg-default">
-            <div class="section-container">
-                <animated-element animation="anim-fade-in-slide-up">
-                    <img src="https://www.chainalysis.com/wp-content/uploads/2025/03/home-page-header-2.svg"
-                        alt="" class="block full-width">
-                </animated-element>
-            </div>
-        </div>
-        <div
-            class="text-module
-	 padding-top padding-bottom-none desktop-padding-bottom-small desktop-padding-top-medium bg-default">
-            <div class="section-container">
-                <div class="row">
-                    <div class="col-12 col-start-1">
-                        <div class="rich-text balance-headers">
-                            <h2 class="superheader" style="text-align: center">
-                                <b>Trusted by over 1,500 customers</b>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="logos-module
-	 padding-top padding-bottom desktop-padding-bottom-large desktop-padding-top	bg-default">
-            <div class="section-container">
-                <div class="row">
-                    <div class="col-12 col-start-1">
-                        <div class="logo-gallery-wrapper">
-                            <div class="logo-gallery logos-wrap">
-                                <img src="./wp-content/uploads/2025/01/logo-coinbase-1.svg" alt="" />
-                                <img src="./wp-content/uploads/2025/02/logo-kraken.svg" alt="" />
-                                <img src="./wp-content/uploads/2023/10/logo-bbva.svg" alt="" />
-                                <script type="text/javascript" style="display:none">
-                                    //<![CDATA[
-                                    window.__mirage2 = {
-                                        petok: "l02bAmkW_WXd6yDab9Vuwp7QCxaImQBvC5pdjkL2BNg-604800-0.0.1.1"
-                                    };
-                                    //]]>
-                                </script>
-                                <script type="text/javascript"
-                                    src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
-                                <img alt="" data-cfsrc="./wp-content/uploads/2024/09/logo-irs-grey.png"
-                                    style="display:none;visibility:hidden;" />
-                                <noscript>
-                                    <img src="./wp-content/uploads/2024/09/logo-irs-grey.png" alt="" />
-                                </noscript>
-                                <img src="./wp-content/uploads/2024/10/bny-logo-2024.svg" alt="" />
-                                <img src="./wp-content/uploads/2022/09/cryptodotcom-logo-soft.svg"
-                                    alt="Crypto.com logo" />
-                                <img src="./wp-content/uploads/2025/01/logo-moonpay-1.svg" alt="" />
-                                <img src="./wp-content/uploads/2025/03/logo-fireblocks-grey.svg" alt="" />
-                                <img src="./wp-content/uploads/2025/03/logo-tether.svg" alt="" />
-                                <img src="./wp-content/uploads/2025/01/logo-adgm-1.svg" alt="" />
-                                <img src="./wp-content/uploads/2025/02/logo-etoro.svg" alt="" />
-                            </div>
+                    <div class="row bottom-image-row">
+                        <div class="col-10 col-start-2">
+                            <img src="./wp-content/uploads/2024/04/blockchain-intelligence-5.svg" alt=""
+                                class="full-width block rounded ">
                         </div>
                     </div>
                 </div>
@@ -5328,340 +4543,458 @@
         </div>
         <div
             class="cards-module 
-	 padding-top-small padding-bottom desktop-padding-bottom-xlarge desktop-padding-top-small bg-default">
+	 padding-top padding-bottom desktop-padding-bottom-none desktop-padding-top	bg-default        ">
             <div class="section-container">
                 <div class="cards cards-grid
-				cards-rte		cards-padding-full"
-                    style="--item-count: 3;--max-columns-per-row: 4;">
-                    <div class="card padded-area 
-						bg-darknet-blue-to-deep-blue-80-to-bottom rounded">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <p class="font-size-3" style="text-align: center">9/10</p>
-                            <p style="text-align: center">Nine of the top ten crypto exchanges use CxiAgency</p>
+				cards-stats		cards-padding-full"
+                    style="--item-count: 4;--max-columns-per-row: 4;">
+                    <div
+                        class="card padded-area 
+                        bg-product-ui-background                        rounded                                            ">
+                        <div class="title">
+                            <h2 class="font-size-4" style="text-align: center">107,000+</h2>
+                        </div>
+                        <div class="description">
+                            <p style="text-align: center">unique entities identified</p>
                         </div>
                     </div>
-                    <div class="card padded-area 
-						bg-darknet-blue-to-deep-blue-80-to-bottom rounded">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <p class="font-size-3" style="text-align: center">$12.6 billion+</p>
-                            <p style="text-align: center">illicit funds frozen or recovered by law enforcement
-                                agencies
-                                worldwide trusting CxiAgency data, software, and services</p>
+                    <div
+                        class="card padded-area 
+                        bg-product-ui-background                        rounded                                            ">
+                        <div class="title">
+                            <h2 class="font-size-4" style="text-align: center">1 billion+</h2>
+                        </div>
+                        <div class="description">
+                            <p style="text-align: center">addresses clustered</p>
                         </div>
                     </div>
-                    <div class="card padded-area 
-						bg-darknet-blue-to-deep-blue-80-to-bottom rounded">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <p class="font-size-3" style="text-align: center">45+</p>
-                            <p style="text-align: center">regulators worldwide use CxiAgency to inform regulation,
-                                protect consumers, and detect national security threats</p>
+                    <div
+                        class="card padded-area 
+                        bg-product-ui-background                        rounded                                            ">
+                        <div class="title">
+                            <h2 class="font-size-4" style="text-align: center">$12.6 billion</h2>
+                        </div>
+                        <div class="description">
+                            <p style="text-align: center">in stolen funds we’ve helped recover</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="text-module
-	 padding-top-large padding-bottom-none desktop-padding-bottom-none desktop-padding-top-xlarge	bg-product-light-blue-gradient">
-            <div class="section-container">
-                <div class="row">
-                    <div class="
-				col-8				col-start-3			">
-                        <div class="rich-text balance-headers">
-                            <h2 class="font-size-3" style="text-align: center">Achieve your mission with
-                                blockchain intelligence</h2>
-                            <p>&nbsp;</p>
-                            <h5 style="text-align: center">Uncover the real-world services behind blockchain
-                                transactions.</h5>
+                    <div
+                        class="card padded-area 
+                        bg-product-ui-background                        rounded                                            ">
+                        <div class="title">
+                            <h2 class="font-size-4" style="text-align: center">25</h2>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="lottie-module
-	 padding-top padding-bottom-small desktop-padding-bottom desktop-padding-top	bg-default">
-            <div class="section-container
-		full-width-on-mobile	">
-                <div class="row">
-                    <div class="col-12">
-                        <dot-lottie src="./wp-content/uploads/2025/04/chainalysis-homepage-scrolling-logos-45s.lottie"
-                            loop class="hide-on-mobile">
-                        </dot-lottie>
-                        <img src="./wp-content/uploads/2025/03/home-categories-mobile-3.svg" alt=""
-                            class="inline-block full-width display-on-mobile-not-larger">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="cta-module
-     padding-top-small padding-bottom desktop-padding-bottom-medium desktop-padding-top-small    bg-default    ">
-            <div class="section-container
-            ">
-                <div class="row ">
-                    <div class="
-                    col-10 col-start-2">
-                        <div class="content-wrapper">
-                            <div class="buttons center">
-                                <a class="btn btn--default" href="/blockchain-intelligence">About blockchain
-                                    intelligence</a>
-                            </div>
+                        <div class="description">
+                            <p style="text-align: center">chains supported</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div
-            class="text-media-module
-	 padding-top-small padding-bottom-none desktop-padding-bottom-none desktop-padding-top-small	bg-default	">
-            <div class="section-container">
-                <div
-                    class="row row-align-middle row-gap-larger-default
-					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
-                    <div class="rich-text last-child-margin-bottom-none
-			col-5 	">
-                        <h2 class="font-size-4">Trace illicit activity and analyze networks</h2>
-                        <p>Understand the entire flow of funds from source to destination. Discover leads, analyze
-                            activities, and pursue threats across chains, web3 infrastructure, and more. Visualize
-                            illicit networks and gather actionable intelligence to combat crypto crime.</p>
-                        <div class="buttons ">
-                            <a class="btn btn--default" href="/reactor">Explore Reactor</a>
-                        </div>
-                    </div>
-                    <div class="
-			col-6 col-start-7	">
-                        <dot-lottie src="./wp-content/uploads/2025/03/home-reactor-svg-format.lottie"></dot-lottie>
-                    </div>
-                </div>
-                <div
-                    class="row row-align-middle row-gap-larger-default
-					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
-                    <div class="rich-text last-child-margin-bottom-none
-			col-5 col-start-8	">
-                        <h2 class="font-size-4">Monitor activity and manage risky exposure to your platform</h2>
-                        <p>Ensure compliance and prevent illicit activity with continuous and real-time screening of
-                            crypto transactions. Tailor your risk settings, assess deposits and withdrawals, and audit
-                            suspicious user activity.</p>
-                        <div class="buttons ">
-                            <a class="btn btn--default" href="/kyt">Explore KYT</a>
-                        </div>
-                    </div>
-                    <div class="
-			col-6 col-start-1	">
-                        <dot-lottie src="./wp-content/uploads/2025/03/home-kyt-svg-format.lottie"></dot-lottie>
-                    </div>
-                </div>
-                <div
-                    class="row row-align-middle row-gap-larger-default
-					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
-                    <div class="rich-text last-child-margin-bottom-none
-			col-5 	">
-                        <h2 class="font-size-4">Assess risk profiles of on-chain entities</h2>
-                        <p>Leverage on-chain intelligence to screen wallet addresses, virtual asset service providers
-                            (VASPs), or entire token ecosystems to identify and respond to potential risks and ensure
-                            compliance with regulations.</p>
-                        {{-- <div class="buttons ">
-                            <a class="btn btn--default" href="">VASP Risking</a>
-                            <a class="btn btn--default" href="">Address Screening</a>
-                        </div> --}}
-                    </div>
-                    <div class="
-			col-6 col-start-7	">
-                        <dot-lottie src="./wp-content/uploads/2025/03/home-risk-svg-format.lottie"></dot-lottie>
-                    </div>
-                </div>
-                <div
-                    class="row row-align-middle row-gap-larger-default
-					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
-                    <div class="rich-text last-child-margin-bottom-none
-			col-5 col-start-8	">
-                        <h2 class="font-size-4">Harden your web3 security</h2>
-                        <p>Leverage enterprise-grade security to prevent cyber exploits, scams, financial risks and more
-                            for protocols, chains, asset managers, and exchanges.</p>
-                        {{-- <div class="buttons ">
-                            <a class="btn btn--default" href="">Web3 security with Hexagate</a>
-                        </div> --}}
-                    </div>
-                    <div class="
-			col-6 col-start-1	">
-                        <animated-element animation="anim-fade-in-slide-up">
-                            <div class="text-center">
-                                <img src="https://www.chainalysis.com/wp-content/uploads/2025/03/home-hexagate.svg"
-                                    alt="" class="inline-block
-														full-width													">
-                            </div>
-                        </animated-element>
-                    </div>
-                </div>
-                <div
-                    class="row row-align-middle row-gap-larger-default
-					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
-                    <div class="rich-text last-child-margin-bottom-none
-			col-5 	">
-                        <h2 class="font-size-4">Identify scammers before they meet their victims</h2>
-                        <p>Prevent evolving threats with AI-powered fraud detection to reduce payments-related fraud,
-                            build customer trust, and protect your reputation.</p>
-                        {{-- <div class="buttons ">
-                            <a class="btn btn--default" href="">Fraud prevention with Alterya</a>
-                        </div> --}}
-                    </div>
-                    <div class="
-			col-6 col-start-7	">
-                        <animated-element animation="anim-fade-in-slide-up">
-                            <div class="text-center">
-                                <img srcset="https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya.png 942w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-800x703.png 800w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-150x132.png 150w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-300x264.png 300w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-750x659.png 750w"
-                                    sizes="(max-width: 942px) 100vw, 942px" alt=""
-                                    class="inline-block
-														full-width													"
-                                    data-cfsrc="https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya.png"
-                                    style="display:none;visibility:hidden;">
-                                <noscript>
-                                    <img src="https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya.png"
-                                        srcset="https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya.png 942w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-800x703.png 800w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-150x132.png 150w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-300x264.png 300w, https://www.chainalysis.com/wp-content/uploads/2025/06/home-alterya-750x659.png 750w"
-                                        sizes="(max-width: 942px) 100vw, 942px" alt=""
-                                        class="inline-block
-														full-width													">
-                                </noscript>
-                            </div>
-                        </animated-element>
-                    </div>
-                </div>
+        <div class="jumplinks-start-module">
+            <div class="jumplinks-nav-container display-on-large-plus">
+                <nav
+                    class="jumplinks-nav  padding-top padding-bottom desktop-padding-bottom-large desktop-padding-top-xlarge">
+                    <a class="jumplink" href="#breadth">Breadth</a>
+                    <a class="jumplink" href="#depth">Depth</a>
+                    <a class="jumplink" href="#accuracy">Accuracy</a>
+                    <a class="jumplink" href="#speed">Speed</a>
+                </nav>
             </div>
-        </div>
-        <div
-            class="cta-module
-     padding-top-small padding-bottom-large desktop-padding-bottom-xlarge desktop-padding-top-none    bg-default    ">
-            <div class="section-container
-            ">
-                <div
-                    class="
-                        rounded            bg-product-ui-background             padding-top-medium padding-bottom-medium desktop-padding-bottom-large desktop-padding-top-large">
-                    <div class="row cta-row-inner">
-                        <div class="col-3 col-start-3">
-                            <img srcset="https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1.png 534w, https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1-150x119.png 150w, https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1-300x237.png 300w"
-                                sizes="(max-width: 534px) 100vw, 534px" alt=""
-                                class="block cta-side-image
-                                                                        "
-                                data-cfsrc="https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1.png"
-                                style="display:none;visibility:hidden;">
-                            <noscript>
-                                <img src="https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1.png"
-                                    srcset="https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1.png 534w, https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1-150x119.png 150w, https://www.chainalysis.com/wp-content/uploads/2025/03/home-data-solutions-1-300x237.png 300w"
-                                    sizes="(max-width: 534px) 100vw, 534px" alt=""
-                                    class="block cta-side-image
-                                                                        ">
-                            </noscript>
-                        </div>
-                        <div class="
-                    col-5 col-start-6">
-                            <div class="content-wrapper">
+            <div class="jumplinks-content">
+                <div class="text-module
+	 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-xlarge	bg-default"
+                    id="breadth">
+                    <div class="section-container">
+                        <div class="row">
+                            <div class="
+				col-12				col-start-1			">
                                 <div class="rich-text balance-headers">
-                                    <h2 class="font-size-4">Identify leads, generate insights, and make strategic
-                                        decisions</h2>
-                                    <p>Build bespoke analyses and alerting with the industry’s most trusted blockchain
-                                        intelligence to generate new leads and take action on data-driven insights to
-                                        advance your mission.</p>
+                                    <h2 class="superheader">Breadth</h2>
+                                    <h3 class="font-size-3">Gain visibility into wallet ownership</h3>
                                 </div>
-                                {{-- <div class="buttons ">
-                                    <a class="btn btn--default" href="">Explore CxiAgency DS</a>
-                                </div> --}}
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div
-            class="text-module
-	 padding-top-large padding-bottom-none desktop-padding-bottom-none desktop-padding-top-xlarge	bg-dark-blue">
-            <div class="section-container">
-                <div class="row">
-                    <div class="
-				col-8				col-start-3			">
-                        <div class="rich-text balance-headers">
-                            <h2 class="font-size-3" style="text-align: center">The CxiAgency difference</h2>
+                <div
+                    class="text-media-module
+	 padding-top-none padding-bottom desktop-padding-bottom-none desktop-padding-top-none	bg-default	">
+                    <div class="section-container">
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top-small padding-bottom desktop-padding-bottom desktop-padding-top-none				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 	">
+                                <h4 class="font-size-4">Ground-truth attributions</h4>
+                                <p>Ground-truth attributions are collected with directly observable, verifiable evidence
+                                    demonstrating that an address belongs to a service. These attributions are the
+                                    initial focal point to begin mapping real-world entities to on-chain addresses.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-7	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-ground-truth-attributions-2.svg"
+                                            alt="" class="inline-block
+														full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
+                        </div>
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top-small padding-bottom desktop-padding-bottom desktop-padding-top-none				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 col-start-8	">
+                                <h4 class="font-size-4">Global intelligence</h4>
+                                <p>With the largest Global Intelligence Team in the industry, entities can be attributed
+                                    in difficult-to-access regions with the ability to hyper-focus in specific areas
+                                    such as sanctioned jurisdictions.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-1	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-global-intel.svg" alt=""
+                                            class="inline-block
+														full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
+                        </div>
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top-small padding-bottom desktop-padding-bottom desktop-padding-top-none				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 	">
+                                <h4 class="font-size-4">Chain and token support</h4>
+                                <p>CxiAgency has architected a flexible platform to scale blockchain and asset
+                                    support, leveraging generalized frameworks applicable to networks that are alike in
+                                    blockchain type. This enables quick integration with new chains, inclusive of all
+                                    tokens.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-7	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-chain-token-support.png"
+                                            srcset="./wp-content/uploads/2024/04/bi-chain-token-support.png 600w, ./wp-content/uploads/2024/04/bi-chain-token-support-150x113.png 150w, ./wp-content/uploads/2024/04/bi-chain-token-support-300x225.png 300w, ./wp-content/uploads/2024/04/bi-chain-token-support-200x150.png 200w"
+                                            sizes="(max-width: 600px) 100vw, 600px" alt=""
+                                            class="inline-block
+							rounded							full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div
-            class="cards-module 
-	 padding-top-small padding-bottom-small desktop-padding-bottom-small desktop-padding-top	bg-dark-blue        ">
-            <div class="section-container">
-                <div class="cards cards-grid
-				cards-rte		cards-padding-none"
-                    style="--item-count: 6;--max-columns-per-row: 3;">
-                    <div
-                        class="card padded-area 
-						bg-default                                                					">
-                        <img src="https://www.chainalysis.com/wp-content/uploads/2025/02/checkmark-blue.svg"
-                            alt="" class="margin-bottom block ">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <h3 class="font-size-5">Data you can trust</h3>
-                            <p>Using sophisticated machine learning techniques coupled with proprietary architecture, we
-                                are built to handle hundreds of clustering heuristics, ingest data at scale, and verify
-                                data accuracy with the lowest tolerance for error in the industry.</p>
+                <div
+                    class="text-module
+	 padding-top padding-bottom-none desktop-padding-bottom desktop-padding-top-none	bg-default">
+                    <div class="section-container">
+                        <div class="row">
+                            <div class="
+				col-12				col-start-1			">
+                                <div class="rich-text balance-headers">
+                                    <h4 class="font-size-4">Three key advantages</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        class="card padded-area 
-						bg-default                                                					">
-                        <img src="https://www.chainalysis.com/wp-content/uploads/2025/02/checkmark-blue.svg"
-                            alt="" class="margin-bottom block ">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <h3 class="font-size-5">Complete blockchain coverage</h3>
-                            <p>CxiAgency seamlessly onboards new blockchains and automatically supports all tokens
-                                that follow widely adopted standards. This approach guarantees instant compatibility and
-                                the most comprehensive blockchain coverage in the industry.</p>
+                </div>
+                <div
+                    class="cards-module 
+	 padding-top padding-bottom desktop-padding-bottom-medium desktop-padding-top-none	bg-default        ">
+                    <div class="section-container">
+                        <div class="cards cards-grid
+				cards-rte		cards-padding-full"
+                            style="--item-count: 3;--max-columns-per-row: 3;">
+                            <div
+                                class="card padded-area 
+						bg-soft-gray                        rounded                        					">
+                                <img src="./wp-content/uploads/2024/04/icon-speed.svg" alt=""
+                                    class="margin-bottom block ">
+                                <div class="rich-text last-child-margin-bottom-none">
+                                    <h5 class="font-size-5">Onboarding Speed</h5>
+                                    <p>Generalized frameworks allow for fast integrations with new chains.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="card padded-area 
+						bg-soft-gray                        rounded                        					">
+                                <img src="./wp-content/uploads/2024/04/icon-dynamic-coin.svg" alt=""
+                                    class="margin-bottom block ">
+                                <div class="rich-text last-child-margin-bottom-none">
+                                    <h5 class="font-size-5">Dynamic token support</h5>
+                                    <p>For smart-contract based networks, CxiAgency supports all fungible and
+                                        non-fungible tokens.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="card padded-area 
+						bg-soft-gray                        rounded                        					">
+                                <img src="./wp-content/uploads/2024/04/icon-clustering.svg" alt=""
+                                    class="margin-bottom block ">
+                                <div class="rich-text last-child-margin-bottom-none">
+                                    <h5 class="font-size-5">Clustering speed</h5>
+                                    <p>Our architecture fast tracks clustering capabilities earlier in our pipeline
+                                        enabling us to begin deploying and iterating clustering heuristics for all
+                                        blockchains more quickly than ever before.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        class="card padded-area 
-						bg-default                                                					">
-                        <img src="https://www.chainalysis.com/wp-content/uploads/2025/02/checkmark-blue.svg"
-                            alt="" class="margin-bottom block ">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <h3 class="font-size-5">Cross-chain tracing</h3>
-                            <p>CxiAgency simplifies the complex and makes it effortless to trace the flow of funds
-                                through bridges, mixers, DEX swaps, and more.</p>
+                </div>
+                <div class="text-module
+	 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-xlarge	bg-soft-gray"
+                    id="depth">
+                    <div class="section-container">
+                        <div class="row">
+                            <div class="
+				col-12				col-start-1			">
+                                <div class="rich-text balance-headers">
+                                    <h2 class="superheader">Depth</h2>
+                                    <h3 class="font-size-3">Gain a complete view of entity activity</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        class="card padded-area 
-						bg-default                                                					">
-                        <img src="https://www.chainalysis.com/wp-content/uploads/2025/02/checkmark-blue.svg"
-                            alt="" class="margin-bottom block ">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <h3 class="font-size-5">Used as evidence in highest profile industry cases</h3>
-                            <p>CxiAgency data is court admissible and has uniquely helped customers take
-                                ground-breaking actions in court.</p>
+                </div>
+                <div
+                    class="text-media-module
+	 padding-top-none padding-bottom desktop-padding-bottom desktop-padding-top-none	bg-soft-gray	">
+                    <div class="section-container">
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top-none padding-bottom-none desktop-padding-bottom-none desktop-padding-top-none				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 	">
+                                <h4 class="font-size-4">Clustering heuristics</h4>
+                                <p>Tying ground-truth attributions to single addresses helps achieve breadth of
+                                    coverage, but this now necessitates the need for depth. It’s critical to understand
+                                    all addresses an entity controls through a process of clustering, or grouping
+                                    addresses together. As addresses are clustered, a deeper and more complete mapping
+                                    of all interactions between entities is created.</p>
+                                <p>To gain this level of depth, learn about the different clustering heuristics and the
+                                    amount of rigor involved.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-7	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-clustering-heuristics-1.svg"
+                                            alt=""
+                                            class="inline-block
+							rounded							full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        class="card padded-area 
-						bg-default                                                					">
-                        <img src="https://www.chainalysis.com/wp-content/uploads/2025/02/checkmark-blue.svg"
-                            alt="" class="margin-bottom block ">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <h3 class="font-size-5">Experts by your side</h3>
-                            <p>Our global team supports you along your journey bringing 24/7 unmatched experience,
-                                localized guidance, an understanding of diverse threat typologies, as well as how to
-                                execute on advanced investigative techniques.</p>
+                </div>
+                <div
+                    class="cards-module 
+	 padding-top padding-bottom desktop-padding-bottom-large desktop-padding-top	bg-soft-gray        ">
+                    <div class="section-container">
+                        <div class="cards cards-grid
+				cards-rte		cards-padding-full"
+                            style="--item-count: 2;--max-columns-per-row: 3;">
+                            <div
+                                class="card padded-area 
+						bg-white                        rounded                        					">
+                                <img src="./wp-content/uploads/2024/04/icon-network.svg" alt=""
+                                    class="margin-bottom block ">
+                                <div class="rich-text last-child-margin-bottom-none">
+                                    <h5 class="font-size-5">Network-wide Heuristics</h5>
+                                    <p>Network wide heuristics are generic by nature and can be applied to any wallet on
+                                        a given UTXO or EVM blockchain.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="card padded-area 
+						bg-white                        rounded                        					">
+                                <img src="./wp-content/uploads/2024/04/icon-building.svg" alt=""
+                                    class="margin-bottom block ">
+                                <div class="rich-text last-child-margin-bottom-none">
+                                    <h5 class="font-size-5">Service-specific Heuristics</h5>
+                                    <p>Service-specific heuristics are custom tailored for a specific entity’s
+                                        architecture. There are 100s of service-specific heuristics employed.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        class="card padded-area 
-						bg-default                                                					">
-                        <img src="https://www.chainalysis.com/wp-content/uploads/2025/02/checkmark-blue.svg"
-                            alt="" class="margin-bottom block ">
-                        <div class="rich-text last-child-margin-bottom-none">
-                            <h3 class="font-size-5">Continuous innovation</h3>
-                            <p>CxiAgency pioneered blockchain intelligence, and we continue to build on our tradition
-                                of innovation. CxiAgency Labs, our R &amp;D initiative dedicated to advancing cutting
-                                edge technology, brings new features and capabilities that are unique to CxiAgency.
-                            </p>
+                </div>
+                <div
+                    class="text-media-module
+	 padding-top padding-bottom desktop-padding-bottom-large desktop-padding-top	bg-soft-gray	">
+                    <div class="section-container">
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top-none padding-bottom-none desktop-padding-bottom-none desktop-padding-top-none				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 col-start-8	">
+                                <h4 class="font-size-4">Advanced clustering</h4>
+                                <p>CxiAgency has built an architecture with the ability to experiment, deploy, and
+                                    iterate on clustering algorithms at a rapid pace. For example, with dedicated data
+                                    pipelines, we are able to scan billions of transactions in order to identify unique
+                                    patterns that power our heuristics for both UTXO-based blockchains as well as
+                                    account-based blockchains.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-1	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-advanced-clustering.svg"
+                                            alt=""
+                                            class="inline-block
+							rounded							full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-module
+	 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-xlarge	bg-default"
+                    id="accuracy">
+                    <div class="section-container">
+                        <div class="row">
+                            <div class="
+				col-12				col-start-1			">
+                                <div class="rich-text balance-headers">
+                                    <h2 class="superheader">Accuracy</h2>
+                                    <h3 class="font-size-3">Inaccurate data is worse than missing data</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="text-media-module
+	 padding-top-none padding-bottom desktop-padding-bottom desktop-padding-top-none	bg-default	">
+                    <div class="section-container">
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 	">
+                                <h4 class="font-size-4">Data quality</h4>
+                                <p>CxiAgency is commonly asked “what is your false positive rate”? Determining a false
+                                    positive rate requires a source of truth to check against, and CxiAgency is the
+                                    industry’s source of truth. Still, there is supporting evidence that speaks to data
+                                    accuracy and quality.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-7	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-data-quality-1.svg" alt=""
+                                            class="inline-block
+							rounded							full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
+                        </div>
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 col-start-8	">
+                                <h4 class="font-size-4">Data validation</h4>
+                                <p>
+                                    <strong>Customers validate our clusters on a daily basis.</strong>
+                                    <br />Many of the services (e.g. exchanges) whose addresses that are clustered are
+                                    also CxiAgency customers who use transaction monitoring services. As such, those
+                                    customers share thousands of addresses per day, allowing CxiAgency to validate
+                                    clustering accuracy. To date, there has never been a discrepancy found between
+                                    CxiAgency data and the addresses provided by customers.
+                                </p>
+                                <p>
+                                    <strong>Public sector setting the industry standard.</strong>
+                                    <br />A significant number of CxiAgency customers are law enforcement agencies,
+                                    regulators, and intelligence agencies at various levels. With that said, it’s
+                                    crucial to be using the same solutions and datasets that fellow agencies use. Since
+                                    2014, the public sector has been a core clientele, and the reliability of
+                                    CxiAgency intelligence is pivotal for continuing these positive partnerships.
+                                </p>
+                            </div>
+                            <div class="
+			col-6 col-start-1	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-data-validation-1.svg"
+                                            alt="" class="inline-block
+														full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-module
+	 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-xlarge	bg-soft-gray"
+                    id="speed">
+                    <div class="section-container">
+                        <div class="row">
+                            <div class="
+				col-12				col-start-1			">
+                                <div class="rich-text balance-headers">
+                                    <h2 class="superheader">Speed</h2>
+                                    <h3 class="font-size-3">Trace and discover insights quickly</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="text-media-module
+	 padding-top-none padding-bottom desktop-padding-bottom desktop-padding-top-none	bg-soft-gray	">
+                    <div class="section-container">
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-small				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 	">
+                                <h4 class="font-size-4">Dynamic token support</h4>
+                                <p>We are able to support tokens deployed to a chain within seconds. Speed is essential
+                                    in this environment. For example, it &#8217;s important to ensure that onramps and
+                                    offramps are aware of which addresses should be blacklisted or have funds frozen.
+                                </p>
+                            </div>
+                            <div class="
+			col-6 col-start-7	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-dynamic-token-support-1.png"
+                                            srcset="./wp-content/uploads/2024/04/bi-dynamic-token-support-1.png 612w, ./wp-content/uploads/2024/04/bi-dynamic-token-support-1-150x110.png 150w, ./wp-content/uploads/2024/04/bi-dynamic-token-support-1-300x221.png 300w"
+                                            sizes="(max-width: 612px) 100vw, 612px" alt=""
+                                            class="inline-block
+							rounded							full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
+                        </div>
+                        <div
+                            class="row row-align-middle row-gap-larger-default
+					 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-small				">
+                            <div class="rich-text last-child-margin-bottom-none
+			col-5 col-start-8	">
+                                <h4 class="font-size-4">Global intelligence obligations</h4>
+                                <p>CxiAgency has a Global Intelligence Team collecting ground-truth attributions on a
+                                    daily basis, who are obligated to submit those attributions into the intelligence
+                                    layer as soon as possible.</p>
+                            </div>
+                            <div class="
+			col-6 col-start-1	">
+                                <animated-element animation="anim-fade-in-slide-up">
+                                    <div class="text-center">
+                                        <img src="./wp-content/uploads/2024/04/bi-global-intel-obligations-1.svg"
+                                            alt="" class="inline-block
+														full-width													">
+                                    </div>
+                                </animated-element>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -5669,134 +5002,7 @@
         </div>
         <div
             class="cta-module
-     padding-top-small padding-bottom-large desktop-padding-bottom-xlarge desktop-padding-top-small    bg-dark-blue    ">
-            <div class="section-container
-            ">
-                <div class="row ">
-                    <div class="
-                    col-10 col-start-2">
-                        <div class="content-wrapper">
-                            <div class="buttons center">
-                                <a class="btn btn--orange" href="/why-cxiagency">Why CxiAgency</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div
-            class="cards-module 
-	 padding-top-small padding-bottom desktop-padding-bottom-xlarge desktop-padding-top-large	bg-default    overflow-x-clip    ">
-            <div class="section-container">
-                <swiper-carousel class="swiper overflow-visible">
-                    <div class="swiper-title-nav padding-bottom desktop-padding-bottom">
-                        <div class="rich-text balance-headers">
-                            <h2 class="font-size-4">Industries count on us for blockchain analysis</h2>
-                        </div>
-                        <div class="swiper-navigation">
-                            <div class="swiper-button swiper-button-prev">
-                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="24.5" cy="24.5" r="23.5" stroke="#293972"
-                                        stroke-width="2" />
-                                    <path d="M34 24.7983H16" stroke="#293972" stroke-width="2" />
-                                    <path d="M23.7983 17L16 24.7983L23.7983 32.5967" stroke="#293972"
-                                        stroke-width="2" />
-                                </svg>
-                            </div>
-                            <div class="swiper-button swiper-button-next">
-                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="24.5" cy="24.5" r="23.5" stroke="#293972"
-                                        stroke-width="2" />
-                                    <path d="M15 24.7983L33 24.7983" stroke="#293972" stroke-width="2" />
-                                    <path d="M25.2017 32.5967L33 24.7983L25.2017 17" stroke="#293972"
-                                        stroke-width="2" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards cards-grid
-		swiper-wrapper		cards-articles		cards-padding-full"
-                        style="--item-count: 8;--max-columns-per-row: 3;">
-                        <a class="article-link swiper-slide" href="/law-enforcement">
-                            <article
-                                class="
-                            bg-soft-gray                            rounded                                                    ">
-                                <div class="image-wrapper">
-                                    <img srcset="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement.jpg 1200w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-800x400.jpg 800w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-150x75.jpg 150w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-300x150.jpg 300w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-750x375.jpg 750w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-948x474.jpg 948w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-1024x512.jpg 1024w"
-                                        sizes="(max-width: 1200px) 100vw, 1200px" alt=""
-                                        class="block full-width"
-                                        data-cfsrc="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement.jpg"
-                                        style="display:none;visibility:hidden;">
-                                    <noscript>
-                                        <img src="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement.jpg"
-                                            srcset="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement.jpg 1200w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-800x400.jpg 800w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-150x75.jpg 150w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-300x150.jpg 300w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-750x375.jpg 750w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-948x474.jpg 948w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-law-enforcement-1024x512.jpg 1024w"
-                                            sizes="(max-width: 1200px) 100vw, 1200px" alt=""
-                                            class="block full-width">
-                                    </noscript>
-                                </div>
-                                <div class="padded-area">
-                                    <h4 class="font-size-5">Law Enforcement</h4>
-                                    <p>Detect, disrupt, and deter crypto crime with blockchain insights</p>
-                                </div>
-                            </article>
-                        </a>
-                        <a class="article-link swiper-slide" href="/regulators">
-                            <article
-                                class="
-                            bg-soft-gray                            rounded                                                    ">
-                                <div class="image-wrapper">
-                                    <img srcset="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators.jpg 1200w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-800x400.jpg 800w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-150x75.jpg 150w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-300x150.jpg 300w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-750x375.jpg 750w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-948x474.jpg 948w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-1024x512.jpg 1024w"
-                                        sizes="(max-width: 1200px) 100vw, 1200px" alt=""
-                                        class="block full-width"
-                                        data-cfsrc="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators.jpg"
-                                        style="display:none;visibility:hidden;">
-                                    <noscript>
-                                        <img src="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators.jpg"
-                                            srcset="https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators.jpg 1200w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-800x400.jpg 800w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-150x75.jpg 150w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-300x150.jpg 300w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-750x375.jpg 750w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-948x474.jpg 948w, https://www.chainalysis.com/wp-content/uploads/2023/10/meta-regulators-1024x512.jpg 1024w"
-                                            sizes="(max-width: 1200px) 100vw, 1200px" alt=""
-                                            class="block full-width">
-                                    </noscript>
-                                </div>
-                                <div class="padded-area">
-                                    <h4 class="font-size-5">Regulators</h4>
-                                    <p>Protect consumers, establish safe markets, and maintain financial stability</p>
-                                </div>
-                            </article>
-                        </a>
-                        
-                        <a class="article-link swiper-slide" href="/cybersecurity">
-                            <article
-                                class="
-                            bg-soft-gray                            rounded                                                    ">
-                                <div class="image-wrapper">
-                                    <img srcset="https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity.jpg 1200w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-800x400.jpg 800w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-150x75.jpg 150w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-300x150.jpg 300w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-750x375.jpg 750w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-948x474.jpg 948w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-1024x512.jpg 1024w"
-                                        sizes="(max-width: 1200px) 100vw, 1200px" alt=""
-                                        class="block full-width"
-                                        data-cfsrc="https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity.jpg"
-                                        style="display:none;visibility:hidden;">
-                                    <noscript>
-                                        <img src="https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity.jpg"
-                                            srcset="https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity.jpg 1200w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-800x400.jpg 800w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-150x75.jpg 150w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-300x150.jpg 300w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-750x375.jpg 750w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-948x474.jpg 948w, https://www.chainalysis.com/wp-content/uploads/2024/09/meta-cybersecurity-1024x512.jpg 1024w"
-                                            sizes="(max-width: 1200px) 100vw, 1200px" alt=""
-                                            class="block full-width">
-                                    </noscript>
-                                </div>
-                                <div class="padded-area">
-                                    <h4 class="font-size-5">Cybersecurity</h4>
-                                    <p>Proactive threat hunting and prevention</p>
-                                </div>
-                            </article>
-                        </a>
-                    </div>
-                </swiper-carousel>
-            </div>
-        </div>
-        <div
-            class="cta-module
-     padding-top-medium padding-bottom-medium desktop-padding-bottom-xlarge desktop-padding-top-xlarge    bg-orange-to-orange-tint-gradient-to-right    ">
+     padding-top-large padding-bottom-large desktop-padding-bottom-xlarge desktop-padding-top-xlarge    bg-orange-to-orange-tint-gradient-to-right    ">
             <div class="section-container
             ">
                 <div class="row ">
@@ -5804,8 +5010,8 @@
                     col-10 col-start-2">
                         <div class="content-wrapper">
                             <div class="rich-text balance-headers">
-                                <h2 class="font-size-3" style="text-align: center">Get started–chat with one of our
-                                    experts.</h2>
+                                <h2 class="font-size-1 font-size-4" style="text-align: center">Get started with
+                                    CxiAgency</h2>
                             </div>
                             <div class="buttons center">
                                 <modal-toggle target="e93bcc7300aaa5d37c91729e5a705aa2">
@@ -5814,7 +5020,7 @@
                                 </modal-toggle>
                                 <modal-content class="modal modal-form" key="e93bcc7300aaa5d37c91729e5a705aa2">
                                     <button class="modal__icon-close" close-modal>
-                                        <img src="https://www.chainalysis.com/wp-content/themes/chainalysis/static/images/modal-close-icon-text-gray.svg"
+                                        <img src="./wp-content/themes/chainalysis/static/images/modal-close-icon-text-gray.svg"
                                             alt="Close this modal." height="17" width="17">
                                     </button>
                                     <div class="modal__description">
@@ -10305,44 +9511,31 @@
         };
     </script>
 
-    <script type="importmap" id="wp-importmap">
-        {
-            "imports": {
-                "@lottiefiles\/dotlottie-web": ".\/wp-content\/themes\/chainalysis\/node_modules\/@lottiefiles\/dotlottie-web\/dist\/index.js"
-            }
-        }</script>
-    <script type="module" src="./wp-content/themes/chainalysis/modules/shared/wc-dotlottie.js"
-        id="@chainalysis/dotlottie-wc-js-module"></script>
-    <script type="module" src="./wp-content/themes/chainalysis/modules/modal/modal-wc.js"
+    <script type="module" src="./wp-content/themes/chainalysis/modules/modal/modal-wc.js?ver=1753934902"
         id="@chainalysis/modal-wc-js-module"></script>
-    <script type="module" src="./wp-content/themes/chainalysis/modules/shared/animations.js"
+    <script type="module" src="./wp-content/themes/chainalysis/modules/shared/animations.js?ver=1753934902"
         id="@chainalysis/animations-js-module"></script>
-    <link rel="modulepreload"
-        href="./wp-content/themes/chainalysis/node_modules/@lottiefiles/dotlottie-web/dist/index.js"
-        id="@lottiefiles/dotlottie-web-js-modulepreload">
-    <link rel='stylesheet' id='modules-cta-css' href='./wp-content/themes/chainalysis/modules/cta/cta.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='@chainalysis/modal-wc-css'
-        href='./wp-content/themes/chainalysis/modules/modal/modal-wc.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='@chainalysis/animations-css'
-        href='./wp-content/themes/chainalysis/modules/shared/animations.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-logos-css' href='./wp-content/themes/chainalysis/modules/logos/logos.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-cards-css' href='./wp-content/themes/chainalysis/modules/cards/cards.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='dotlottie-wc-css'
-        href='./wp-content/themes/chainalysis/modules/shared/dotlottie.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='modules-blog-post-list-css'
-        href='./wp-content/themes/chainalysis/modules/bloglist/bloglist.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='swiper-css'
-        href='./wp-content/themes/chainalysis/node_modules/swiper/swiper.min.css' type='text/css'
+    <link rel='stylesheet' id='modules-hero-css'
+        href='./wp-content/themes/chainalysis/modules/hero/hero.css?ver=1753934902' type='text/css' media='all' />
+    <link rel='stylesheet' id='modules-cards-css'
+        href='./wp-content/themes/chainalysis/modules/cards/cards.css?ver=1753934902' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='@chainalysis/swiper-wc-css'
-        href='./wp-content/themes/chainalysis/modules/shared/swiper.css' type='text/css' media='all' />
-    <script type="text/javascript" src="./forms2/js/forms2.min.js" id="marketo-forms-js"></script>
-    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-xdpath.js"
+    <link rel='stylesheet' id='modules-jumplinks-css'
+        href='./wp-content/themes/chainalysis/modules/jumplinks/jumplinks.css?ver=1753934902' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='@chainalysis/animations-css'
+        href='./wp-content/themes/chainalysis/modules/shared/animations.css?ver=1753934902' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='modules-cta-css'
+        href='./wp-content/themes/chainalysis/modules/cta/cta.css?ver=1753934902' type='text/css' media='all' />
+    <link rel='stylesheet' id='@chainalysis/modal-wc-css'
+        href='./wp-content/themes/chainalysis/modules/modal/modal-wc.css?ver=1753934902' type='text/css'
+        media='all' />
+    <script type="text/javascript" src="https://go.chainalysis.com/js/forms2/js/forms2.min.js?ver=1.4.6"
+        id="marketo-forms-js"></script>
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-xdpath.js?ver=1.4.6"
         id="marketo-xdpath-js"></script>
-    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-munchkin.js"
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-munchkin.js?ver=1.4.6"
         id="marketo-munchkin-js"></script>
     <script type="text/javascript" id="marketo-style-control-js-before">
         /* <![CDATA[ */
@@ -10353,29 +9546,28 @@
         ];
         /* ]]> */
     </script>
-    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-style-control.js"
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-style-control.js?ver=1.4.6"
         id="marketo-style-control-js"></script>
-    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-load.js" id="marketo-load-js">
-    </script>
+    <script type="text/javascript" src="./wp-content/plugins/chainalysis-marketo/js/marketo-load.js?ver=1.4.6"
+        id="marketo-load-js"></script>
     <script type="text/javascript" id="chainalysis-js-js-before">
         /* <![CDATA[ */
         const langCode = 'en';
         /* ]]> */
     </script>
-    <script type="text/javascript" src="./wp-content/themes/chainalysis/dist/main.js" id="chainalysis-js-js"></script>
-    <script type="text/javascript" src="./wp-content/themes/chainalysis/src/components/gartner/gartner.widget.loader.js"
+    <script type="text/javascript" src="./wp-content/themes/chainalysis/dist/main.js?ver=1753934902" id="chainalysis-js-js">
+    </script>
+    <script type="text/javascript"
+        src="./wp-content/themes/chainalysis/src/components/gartner/gartner.widget.loader.js?ver=1753934902"
         id="gartner-widget-js"></script>
-    <script type="text/javascript" src="./wp-content/themes/chainalysis/src/components/ashby/ashby.widget.loader.js"
+    <script type="text/javascript"
+        src="./wp-content/themes/chainalysis/src/components/ashby/ashby.widget.loader.js?ver=1753934902"
         id="ashby-widget-loader-js"></script>
     <script type="module" type="text/javascript"
-        src="./wp-content/themes/chainalysis/template-js/template-content/template-content.js" id="template-content-js">
-    </script>
-    <script type="module" type="text/javascript" src="./wp-content/themes/chainalysis/modules/shared/shared.js"
-        id="modules-shared-js"></script>
-    <script type="text/javascript" src="./wp-content/themes/chainalysis/node_modules/swiper/swiper-bundle.js"
-        id="swiper-bundle-js" defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript" src="./wp-content/themes/chainalysis/modules/shared/wc-swiper.js"
-        id="@chainalysis/swiper-wc-js" defer="defer" data-wp-strategy="defer"></script>
+        src="./wp-content/themes/chainalysis/template-js/template-content/template-content.js?ver=1753934902"
+        id="template-content-js"></script>
+    <script type="module" type="text/javascript"
+        src="./wp-content/themes/chainalysis/modules/shared/shared.js?ver=1753934902" id="modules-shared-js"></script>
     <script type="text/javascript">
         window.NREUM || (NREUM = {});
         NREUM.info = {
@@ -10384,7 +9576,7 @@
             "applicationID": "554299659",
             "transactionName": "NAdXZUBSWUBSVUNeWQ1NdFJGWlhdHEVYW0MXC1pfQR5DVl5GW1ZCBg==",
             "queueTime": 0,
-            "applicationTime": 2923,
+            "applicationTime": 2304,
             "atts": "GEBUEwhISk4=",
             "errorBeacon": "bam.nr-data.net",
             "agent": ""

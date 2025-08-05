@@ -4588,7 +4588,6 @@
                     <a class="jumplink" href="#overview">Overview</a>
                     <a class="jumplink" href="#capabilities">Capabilities</a>
                     <a class="jumplink" href="#services">Services</a>
-                    <a class="jumplink" href="#resources">Resources</a>
                 </nav>
             </div>
             <div class="jumplinks-content">
@@ -4651,37 +4650,7 @@
                         </div>
                     </div>
                 </div>
-                <div
-                    class="text-media-module
-	 padding-top padding-bottom desktop-padding-bottom-large desktop-padding-top	bg-default	">
-                    <div class="section-container">
-                        <div
-                            class="row row-align-middle row-gap-larger-default
-					 padding-top-small padding-bottom desktop-padding-bottom desktop-padding-top-none				">
-                            <div class="rich-text last-child-margin-bottom-none
-			col-5 	">
-                                <h2 class="superheader">
-                                    <b>Customer Story</b>
-                                </h2>
-                                <h3 class="font-size-4">CT State Police Safeguards Citizens from Digital Crimes</h3>
-                                <div class="buttons ">
-                                    <a class="btn btn--technology-green"
-                                        href="">Read the story</a>
-                                </div>
-                            </div>
-                            <div class="
-			col-6 col-start-7	">
-                                <div class="text-center">
-                                    <img src="./wp-content/uploads/2023/10/connecticut-state-police-officers.jpg"
-                                        srcset="./wp-content/uploads/2023/10/connecticut-state-police-officers.jpg 675w, ./wp-content/uploads/2023/10/connecticut-state-police-officers-150x150.jpg 150w, ./wp-content/uploads/2023/10/connecticut-state-police-officers-360x360.jpg 360w, ./wp-content/uploads/2023/10/connecticut-state-police-officers-300x300.jpg 300w"
-                                        sizes="(max-width: 675px) 100vw, 675px" alt=""
-                                        class="inline-block
-							rounded							full-width													">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="text-module
 	 padding-top padding-bottom desktop-padding-bottom desktop-padding-top-xlarge	bg-soft-gray"
                     id="capabilities">
@@ -4811,146 +4780,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cards-module 
-	 padding-top-large padding-bottom-large desktop-padding-bottom-large desktop-padding-top-large	bg-soft-gray        "
-                    id="resources">
-                    <div class="section-container">
-                        <swiper-carousel class="swiper ">
-                            <div class="swiper-title-nav padding-bottom desktop-padding-bottom">
-                                <div class="rich-text balance-headers">
-                                    <h2 class="font-size-4">Resources for Law Enforcement</h2>
-                                </div>
-                                <div class="swiper-navigation">
-                                    <div class="swiper-button swiper-button-prev">
-                                        <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="24.5" cy="24.5" r="23.5" stroke="#293972"
-                                                stroke-width="2" />
-                                            <path d="M34 24.7983H16" stroke="#293972" stroke-width="2" />
-                                            <path d="M23.7983 17L16 24.7983L23.7983 32.5967" stroke="#293972"
-                                                stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                    <div class="swiper-button swiper-button-next">
-                                        <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="24.5" cy="24.5" r="23.5" stroke="#293972"
-                                                stroke-width="2" />
-                                            <path d="M15 24.7983L33 24.7983" stroke="#293972" stroke-width="2" />
-                                            <path d="M25.2017 32.5967L33 24.7983L25.2017 17" stroke="#293972"
-                                                stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cards cards-grid
-		swiper-wrapper		cards-articles		cards-padding-tb-small"
-                                style="--item-count: 5;--max-columns-per-row: 3;">
-                                <a class="article-link swiper-slide"
-                                    href="">
-                                    <article
-                                        class="
-                            bg-default                                                                                ">
-                                        <div class="image-wrapper">
-                                            <img src="./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-scaled.jpg"
-                                                srcset="./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-scaled.jpg 2560w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-800x533.jpg 800w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-1500x1000.jpg 1500w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-150x100.jpg 150w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-1536x1024.jpg 1536w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-2048x1365.jpg 2048w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-300x200.jpg 300w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-750x500.jpg 750w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-948x632.jpg 948w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-1200x800.jpg 1200w, ./wp-content/uploads/2024/05/bitcoin-and-magnifying-glass-1024x683.jpg 1024w"
-                                                sizes="(max-width: 2560px) 100vw, 2560px"
-                                                alt="Hands holding Bitcoin and a magnifying glass"
-                                                class="block full-width">
-                                        </div>
-                                        <div class="padded-area">
-                                            <div class="superheader-color-default">
-                                                <p class="superheader">Blog</p>
-                                            </div>
-                                            <h3 class="font-size-6">How To Use Blockchain Intelligence To Investigate
-                                                Crypto Crime</h3>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a class="article-link swiper-slide"
-                                    href="">
-                                    <article
-                                        class="
-                            bg-default                                                                                ">
-                                        <div class="image-wrapper">
-                                            <img src="./wp-content/uploads/2025/02/ccr-2025.jpg"
-                                                srcset="./wp-content/uploads/2025/02/ccr-2025.jpg 1080w, ./wp-content/uploads/2025/02/ccr-2025-800x667.jpg 800w, ./wp-content/uploads/2025/02/ccr-2025-150x125.jpg 150w, ./wp-content/uploads/2025/02/ccr-2025-300x250.jpg 300w, ./wp-content/uploads/2025/02/ccr-2025-750x625.jpg 750w, ./wp-content/uploads/2025/02/ccr-2025-948x790.jpg 948w, ./wp-content/uploads/2025/02/ccr-2025-1024x853.jpg 1024w"
-                                                sizes="(max-width: 1080px) 100vw, 1080px" alt=""
-                                                class="block full-width">
-                                        </div>
-                                        <div class="padded-area">
-                                            <div class="superheader-color-default">
-                                                <p class="superheader">Report</p>
-                                            </div>
-                                            <h3 class="font-size-6">The CxiAgency 2025 Crypto Crime Report</h3>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a class="article-link swiper-slide"
-                                    href="">
-                                    <article
-                                        class="
-                            bg-default                                                                                ">
-                                        <div class="image-wrapper">
-                                            <img src="./wp-content/uploads/2023/10/resource-blog-harmon.jpg"
-                                                srcset="./wp-content/uploads/2023/10/resource-blog-harmon.jpg 580w, ./wp-content/uploads/2023/10/resource-blog-harmon-150x85.jpg 150w, ./wp-content/uploads/2023/10/resource-blog-harmon-300x170.jpg 300w"
-                                                sizes="(max-width: 580px) 100vw, 580px" alt="Harmon Brothers Cases"
-                                                class="block full-width">
-                                        </div>
-                                        <div class="padded-area">
-                                            <div class="superheader-color-default">
-                                                <p class="superheader">Blog</p>
-                                            </div>
-                                            <h3 class="font-size-6">CxiAgency in Action: How Law Enforcement Tracked
-                                                Millions’ Worth of Illicit Bitcoin in the Harmon Brothers Cases</h3>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a class="article-link swiper-slide" href="">
-                                    <article
-                                        class="
-                            bg-default                                                                                ">
-                                        <div class="image-wrapper">
-                                            <img src="./wp-content/uploads/2023/10/resource-blog-field-guide.jpg"
-                                                srcset="./wp-content/uploads/2023/10/resource-blog-field-guide.jpg 580w, ./wp-content/uploads/2023/10/resource-blog-field-guide-150x85.jpg 150w, ./wp-content/uploads/2023/10/resource-blog-field-guide-300x170.jpg 300w"
-                                                sizes="(max-width: 580px) 100vw, 580px" alt=""
-                                                class="block full-width">
-                                        </div>
-                                        <div class="padded-area">
-                                            <div class="superheader-color-default">
-                                                <p class="superheader">Blog</p>
-                                            </div>
-                                            <h3 class="font-size-6">The CxiAgency Law Enforcement Crypto Field Guide
-                                            </h3>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a class="article-link swiper-slide" href="">
-                                    <article
-                                        class="
-                            bg-default                                                                                ">
-                                        <div class="image-wrapper">
-                                            <img src="./wp-content/uploads/2023/10/resource-blog-silk-road.jpg"
-                                                srcset="./wp-content/uploads/2023/10/resource-blog-silk-road.jpg 580w, ./wp-content/uploads/2023/10/resource-blog-silk-road-150x85.jpg 150w, ./wp-content/uploads/2023/10/resource-blog-silk-road-300x170.jpg 300w"
-                                                sizes="(max-width: 580px) 100vw, 580px"
-                                                alt="James Zhong Silk Road Hack Seizure" class="block full-width">
-                                        </div>
-                                        <div class="padded-area">
-                                            <div class="superheader-color-default">
-                                                <p class="superheader">Blog</p>
-                                            </div>
-                                            <h3 class="font-size-6">Department of Justice Announces Second-Largest Ever
-                                                Crypto Seizure, with $3.36 Billion in Bitcoin Seized from Silk Road
-                                                Hacker</h3>
-                                        </div>
-                                    </article>
-                                </a>
-                            </div>
-                        </swiper-carousel>
-                    </div>
-                </div>
-            </div>
-        </div>
+                
         <div
             class="cta-module
      padding-top-large padding-bottom-large desktop-padding-bottom-large desktop-padding-top-large    bg-orange-to-orange-tint-gradient-to-right    ">
@@ -5514,17 +5344,11 @@
                         "align_bottom": false,
                         "blocks": [{
                             "acf_fc_layout": "links",
-                            "heading": "Products",
+                            "heading": "Crypto Investigations",
                             "links": [{
                                 "label": "Reactor",
                                 "link_type": "internal",
                                 "page_url": "\/reactor",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Wallet Scan",
-                                "link_type": "internal",
-                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
@@ -5537,42 +5361,6 @@
                                 "label": "KYT",
                                 "link_type": "internal",
                                 "page_url": "\/kyt",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "VASP Risking",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Address Screening",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Sentinel",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Alterya",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Hexagate",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "CxiAgency Data Solutions (DS)",
-                                "link_type": "internal",
-                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }]
@@ -5590,39 +5378,9 @@
                                 "url": "",
                                 "email": ""
                             }, {
-                                "label": "Centralized Exchanges",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Financial Institutions",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Tax Agencies",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
                                 "label": "Regulators",
                                 "link_type": "internal",
                                 "page_url": "\/regulators",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Decentralized Finance",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Consumer Brands",
-                                "link_type": "internal",
-                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
@@ -5640,12 +5398,6 @@
                             "acf_fc_layout": "links",
                             "heading": "Company",
                             "links": [{
-                                "label": "About Us",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "https:\/\/mailto:contact@cxiagency.com",
-                                "email": "contact@cxiagency.com"
-                            }, {
                                 "label": "Why CxiAgency",
                                 "link_type": "internal",
                                 "page_url": "\/why-cxiagency",
@@ -5656,18 +5408,6 @@
                                 "link_type": "external",
                                 "page_url": "\/partners",
                                 "url": "\/partners",
-                                "email": ""
-                            }, {
-                                "label": "Media Resources",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Scam Prevention",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
                                 "email": ""
                             }]
                         }, {
@@ -5686,73 +5426,29 @@
                         "align_bottom": false,
                         "blocks": [{
                             "acf_fc_layout": "links",
-                            "heading": "Resources",
-                            "links": [{
-                                "label": "Blog",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Webinars",
-                                "link_type": "external",
-                                "page_url": null,
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Podcast",
-                                "link_type": "external",
-                                "page_url": null,
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Reports",
-                                "link_type": "external",
-                                "page_url": null,
-                                "url": "",
-                                "email": ""
-                            }]
-                        }, {
-                            "acf_fc_layout": "links",
-                            "heading": "Services",
-                            "links": [{
-                                "label": "Global Services",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Training & Certification",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }]
-                        }, {
-                            "acf_fc_layout": "links",
                             "heading": "Global",
                             "links": [{
                                 "label": "\u65e5\u672c\u8a9e",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/japanese\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
                                 "label": "\ud55c\uad6d\uc5b4",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/korean\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
                                 "label": "Espa\u00f1ol",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/spanish\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }, {
                                 "label": "Portugu\u00eas",
                                 "link_type": "internal",
-                                "page_url": "https:\/\/www.chainalysis.com\/pt\/",
+                                "page_url": "",
                                 "url": "",
                                 "email": ""
                             }]
@@ -5771,34 +5467,6 @@
                             "acf_fc_layout": "text",
                             "heading": "",
                             "text": "\u00a9 [year], CxiAgency"
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "",
-                            "links": [{
-                                "label": "Privacy Policy",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }]
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "",
-                            "links": [{
-                                "label": "Legal",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }]
                         }]
                     }]
                 }],
@@ -5998,243 +5666,7 @@
                     }]
                 },
                 "header_customer_stories": {
-                    "stories": [{
-                        "image": {
-                            "ID": 11073,
-                            "id": 11073,
-                            "title": "ct-state-police-featured-thumbnail",
-                            "filename": "ct-state-police-featured-thumbnail.png",
-                            "filesize": 14133,
-                            "url": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                            "link": "",
-                            "alt": "",
-                            "author": "81",
-                            "description": "",
-                            "caption": "",
-                            "name": "ct-state-police-featured-thumbnail",
-                            "status": "inherit",
-                            "uploaded_to": 0,
-                            "date": "2023-10-11 03:19:05",
-                            "modified": "2023-10-11 03:19:05",
-                            "menu_order": 0,
-                            "mime_type": "image\/png",
-                            "type": "image",
-                            "subtype": "png",
-                            "icon": "https:\/\/www.chainalysis.com\/wp-includes\/images\/media\/default.png",
-                            "width": 70,
-                            "height": 90,
-                            "sizes": {
-                                "thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "thumbnail-width": 70,
-                                "thumbnail-height": 90,
-                                "medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "medium-width": 70,
-                                "medium-height": 90,
-                                "large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "large-width": 70,
-                                "large-height": 90,
-                                "1536x1536": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "1536x1536-width": 70,
-                                "1536x1536-height": 90,
-                                "2048x2048": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "2048x2048-width": 70,
-                                "2048x2048-height": 90,
-                                "promo-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "promo-thumbnail-width": 70,
-                                "promo-thumbnail-height": 90,
-                                "post-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "post-thumbnail-width": 70,
-                                "post-thumbnail-height": 90,
-                                "max_size": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "max_size-width": 70,
-                                "max_size-height": 90,
-                                "small": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "small-width": 70,
-                                "small-height": 90,
-                                "medium_wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "medium_wide-width": 70,
-                                "medium_wide-height": 90,
-                                "visuals": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "visuals-width": 70,
-                                "visuals-height": 90,
-                                "contact": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "contact-width": 70,
-                                "contact-height": 90,
-                                "imported_posts": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "imported_posts-width": 70,
-                                "imported_posts-height": 90,
-                                "wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "wide-width": 70,
-                                "wide-height": 90,
-                                "news-large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "news-large-width": 70,
-                                "news-large-height": 90,
-                                "news-medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "news-medium-width": 70,
-                                "news-medium-height": 90,
-                                "news-thumb": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "news-thumb-width": 70,
-                                "news-thumb-height": 90,
-                                "leadership_retina": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership_retina-width": 70,
-                                "leadership_retina-height": 90,
-                                "leadership_large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership_large-width": 70,
-                                "leadership_large-height": 90,
-                                "leadership_medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership_medium-width": 70,
-                                "leadership_medium-height": 90,
-                                "leadership": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/ct-state-police-featured-thumbnail.png",
-                                "leadership-width": 70,
-                                "leadership-height": 90
-                            }
-                        },
-                        "story_post": {
-                            "ID": 10122,
-                            "post_author": "75",
-                            "post_date": "2023-09-12 18:40:03",
-                            "post_date_gmt": "2023-09-12 22:40:03",
-                            "post_content": "",
-                            "post_title": "Connecticut State Police safeguards citizens from digital crimes",
-                            "post_excerpt": "",
-                            "post_status": "publish",
-                            "comment_status": "closed",
-                            "ping_status": "closed",
-                            "post_password": "",
-                            "post_name": "facing-crypto-crime-in-connecticut",
-                            "to_ping": "",
-                            "pinged": "",
-                            "post_modified": "2023-10-30 19:30:34",
-                            "post_modified_gmt": "2023-10-30 23:30:34",
-                            "post_content_filtered": "",
-                            "post_parent": 0,
-                            "guid": "https:\/\/www.chainalysis.com\/?post_type=customer-stories&#038;p=10122",
-                            "menu_order": 0,
-                            "post_type": "customer-stories",
-                            "post_mime_type": "",
-                            "comment_count": "0",
-                            "filter": "raw",
-                            "permalink": ""
-                        }
-                    }, {
-                        "image": {
-                            "ID": 11074,
-                            "id": 11074,
-                            "title": "morabanc-featured-thumbnail",
-                            "filename": "morabanc-featured-thumbnail.png",
-                            "filesize": 11641,
-                            "url": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                            "link": "",
-                            "alt": "",
-                            "author": "81",
-                            "description": "",
-                            "caption": "",
-                            "name": "morabanc-featured-thumbnail",
-                            "status": "inherit",
-                            "uploaded_to": 0,
-                            "date": "2023-10-11 03:19:23",
-                            "modified": "2023-10-11 03:19:23",
-                            "menu_order": 0,
-                            "mime_type": "image\/png",
-                            "type": "image",
-                            "subtype": "png",
-                            "icon": "https:\/\/www.chainalysis.com\/wp-includes\/images\/media\/default.png",
-                            "width": 70,
-                            "height": 90,
-                            "sizes": {
-                                "thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "thumbnail-width": 70,
-                                "thumbnail-height": 90,
-                                "medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "medium-width": 70,
-                                "medium-height": 90,
-                                "large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "large-width": 70,
-                                "large-height": 90,
-                                "1536x1536": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "1536x1536-width": 70,
-                                "1536x1536-height": 90,
-                                "2048x2048": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "2048x2048-width": 70,
-                                "2048x2048-height": 90,
-                                "promo-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "promo-thumbnail-width": 70,
-                                "promo-thumbnail-height": 90,
-                                "post-thumbnail": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "post-thumbnail-width": 70,
-                                "post-thumbnail-height": 90,
-                                "max_size": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "max_size-width": 70,
-                                "max_size-height": 90,
-                                "small": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "small-width": 70,
-                                "small-height": 90,
-                                "medium_wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "medium_wide-width": 70,
-                                "medium_wide-height": 90,
-                                "visuals": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "visuals-width": 70,
-                                "visuals-height": 90,
-                                "contact": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "contact-width": 70,
-                                "contact-height": 90,
-                                "imported_posts": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "imported_posts-width": 70,
-                                "imported_posts-height": 90,
-                                "wide": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "wide-width": 70,
-                                "wide-height": 90,
-                                "news-large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "news-large-width": 70,
-                                "news-large-height": 90,
-                                "news-medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "news-medium-width": 70,
-                                "news-medium-height": 90,
-                                "news-thumb": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "news-thumb-width": 70,
-                                "news-thumb-height": 90,
-                                "leadership_retina": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership_retina-width": 70,
-                                "leadership_retina-height": 90,
-                                "leadership_large": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership_large-width": 70,
-                                "leadership_large-height": 90,
-                                "leadership_medium": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership_medium-width": 70,
-                                "leadership_medium-height": 90,
-                                "leadership": "https:\/\/www.chainalysis.com\/wp-content\/uploads\/2023\/10\/morabanc-featured-thumbnail.png",
-                                "leadership-width": 70,
-                                "leadership-height": 90
-                            }
-                        },
-                        "story_post": {
-                            "ID": 7908,
-                            "post_author": "75",
-                            "post_date": "2023-08-04 17:22:15",
-                            "post_date_gmt": "2023-08-04 21:22:15",
-                            "post_content": "",
-                            "post_title": "Morabanc serves as trusted entry point to world of digital assets",
-                            "post_excerpt": "",
-                            "post_status": "publish",
-                            "comment_status": "closed",
-                            "ping_status": "closed",
-                            "post_password": "",
-                            "post_name": "morabanc",
-                            "to_ping": "",
-                            "pinged": "",
-                            "post_modified": "2023-10-30 19:29:42",
-                            "post_modified_gmt": "2023-10-30 23:29:42",
-                            "post_content_filtered": "",
-                            "post_parent": 0,
-                            "guid": "https:\/\/www.chainalysis.com\/?post_type=customer-stories&#038;p=7908",
-                            "menu_order": 0,
-                            "post_type": "customer-stories",
-                            "post_mime_type": "",
-                            "comment_count": "0",
-                            "filter": "raw",
-                            "permalink": ""
-                        }
-                    }]
+                    "stories": []
                 },
                 "modal_defaults": {
                     "default_title": "Contact us",
