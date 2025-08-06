@@ -55,7 +55,6 @@
         @if(isset($iconClasses[$displayType]))
             <i class="flash-icon {{ $iconClasses[$displayType] }} mr-2"></i>
         @endif
-        <p class="flash-message-type-label">{{ ucfirst($displayType) }}:</p>
         <p class="flash-message-text">{{ $displayMessage }}</p>
     </div>
 </div>

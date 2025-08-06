@@ -4201,6 +4201,7 @@
         /* Text styling */
         .flash-message-type-label {
             font-weight: bold;
+            margin-bottom: 0 !important;
             /* font-bold */
         }
 
@@ -4211,6 +4212,7 @@
             /* text-sm */
             line-height: 1.25rem;
             /* leading-5, typical for text-sm */
+            margin-bottom: 0 !important;
         }
 
         /* Close button styling */
@@ -5425,9 +5427,11 @@
                         <p>Understand the entire flow of funds from source to destination. Discover leads, analyze
                             activities, and pursue threats across chains, web3 infrastructure, and more. Visualize
                             illicit networks and gather actionable intelligence to combat crypto crime.</p>
-                        <div class="buttons ">
-                            <a class="btn btn--default" href="/reactor">Explore Reactor</a>
-                        </div>
+                            <modal-toggle target="e93bcc7300aaa5d37c91729e5a705aa2">
+                                <div class="buttons">
+                                    <a class="btn btn--default" href="">Recover My Lost Funds</a>
+                                </div>
+                            </modal-toggle>
                     </div>
                     <div class="
 			col-6 col-start-7	">
@@ -6347,9 +6351,9 @@
         var wp_data = {
             "options": {
                 "footer_newsletter_texts": {
-                    "heading": "Subscribe to our weekly newsletter",
-                    "footer_form_number": "1232",
-                    "thank_you_message": "Thank you for subscribing to the CxiAgency weekly newsletter."
+                    "heading": "",
+                    "footer_form_number": "",
+                    "thank_you_message": ""
                 },
                 "footer_blocks": [{
                     "line_above": false,
@@ -6375,6 +6379,12 @@
                                 "label": "KYT",
                                 "link_type": "internal",
                                 "page_url": "\/kyt",
+                                "url": "",
+                                "email": ""
+                            }, , {
+                                "label": "Recover My Lost Funds",
+                                "link_type": "internal",
+                                "page_url": "\/request-a-demo",
                                 "url": "",
                                 "email": ""
                             }]
@@ -6433,38 +6443,6 @@
                                 "page_url": "https:\/\/www.chainalysis.com\/crypto-investigations-and-special-programs\/",
                                 "url": "",
                                 "email": "contact@cxiagency.com"
-                            }]
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "Global",
-                            "links": [{
-                                "label": "\u65e5\u672c\u8a9e",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "\ud55c\uad6d\uc5b4",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Espa\u00f1ol",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Portugu\u00eas",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
                             }]
                         }]
                     }, {
@@ -6689,7 +6667,7 @@
                 "header_buttons": [{
                     "button_label": "Request a demo",
                     "cta_action": "internal",
-                    "page_url": "",
+                    "page_url": "\/request-a-demo",
                     "url": "",
                     "modal_options": {
                         "modal_style": "modal-minimal",
@@ -10390,6 +10368,9 @@
             "agent": ""
         }
     </script>
+    <div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"en","wrapper_selector":".gtranslate_wrapper"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 </body>
 
 </html>

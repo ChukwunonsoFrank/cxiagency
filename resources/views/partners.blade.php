@@ -4683,7 +4683,7 @@
 				cards-articles		cards-padding-full"
                     style="--item-count: 27;--max-columns-per-row: 4;">
                     <a class="article-link "
-                        href="https://www.21analytics.ch/blog/21-travel-rule-integrates-chainalysis-data-for-risk-assessment/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4698,7 +4698,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.alloy.com/blog/alloy-expands-crypto-capabilities">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4713,7 +4713,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://alphapoint.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4729,8 +4729,8 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link "
-                        href="https://www.authsignal.com/blog/articles/automating-chainalysis-workflows-how-to-integrate-chainalysis-kyt-with-authsignai-to-mitigate-crypto-crime-and-streamline-operations">
+                    <a class="article-link"
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4745,7 +4745,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.blockdaemon.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4761,7 +4761,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.prnewswire.com/news-releases/bluestone-analytics-and-chainalysis-partner-to-provide-enhanced-investigative-and-analysis-capabilities-for-dark-web-cryptocurrency-usage-301255607.html">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4778,7 +4778,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://cellebrite.com/en/cellebrite-crypto-solution-powered-by-chainalysis/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4793,7 +4793,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.cense.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4809,7 +4809,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.prnewswire.com/news-releases/cloudburst-technologies-and-chainalysis-announce-groundbreaking-osint-integration-enabling-focused-deep-and-dark-web-coverage-in-blockchain-investigations-302182775.html">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4825,7 +4825,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.cognyte.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4840,7 +4840,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.dfns.co/article/chainalysis-integration">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4857,7 +4857,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.fireblocks.com/blog/fireblocks-chainalysis-how-to-build-a-secure-and-compliant-cryptocurrency-business/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4873,7 +4873,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.businesswire.com/news/home/20210129005011/en/Chainalysis-and-Flashpoint-Partner-to-Provide-Advanced-Intelligence-into-Cybercriminal-Use-of-Cryptocurrencies-Unlocking-New-Visibility-about-Cyberattacks">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4888,7 +4888,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.gk8.io/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4903,7 +4903,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.chainalysis.com/blog/chainalysis-tether-hadron-rwa/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4920,7 +4920,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.prweb.com/releases/hummingbird-integrates-with-chainalysis-to-provide-crypto-transaction-monitoring-to-customers-838018885.html">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4936,7 +4936,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.chainalysis.com/blog/i2-group-partners-with-chainalysis/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4951,7 +4951,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://intel471.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4967,7 +4967,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.ledger.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -4983,7 +4983,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.chainalysis.com/blog/chainalysis-launches-enhancements-helping-organizations-know-your-vasp/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5000,7 +5000,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://www.chainalysis.com/blog/chainalysis-notabene-travel-rule-integration/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5015,7 +5015,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://withpersona.com/solutions/persona-marketplace">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5030,7 +5030,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.shiftmarkets.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5046,7 +5046,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://siren.io/partnership-between-siren-and-chainalysis-to-trace-blockchain-transactions-and-disrupt-illicit-activities/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5062,7 +5062,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.soliduslabs.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5079,7 +5079,7 @@
                         </article>
                     </a>
                     <a class="article-link "
-                        href="https://sumsub.com/newsroom/sumsub-partners-with-chainalysis-to-enhance-compliance-and-monitoring-for-crypto-clients/">
+                        href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5094,7 +5094,7 @@
                             </div>
                         </article>
                     </a>
-                    <a class="article-link " href="https://www.taurushq.com/">
+                    <a class="article-link " href="">
                         <article
                             class="
                             bg-soft-gray                            rounded                            border                        ">
@@ -5174,9 +5174,9 @@
         var wp_data = {
             "options": {
                 "footer_newsletter_texts": {
-                    "heading": "Subscribe to our weekly newsletter",
-                    "footer_form_number": "1232",
-                    "thank_you_message": "Thank you for subscribing to the CxiAgency weekly newsletter."
+                    "heading": "",
+                    "footer_form_number": "",
+                    "thank_you_message": ""
                 },
                 "footer_blocks": [{
                     "line_above": false,
@@ -5202,6 +5202,12 @@
                                 "label": "KYT",
                                 "link_type": "internal",
                                 "page_url": "\/kyt",
+                                "url": "",
+                                "email": ""
+                            }, , {
+                                "label": "Recover My Lost Funds",
+                                "link_type": "internal",
+                                "page_url": "\/request-a-demo",
                                 "url": "",
                                 "email": ""
                             }]
@@ -5260,38 +5266,6 @@
                                 "page_url": "https:\/\/www.chainalysis.com\/crypto-investigations-and-special-programs\/",
                                 "url": "",
                                 "email": "contact@cxiagency.com"
-                            }]
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "Global",
-                            "links": [{
-                                "label": "\u65e5\u672c\u8a9e",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "\ud55c\uad6d\uc5b4",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Espa\u00f1ol",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Portugu\u00eas",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
                             }]
                         }]
                     }, {
@@ -5516,7 +5490,7 @@
                 "header_buttons": [{
                     "button_label": "Request a demo",
                     "cta_action": "internal",
-                    "page_url": "",
+                    "page_url": "\/request-a-demo",
                     "url": "",
                     "modal_options": {
                         "modal_style": "modal-minimal",
@@ -9191,6 +9165,9 @@
             "agent": ""
         }
     </script>
+    <div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"en","wrapper_selector":".gtranslate_wrapper"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 </body>
 
 </html>

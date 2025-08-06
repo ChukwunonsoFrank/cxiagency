@@ -39583,7 +39583,12 @@ object-assign
                     to: "/rapid"
                 }, "Rapid"), o.a.createElement("span", {
                     className: "description"
-                }, "Instant crypto triage with AI-powered insights"))), o.a.createElement("li", {
+                }, "Instant crypto triage with AI-powered insights"), o.a.createElement(Yt, {
+                    className: "header-menu-secondary",
+                    to: "/request-a-demo"
+                }, "Recover My Lost Funds"), o.a.createElement("span", {
+                    className: "description"
+                }, "Recover lost funds on-chain"))), o.a.createElement("li", {
                     className: "items row--one-auto"
                 }, o.a.createElement("div", {
                     className: "item"
@@ -41765,7 +41770,9 @@ object-assign
                     to: "/reactor"
                 }, o.a.createElement("span", null, "Reactor")), o.a.createElement(Yt, {
                     to: "/rapid"
-                }, o.a.createElement("span", null, "Rapid"))), o.a.createElement("li", null, o.a.createElement(Yt, {
+                }, o.a.createElement("span", null, "Rapid")), o.a.createElement(Yt, {
+                    to: "/request-a-demo"
+                }, o.a.createElement("span", null, "Recover My Lost Funds"))), o.a.createElement("li", null, o.a.createElement(Yt, {
                     to: ""
                 }, o.a.createElement(Gr, {
                     className: "right-arrow"

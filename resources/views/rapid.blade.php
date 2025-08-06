@@ -4080,6 +4080,201 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <style>
+        /* Spinner styling */
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #007bff;
+            /* Or any color you like */
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            /* Aligns with button, or block for new line */
+            vertical-align: middle;
+            /* Align with text baseline */
+            margin-left: 10px;
+            /* Space between button and spinner */
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Base container for all flash messages */
+        .flash-message-container {
+            position: fixed;
+            top: 0;
+            /* Equivalent to bottom-4 */
+            z-index: 9999;
+            /* Higher than most elements, equivalent to z-50 */
+            padding: 1rem;
+            /* Equivalent to p-4 */
+            border-radius: 0.375rem;
+            /* Equivalent to rounded-md */
+            border-width: 1px;
+            /* Equivalent to border */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            /* Equivalent to shadow-lg */
+            overflow: hidden;
+            /* Important for transitions */
+        }
+
+        /* Type-specific background, border, and text colors */
+        .flash-message-success {
+            background-color: #ff5300;
+            border-color: #ff5300;
+            color: #fff;
+        }
+
+        .flash-message-error {
+            background-color: #fee2e2;
+            /* bg-red-100 */
+            border-color: #f87171;
+            /* border-red-400 */
+            color: #991b1b;
+            /* text-red-700 */
+        }
+
+        .flash-message-warning {
+            background-color: #fffbeb;
+            /* bg-yellow-100 */
+            border-color: #fbbf24;
+            /* border-yellow-400 */
+            color: #92400e;
+            /* text-yellow-700 */
+        }
+
+        .flash-message-info {
+            background-color: #eff6ff;
+            /* bg-blue-100 */
+            border-color: #60a5fa;
+            /* border-blue-400 */
+            color: #1e40af;
+            /* text-blue-700 */
+        }
+
+        /* Flexbox for content alignment */
+        .flash-message-content {
+            display: flex;
+            align-items: center;
+            /* items-center */
+        }
+
+        /* Icon styling */
+        .flash-icon {
+            margin-right: 0.5rem;
+            /* mr-2 */
+        }
+
+        .flash-icon-success {
+            color: #fff;
+        }
+
+        /* text-green-500 */
+        .flash-icon-error {
+            color: #ef4444;
+        }
+
+        /* text-red-500 */
+        .flash-icon-warning {
+            color: #f59e0b;
+        }
+
+        /* text-yellow-500 */
+        .flash-icon-info {
+            color: #3b82f6;
+        }
+
+        /* text-blue-500 */
+
+
+        /* Text styling */
+        .flash-message-type-label {
+            font-weight: bold;
+            margin-bottom: 0 !important;
+            /* font-bold */
+        }
+
+        .flash-message-text {
+            margin-left: 0.5rem;
+            /* ml-2 */
+            font-size: 0.875rem;
+            /* text-sm */
+            line-height: 1.25rem;
+            /* leading-5, typical for text-sm */
+            margin-bottom: 0 !important;
+        }
+
+        /* Close button styling */
+        .flash-close-btn {
+            margin-left: auto;
+            /* ml-auto */
+            color: #6b7280;
+            /* text-gray-500 */
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0.25rem;
+            font-size: 1rem;
+            /* Adjust as needed for icon size */
+            transition: color 0.2s ease-in-out;
+            /* For hover effect */
+        }
+
+        .flash-close-btn:hover {
+            color: #374151;
+            /* hover:text-gray-700 */
+        }
+
+        /* Alpine.js Transition Classes */
+        /* enter: transition ease-out duration-300 */
+        .flash-transition-enter {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+        }
+
+        /* enter-start: opacity-0 transform scale-90 */
+        .flash-transition-enter-start {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        /* enter-end: opacity-100 transform scale-100 */
+        .flash-transition-enter-end {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* leave: transition ease-in duration-200 */
+        .flash-transition-leave {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+            /* This is ease-in */
+            transition-duration: 200ms;
+        }
+
+        /* leave-start: opacity-100 transform scale-100 */
+        .flash-transition-leave-start {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* leave-end: opacity-0 transform scale-90 */
+        .flash-transition-leave-end {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+    </style>
     
     <style id='classic-theme-styles-inline-css' type='text/css'>
         /*! This file is auto-generated */
@@ -6487,9 +6682,9 @@
         var wp_data = {
             "options": {
                 "footer_newsletter_texts": {
-                    "heading": "Subscribe to our weekly newsletter",
-                    "footer_form_number": "1232",
-                    "thank_you_message": "Thank you for subscribing to the CxiAgency weekly newsletter."
+                    "heading": "",
+                    "footer_form_number": "",
+                    "thank_you_message": ""
                 },
                 "footer_blocks": [{
                     "line_above": false,
@@ -6515,6 +6710,12 @@
                                 "label": "KYT",
                                 "link_type": "internal",
                                 "page_url": "\/kyt",
+                                "url": "",
+                                "email": ""
+                            }, , {
+                                "label": "Recover My Lost Funds",
+                                "link_type": "internal",
+                                "page_url": "\/request-a-demo",
                                 "url": "",
                                 "email": ""
                             }]
@@ -6573,38 +6774,6 @@
                                 "page_url": "https:\/\/www.chainalysis.com\/crypto-investigations-and-special-programs\/",
                                 "url": "",
                                 "email": "contact@cxiagency.com"
-                            }]
-                        }]
-                    }, {
-                        "column_width": "2",
-                        "align_bottom": false,
-                        "blocks": [{
-                            "acf_fc_layout": "links",
-                            "heading": "Global",
-                            "links": [{
-                                "label": "\u65e5\u672c\u8a9e",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "\ud55c\uad6d\uc5b4",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Espa\u00f1ol",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
-                            }, {
-                                "label": "Portugu\u00eas",
-                                "link_type": "internal",
-                                "page_url": "",
-                                "url": "",
-                                "email": ""
                             }]
                         }]
                     }, {
@@ -6829,7 +6998,7 @@
                 "header_buttons": [{
                     "button_label": "Request a demo",
                     "cta_action": "internal",
-                    "page_url": "",
+                    "page_url": "\/request-a-demo",
                     "url": "",
                     "modal_options": {
                         "modal_style": "modal-minimal",
@@ -10526,6 +10695,9 @@
             "agent": ""
         }
     </script>
+    <div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"en","wrapper_selector":".gtranslate_wrapper"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 </body>
 
 </html>
