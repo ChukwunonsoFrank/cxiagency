@@ -43,8 +43,8 @@ Route::get('/kyt', function () {
     return view('kyt');
 });
 
-Route::get('/request-a-demo', function () {
-    return view('request-a-demo');
+Route::get('/report-your-fund-loss', function () {
+    return view('report-your-fund-loss');
 });
 
 Route::post('/submit', [FormController::class, 'submit'])->name('submit');

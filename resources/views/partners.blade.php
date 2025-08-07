@@ -5488,7 +5488,7 @@
                     "marketo_form_id_number": "4994"
                 },
                 "header_buttons": [{
-                    "button_label": "Request a demo",
+                    "button_label": "Report Your Fund Loss",
                     "cta_action": "internal",
                     "page_url": "\/request-a-demo",
                     "url": "",
@@ -5878,7 +5878,7 @@
                         "buttons_alignment": "center",
                         "buttons": [{
                             "style": "orange",
-                            "button_text": "Request a demo",
+                            "button_text": "Report Your Fund Loss",
                             "cta_action": "modal",
                             "internal_link": "\/request-a-demo\/",
                             "external_link": "",
@@ -5887,7 +5887,7 @@
                                 "modal_style": "modal-form",
                                 "modal_content": [{
                                     "acf_fc_layout": "modal_form",
-                                    "form_heading": "Request a demo",
+                                    "form_heading": "Report Your Fund Loss",
                                     "marketo_form_id": "4615"
                                 }]
                             }
@@ -8303,7 +8303,7 @@
                         "buttons_alignment": "center",
                         "buttons": [{
                             "style": "deep-blue-no-border",
-                            "button_text": "Request a demo",
+                            "button_text": "Report Your Fund Loss",
                             "cta_action": "modal",
                             "internal_link": "\/request-a-demo\/",
                             "external_link": "",
@@ -8312,7 +8312,7 @@
                                 "modal_style": "modal-form",
                                 "modal_content": [{
                                     "acf_fc_layout": "modal_form",
-                                    "form_heading": "Request a demo",
+                                    "form_heading": "Report Your Fund Loss",
                                     "marketo_form_id": "4615"
                                 }]
                             }
