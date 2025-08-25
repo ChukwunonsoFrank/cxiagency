@@ -39585,7 +39585,7 @@ object-assign
                     className: "description"
                 }, "Instant crypto triage with AI-powered insights"), o.a.createElement(Yt, {
                     className: "header-menu-secondary",
-                    to: "/request-a-demo"
+                    to: "/report-your-fund-loss"
                 }, "Recover My Lost Funds"), o.a.createElement("span", {
                     className: "description"
                 }, "Recover lost funds on-chain"))), o.a.createElement("li", {
@@ -41771,7 +41771,7 @@ object-assign
                 }, o.a.createElement("span", null, "Reactor")), o.a.createElement(Yt, {
                     to: "/rapid"
                 }, o.a.createElement("span", null, "Rapid")), o.a.createElement(Yt, {
-                    to: "/request-a-demo"
+                    to: "/report-your-fund-loss"
                 }, o.a.createElement("span", null, "Recover My Lost Funds"))), o.a.createElement("li", null, o.a.createElement(Yt, {
                     to: ""
                 }, o.a.createElement(Gr, {

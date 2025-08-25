@@ -14,7 +14,7 @@ class SendFormEntry extends Notification
     /**
      * Create a new notification instance.
      */
-    public function __construct(public string $firstName, public string $lastName, public string $businessEmailAddress, public string $companyName, public string $phoneNumber, public string $organizationType, public string $country, public string $solutionOfInterest, public string $channel, public string $moreInfo)
+    public function __construct(public string $firstName, public string $lastName, public string $emailAddress, public string $country, public string $whatsappNumber, public string $telegramId, public string $whatHappened, public string $amountLost, public string $scamDate, public string $moreInfo)
     {
         //
     }
@@ -40,14 +40,14 @@ class SendFormEntry extends Notification
             ->line('')
             ->line('First Name: ' . $this->firstName)
             ->line('Last Name: ' . $this->lastName)
-            ->line('Business Email Address: ' . $this->businessEmailAddress)
-            ->line('Company Name: ' . $this->companyName)
-            ->line('Phone Number: ' . $this->phoneNumber)
-            ->line('Organization Type: ' . $this->organizationType)
+            ->line('Email Address: ' . $this->emailAddress)
             ->line('Country: ' . $this->country)
-            ->line('Solution of Interest: ' . $this->solutionOfInterest)
-            ->line('How did you hear about us: ' . $this->channel)
-            ->line('Help us customize your demo — tell us about your team and goals with Cxiagency: ' . $this->moreInfo);
+            ->line('WhatsApp Number: ' . $this->whatsappNumber)
+            ->line('Telegram ID: ' . $this->telegramId)
+            ->line('What happened: ' . $this->whatHappened)
+            ->line('Amount Lost: ' . $this->amountLost)
+            ->line('Scam Date: ' . $this->scamDate)
+            ->line('Tell us more: ' . $this->moreInfo);
     }
 
     /**

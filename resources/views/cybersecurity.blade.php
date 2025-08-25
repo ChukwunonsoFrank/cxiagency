@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <script async src="https://www.google.com/recaptcha/api.js"></script>
     <script type="text/javascript">
         (window.NREUM || (NREUM = {})).init = {
             privacy: {
@@ -4712,6 +4713,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+        <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '216a7396ffb1e3d0482e501bb2d817aa46c4f415';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </head>
 
 <body class="tl-wrapper-status--entering">
@@ -4782,108 +4795,12 @@
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Business Email Address *</label>
+                                                        for="">Email Address *</label>
                                                 </div>
                                                 <div>
-                                                    <input name="business_email_address"
+                                                    <input name="email_address"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
                                                         type="email" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Company Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="company_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Phone Number *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="phone_number"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Organization Type *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="organization_type"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Asset Managers">Asset Managers</option>
-                                                        <option value="Banks">Banks</option>
-                                                        <option value="Broker Dealers">Broker Dealers</option>
-                                                        <option value="Consulting">Consulting</option>
-                                                        <option value="Consulting Firms">Consulting Firms</option>
-                                                        <option value="Consumer Brand">Consumer Brand</option>
-                                                        <option value="Consumer Retail and Web2">Consumer Retail and
-                                                            Web2</option>
-                                                        <option value="Consumer Services - Other">Consumer Services -
-                                                            Other</option>
-                                                        <option value="Consumer Technology">Consumer Technology
-                                                        </option>
-                                                        <option value="Creator Economy">Creator Economy</option>
-                                                        <option value="Crypto Asset Manager">Crypto Asset Manager
-                                                        </option>
-                                                        <option value="Crypto ATMs / BTMs">Crypto ATMs / BTMs</option>
-                                                        <option value="Crypto Exchanges, Custodians, OTC">Crypto
-                                                            Exchanges, Custodians, OTC</option>
-                                                        <option value="Crypto Native - Other">Crypto Native - Other
-                                                        </option>
-                                                        <option value="Cyber Security">Cyber Security</option>
-                                                        <option
-                                                            value="DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2 Blockchains">
-                                                            DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2
-                                                            Blockchains</option>
-                                                        <option value="Enterprise Technology">Enterprise Technology
-                                                        </option>
-                                                        <option value="Financial Regulator">Financial Regulator
-                                                        </option>
-                                                        <option value="Fintechs / Payment Companies">Fintechs /
-                                                            Payment
-                                                            Companies</option>
-                                                        <option value="Gambling">Gambling</option>
-                                                        <option value="Gaming -  Online and Mobile">Gaming - Online
-                                                            &amp; Mobile</option>
-                                                        <option value="Hedge Funds, PE, and VCs">Hedge Funds, PE, and
-                                                            VCs</option>
-                                                        <option value="High Frequency Traders / Market Makers">High
-                                                            Frequency Traders / Market Makers</option>
-                                                        <option value="Insurance">Insurance</option>
-                                                        <option value="Investigative Firms">Investigative Firms
-                                                        </option>
-                                                        <option value="Law Enforcement">Law Enforcement</option>
-                                                        <option value="Law Firms">Law Firms</option>
-                                                        <option value="NFT Exchanges, NFT Lending">NFT Exchanges, NFT
-                                                            Lending</option>
-                                                        <option value="Social Media">Social Media</option>
-                                                        <option value="Tax/Accounting Firms">Tax/Accounting Firms
-                                                        </option>
-                                                        <option value="Tax Agency">Tax Agency</option>
-                                                        <option value="Technology Services - Other">Technology
-                                                            Services
-                                                            - Other</option>
-                                                        <option value="Trade Infra/Trade Venues">Trade Infra/Trade
-                                                            Venues</option>
-                                                        <option value="Other">Other</option>
-                                                    </select>
                                                 </div>
                                             </div>
 
@@ -4895,7 +4812,7 @@
                                                 </div>
                                                 <div>
                                                     <select name="country"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;" required>
                                                         <option value=""></option>
                                                         <option value="Afghanistan">Afghanistan</option>
                                                         <option value="Aland Islands">Aland Islands</option>
@@ -5185,24 +5102,41 @@
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Solution of Interest *</label>
+                                                        for="">WhatsApp Number *</label>
                                                 </div>
                                                 <div>
-                                                    <select name="solution_of_interest"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                    <input name="whatsapp_number"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                        type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div style="margin-bottom: 6px;">
+                                                    <label
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">Telegram ID (optional)</label>
+                                                </div>
+                                                <div>
+                                                    <input name="telegram_id"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                        type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div style="margin-bottom: 6px;">
+                                                    <label
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">What happened? *</label>
+                                                </div>
+                                                <div>
+                                                    <select name="what_happened"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;" required>
                                                         <option value=""></option>
-                                                        <option value="Fund recovery for a personal investment scam">
-                                                            Personal scam fund recovery</option>
-                                                        <option value="Crypto Compliance">Crypto Compliance</option>
-                                                        <option value="Crypto Investigations">Crypto Investigations
-                                                        </option>
-                                                        <option value="Security and Fraud (Hexagate and Alterya)">
-                                                            Security and Fraud (Hexagate and Alterya)</option>
-                                                        <option value="CxiAgency DS">CxiAgency Data Solutions
-                                                        </option>
-                                                        <option value="Global Services">Global Services</option>
-                                                        <option value="Training and Certifications Services">Training
-                                                            and Certifications Services</option>
+                                                        <option value="I lost my funds">
+                                                            I lost my funds</option>
+                                                        <option value="I was scammed">I was scammed</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -5210,11 +5144,24 @@
                                             <div style="">
                                                 <div style="margin-bottom: 6px;">
                                                     <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">How did you hear about us? *</label>
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">Amount Lost/scammed</label>
                                                 </div>
                                                 <div>
-                                                    <input name="channel"
+                                                    <input name="amount_lost"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                        type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div style="margin-bottom: 6px;">
+                                                    <label
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">Scam Date</label>
+                                                </div>
+                                                <div>
+                                                    <input name="scam_date"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
                                                         type="text" required>
                                                 </div>
@@ -5224,14 +5171,17 @@
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Help us customize your demo—tell us about your
-                                                        team and goals with CxiAgency. *</label>
+                                                        for="">Tell us more (optional)</label>
                                                 </div>
                                                 <div>
                                                     <textarea name="more_info"
                                                         style="height: 72px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding: 16px; color: #293972; font-size: 14px;"
                                                         name="" id="" cols="10" rows="10"></textarea>
                                                 </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div class="g-recaptcha mt-4" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
                                             </div>
 
                                             <div style="display: flex; align-items: start; column-gap: 0.5rem;">
@@ -5568,108 +5518,12 @@
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Business Email Address *</label>
+                                                        for="">Email Address *</label>
                                                 </div>
                                                 <div>
-                                                    <input name="business_email_address"
+                                                    <input name="email_address"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
                                                         type="email" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Company Name *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="company_name"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Phone Number *</label>
-                                                </div>
-                                                <div>
-                                                    <input name="phone_number"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
-                                                </div>
-                                            </div>
-
-                                            <div style="">
-                                                <div style="margin-bottom: 6px;">
-                                                    <label
-                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Organization Type *</label>
-                                                </div>
-                                                <div>
-                                                    <select name="organization_type"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
-                                                        <option value=""></option>
-                                                        <option value="Asset Managers">Asset Managers</option>
-                                                        <option value="Banks">Banks</option>
-                                                        <option value="Broker Dealers">Broker Dealers</option>
-                                                        <option value="Consulting">Consulting</option>
-                                                        <option value="Consulting Firms">Consulting Firms</option>
-                                                        <option value="Consumer Brand">Consumer Brand</option>
-                                                        <option value="Consumer Retail and Web2">Consumer Retail and
-                                                            Web2</option>
-                                                        <option value="Consumer Services - Other">Consumer Services -
-                                                            Other</option>
-                                                        <option value="Consumer Technology">Consumer Technology
-                                                        </option>
-                                                        <option value="Creator Economy">Creator Economy</option>
-                                                        <option value="Crypto Asset Manager">Crypto Asset Manager
-                                                        </option>
-                                                        <option value="Crypto ATMs / BTMs">Crypto ATMs / BTMs</option>
-                                                        <option value="Crypto Exchanges, Custodians, OTC">Crypto
-                                                            Exchanges, Custodians, OTC</option>
-                                                        <option value="Crypto Native - Other">Crypto Native - Other
-                                                        </option>
-                                                        <option value="Cyber Security">Cyber Security</option>
-                                                        <option
-                                                            value="DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2 Blockchains">
-                                                            DeFi Protocols, DAOs, DEXs, DApps, Foundations, L1 and L2
-                                                            Blockchains</option>
-                                                        <option value="Enterprise Technology">Enterprise Technology
-                                                        </option>
-                                                        <option value="Financial Regulator">Financial Regulator
-                                                        </option>
-                                                        <option value="Fintechs / Payment Companies">Fintechs /
-                                                            Payment
-                                                            Companies</option>
-                                                        <option value="Gambling">Gambling</option>
-                                                        <option value="Gaming -  Online and Mobile">Gaming - Online
-                                                            &amp; Mobile</option>
-                                                        <option value="Hedge Funds, PE, and VCs">Hedge Funds, PE, and
-                                                            VCs</option>
-                                                        <option value="High Frequency Traders / Market Makers">High
-                                                            Frequency Traders / Market Makers</option>
-                                                        <option value="Insurance">Insurance</option>
-                                                        <option value="Investigative Firms">Investigative Firms
-                                                        </option>
-                                                        <option value="Law Enforcement">Law Enforcement</option>
-                                                        <option value="Law Firms">Law Firms</option>
-                                                        <option value="NFT Exchanges, NFT Lending">NFT Exchanges, NFT
-                                                            Lending</option>
-                                                        <option value="Social Media">Social Media</option>
-                                                        <option value="Tax/Accounting Firms">Tax/Accounting Firms
-                                                        </option>
-                                                        <option value="Tax Agency">Tax Agency</option>
-                                                        <option value="Technology Services - Other">Technology
-                                                            Services
-                                                            - Other</option>
-                                                        <option value="Trade Infra/Trade Venues">Trade Infra/Trade
-                                                            Venues</option>
-                                                        <option value="Other">Other</option>
-                                                    </select>
                                                 </div>
                                             </div>
 
@@ -5681,7 +5535,7 @@
                                                 </div>
                                                 <div>
                                                     <select name="country"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;" required>
                                                         <option value=""></option>
                                                         <option value="Afghanistan">Afghanistan</option>
                                                         <option value="Aland Islands">Aland Islands</option>
@@ -5971,24 +5825,41 @@
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Solution of Interest *</label>
+                                                        for="">WhatsApp Number *</label>
                                                 </div>
                                                 <div>
-                                                    <select name="solution_of_interest"
-                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;">
+                                                    <input name="whatsapp_number"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                        type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div style="margin-bottom: 6px;">
+                                                    <label
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">Telegram ID (optional)</label>
+                                                </div>
+                                                <div>
+                                                    <input name="telegram_id"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                        type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div style="margin-bottom: 6px;">
+                                                    <label
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">What happened? *</label>
+                                                </div>
+                                                <div>
+                                                    <select name="what_happened"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; color: #293972; font-size: 14px; padding-left: 16px;" required>
                                                         <option value=""></option>
-                                                        <option value="Fund recovery for a personal investment scam">
-                                                            Personal scam fund recovery</option>
-                                                        <option value="Crypto Compliance">Crypto Compliance</option>
-                                                        <option value="Crypto Investigations">Crypto Investigations
-                                                        </option>
-                                                        <option value="Security and Fraud (Hexagate and Alterya)">
-                                                            Security and Fraud (Hexagate and Alterya)</option>
-                                                        <option value="CxiAgency DS">CxiAgency Data Solutions
-                                                        </option>
-                                                        <option value="Global Services">Global Services</option>
-                                                        <option value="Training and Certifications Services">Training
-                                                            and Certifications Services</option>
+                                                        <option value="I lost my funds">
+                                                            I lost my funds</option>
+                                                        <option value="I was scammed">I was scammed</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -5996,11 +5867,24 @@
                                             <div style="">
                                                 <div style="margin-bottom: 6px;">
                                                     <label
-                                                        style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">How did you hear about us? *</label>
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">Amount Lost/scammed</label>
                                                 </div>
                                                 <div>
-                                                    <input name="channel"
+                                                    <input name="amount_lost"
+                                                        style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
+                                                        type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div style="margin-bottom: 6px;">
+                                                    <label
+                                                        style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
+                                                        for="">Scam Date</label>
+                                                </div>
+                                                <div>
+                                                    <input name="scam_date"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
                                                         type="text" required>
                                                 </div>
@@ -6010,14 +5894,17 @@
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: none !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Help us customize your demo—tell us about your
-                                                        team and goals with CxiAgency. *</label>
+                                                        for="">Tell us more (optional)</label>
                                                 </div>
                                                 <div>
                                                     <textarea name="more_info"
                                                         style="height: 72px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding: 16px; color: #293972; font-size: 14px;"
                                                         name="" id="" cols="10" rows="10"></textarea>
                                                 </div>
+                                            </div>
+
+                                            <div style="">
+                                                <div class="g-recaptcha mt-4" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
                                             </div>
 
                                             <div style="display: flex; align-items: start; column-gap: 0.5rem;">
@@ -6095,7 +5982,7 @@
                             }, , {
                                 "label": "Recover My Lost Funds",
                                 "link_type": "internal",
-                                "page_url": "\/request-a-demo",
+                                "page_url": "\/report-your-fund-loss",
                                 "url": "",
                                 "email": ""
                             }]
@@ -6378,7 +6265,7 @@
                 "header_buttons": [{
                     "button_label": "Report Your Fund Loss",
                     "cta_action": "internal",
-                    "page_url": "\/request-a-demo",
+                    "page_url": "\/report-your-fund-loss",
                     "url": "",
                     "modal_options": {
                         "modal_style": "modal-minimal",
@@ -6768,7 +6655,7 @@
                             "style": "orange",
                             "button_text": "Report Your Fund Loss",
                             "cta_action": "modal",
-                            "internal_link": "\/request-a-demo\/",
+                            "internal_link": "\/report-your-fund-loss\/",
                             "external_link": "",
                             "jumplink": "",
                             "modal_options": {
@@ -9193,7 +9080,7 @@
                             "style": "deep-blue-no-border",
                             "button_text": "Report Your Fund Loss",
                             "cta_action": "modal",
-                            "internal_link": "\/request-a-demo\/",
+                            "internal_link": "\/report-your-fund-loss\/",
                             "external_link": "",
                             "jumplink": "",
                             "modal_options": {

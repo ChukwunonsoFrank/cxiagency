@@ -4497,6 +4497,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+        <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '216a7396ffb1e3d0482e501bb2d817aa46c4f415';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </head>
 
 <body class="tl-wrapper-status--entering">
@@ -5207,7 +5219,7 @@
                             }, , {
                                 "label": "Recover My Lost Funds",
                                 "link_type": "internal",
-                                "page_url": "\/request-a-demo",
+                                "page_url": "\/report-your-fund-loss",
                                 "url": "",
                                 "email": ""
                             }]
@@ -5490,7 +5502,7 @@
                 "header_buttons": [{
                     "button_label": "Report Your Fund Loss",
                     "cta_action": "internal",
-                    "page_url": "\/request-a-demo",
+                    "page_url": "\/report-your-fund-loss",
                     "url": "",
                     "modal_options": {
                         "modal_style": "modal-minimal",
@@ -5880,7 +5892,7 @@
                             "style": "orange",
                             "button_text": "Report Your Fund Loss",
                             "cta_action": "modal",
-                            "internal_link": "\/request-a-demo\/",
+                            "internal_link": "\/report-your-fund-loss\/",
                             "external_link": "",
                             "jumplink": "",
                             "modal_options": {
@@ -8305,7 +8317,7 @@
                             "style": "deep-blue-no-border",
                             "button_text": "Report Your Fund Loss",
                             "cta_action": "modal",
-                            "internal_link": "\/request-a-demo\/",
+                            "internal_link": "\/report-your-fund-loss\/",
                             "external_link": "",
                             "jumplink": "",
                             "modal_options": {
