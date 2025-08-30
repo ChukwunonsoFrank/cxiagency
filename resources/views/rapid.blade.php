@@ -5159,7 +5159,7 @@ window.smartsupp||(function(d) {
                                                 <div>
                                                     <input name="telegram_id"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
+                                                        type="text">
                                                 </div>
                                             </div>
 
@@ -5852,7 +5852,7 @@ window.smartsupp||(function(d) {
                                                 <div>
                                                     <input name="telegram_id"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
+                                                        type="text">
                                                 </div>
                                             </div>
 
@@ -6400,7 +6400,7 @@ window.smartsupp||(function(d) {
                                                 <div>
                                                     <input name="telegram_id"
                                                         style="height: 48px; border: 1px solid #bac4d5; width: 100%; background-color: #fff; padding-left: 16px; color: #293972; font-size: 14px;"
-                                                        type="text" required>
+                                                        type="text">
                                                 </div>
                                             </div>
 
