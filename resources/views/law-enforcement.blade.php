@@ -5397,7 +5397,7 @@ window.smartsupp||(function(d) {
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Amount Lost/scammed</label>
+                                                        for="">Amount Lost/scammed*</label>
                                                 </div>
                                                 <div>
                                                     <input name="amount_lost"
@@ -5410,7 +5410,7 @@ window.smartsupp||(function(d) {
                                                 <div style="margin-bottom: 6px;">
                                                     <label
                                                         style="text-transform: capitalize !important; color: #293972; font-size: 15px; letter-spacing: 0em;"
-                                                        for="">Scam Date</label>
+                                                        for="">Scam Date*</label>
                                                 </div>
                                                 <div>
                                                     <input name="scam_date"
