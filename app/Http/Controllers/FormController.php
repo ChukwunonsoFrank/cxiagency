@@ -31,11 +31,11 @@ class FormController extends Controller
             $emailAddress = $request->input('email_address');
             $country = $request->input('country');
             $whatsappNumber = $request->input('whatsapp_number');
-            $telegramId = $request->input('telegram_id') || 'N/A';
+            $telegramId = $request->input('telegram_id') ? $request->input('telegram_id') : 'N/A';
             $whatHappened = $request->input('what_happened');
             $amountLost = $request->input('amount_lost');
             $scamDate = $request->input('scam_date');
-            $moreInfo = $request->input('more_info') || 'N/A';
+            $moreInfo = $request->input('more_info') ? $request->input('more_info') : 'N/A';
 
             Notification::route('mail', 'contact@cxiagency.com')->notify(new SendFormEntry($firstName, $lastName, $emailAddress, $country, $whatsappNumber, $telegramId, $whatHappened, $amountLost, $scamDate, $moreInfo));
 
