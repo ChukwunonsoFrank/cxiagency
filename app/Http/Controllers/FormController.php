@@ -31,19 +31,17 @@ class FormController extends Controller
             $emailAddress = $request->input('email_address');
             $country = $request->input('country');
             $whatsappNumber = $request->input('whatsapp_number');
-            $telegramId = $request->input('telegram_id');
+            $telegramId = $request->input('telegram_id') || 'N/A';
             $whatHappened = $request->input('what_happened');
             $amountLost = $request->input('amount_lost');
             $scamDate = $request->input('scam_date');
-            $moreInfo = $request->input('more_info');
+            $moreInfo = $request->input('more_info') || 'N/A';
 
             Notification::route('mail', 'contact@cxiagency.com')->notify(new SendFormEntry($firstName, $lastName, $emailAddress, $country, $whatsappNumber, $telegramId, $whatHappened, $amountLost, $scamDate, $moreInfo));
 
-            // return back()->with('message', 'Your submission has been recorded successfully.');
             $request->session()->flash('message', "Your submission has been recorded successfully.");
             return redirect()->back();
         } else {
-            // return back()->with('message', 'Please confirm you are not a robot.');
             $request->session()->flash('message', "Please confirm you are not a robot.");
             return redirect()->back();
         }
