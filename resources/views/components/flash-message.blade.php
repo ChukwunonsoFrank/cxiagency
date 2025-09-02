@@ -40,7 +40,7 @@
 @if($displayMessage)
 <div
     x-data="{ show: true }"
-    x-init="setTimeout(() => show = false, 6000)" {{-- Hide after 3.5 seconds --}}
+    x-init="setTimeout(() => show = false, 3500)" {{-- Hide after 3.5 seconds --}}
     x-show="show"
     x-transition:enter="flash-transition-enter"
     x-transition:enter-start="flash-transition-enter-start"
